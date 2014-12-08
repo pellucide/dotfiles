@@ -14,7 +14,8 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 brew doctor
 
 # Grab dotfiles directory
-git clone --recursive https://www.github.com/danielsuo/dotfiles.git
+git clone https://www.github.com/danielsuo/dotfiles.git
 
-# Run setup file
-. dotfiles/.setup
+# Run main setup file
+cd dotfiles
+sh main.sh

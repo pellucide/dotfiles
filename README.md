@@ -7,3 +7,6 @@ Run bootstrap.sh
 - Consolidate install scripts
 - Save sublime license
 - Copy over mackup cfg
+- Set up fonts
+- Set up git config  (e.g., user/pass)
+- OS X set up https://gist.github.com/brandonb927/3195465
