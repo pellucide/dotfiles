@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Open BetterTouchTool
+open /opt/homebrew-cask/Caskroom/bettertouchtool/latest/BetterTouchTool.app

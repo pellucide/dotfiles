@@ -1,0 +1,116 @@
+#!/usr/bin/env bash
+
+###############################################################################
+# Configure Startup
+###############################################################################
+
+###############################################################################
+# Get some Java
+###############################################################################
+brew cask install java
+
+###############################################################################
+# Install and configure ruby and rvm
+###############################################################################
+
+curl -sSL https://get.rvm.io | bash -s stable
+rvm list
+rvm install ruby-2.1.1
+rvm --default use 2.1.1
+
+gem update --system
+gem install --no-rdoc --no-ri bundler
+gem update
+gem cleanup
+# sudo gem install jekyll
+# sudo gem install bundler
+# gem install debugger -v '1.6.0'
+
+###############################################################################
+# Get build tools
+###############################################################################
+brew install ant
+brew install maven
+
+# Travis
+sudo gem install travis
+
+###############################################################################
+# Get Node packages
+###############################################################################
+npm install -g grunt grunt-cli
+
+###############################################################################
+# Configure iOS
+###############################################################################
+
+# Set up Cocoapods
+sudo gem install cocoapods
+
+# Set up Facebook xctool
+brew install xctool
+
+# Set up appium
+npm install -g appium
+gem install --no-rdoc --no-ri appium_console
+gem install --no-rdoc --no-ri flaky
+git clone git://github.com/appium/appium.git
+cd appium; ./reset.sh --ios
+`which grunt`; authorize
+
+cd ~/
+
+###############################################################################
+# Install and configure heroku
+###############################################################################
+
+# curl https://toolbelt.heroku.com/install.sh | sh
+
+###############################################################################
+# Install cmake
+###############################################################################
+
+###############################################################################
+# Julia
+###############################################################################
+
+# cp .juliarc.jl ~/
+# mkdir julia
+# cd julia
+# git clone https://github.com/danielsuo/Images.jl
+# git clone https://github.com/danielsuo/GLUT.jl
+# git clone https://github.com/danielsuo/OpenGL.jl
+# git clone https://github.com/danielsuo/SDL.jl
+
+# cd ~/
+
+brew cask install xquartz
+brew install freeglut
+
+sudo pip install ipython
+sudo pip install pyzmq
+sudo pip install jinja2
+sudo pip install tornado
+sudo pip install pygments
+sudo pip install numpy
+
+###############################################################################
+# OpenCV
+###############################################################################
+
+brew tap homebrew/science
+brew install opencv
+
+###############################################################################
+# Octave
+###############################################################################
+brew cask install mactex
+brew install octave
+
+###############################################################################
+# Kill affected applications                                                  #
+###############################################################################
+
+# curl -fsSL https://raw.github.com/supermarin/Alcatraz/master/Scripts/install.sh | sh
+
+# brew install cmake
