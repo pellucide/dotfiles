@@ -1,5 +1,8 @@
-# Dotfiles
-Run bootstrap.sh
+# Installation
+Run the following in Terminal on a new OS X machine:
+```
+curl danielsuo.com/boot | sh
+```
 
 # To Do
 - Set up login items (e.g., better touch tool)
