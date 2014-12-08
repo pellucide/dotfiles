@@ -1,5 +1,8 @@
 source ~/.profile
 
+# Use brew coreutils over OS X
+PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+
 ###############################################################################
 # Terminal colors
 ###############################################################################
