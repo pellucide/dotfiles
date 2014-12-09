@@ -1,6 +1,9 @@
 # Install homebrew cask
 brew install caskroom/cask/brew-cask
 
+# Tap custom casks
+brew tap casidiablo/homebrew-custom
+
 apps=(
 	google-chrome		# Chrome, that Google browser
 	transmit			# File transmission
@@ -14,6 +17,8 @@ apps=(
 	dropbox				# Dropbox
 	google-drive		# Google Drive
 	bettertouchtool		# Hotkeys and trackpad
+	flash				# Flash player
+	popcorn-time		# Netflix for bittorrent
 )
 
 echo "Installing apps..."

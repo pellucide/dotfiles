@@ -13,3 +13,4 @@ curl danielsuo.com/boot | sh
 - Set up fonts
 - Set up git config  (e.g., user/pass)
 - OS X set up https://gist.github.com/brandonb927/3195465
+- Turn off auto spell correct
