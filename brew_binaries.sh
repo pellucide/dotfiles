@@ -1,12 +1,12 @@
 binaries=(
 	graphicsmagick	# Image manipulation library
-	rename			# CLI: rename files
-	trash			# CLI: send files to trash 
-	tree			# CLI: view directory as tree 
-	ack				# CLI: better grep
-	hub				# GitHub helpers for git
-	git				# Version control
-	mackup			# Backup application files
+	rename			    # CLI: rename files
+	trash			      # CLI: send files to trash 
+	tree			      # CLI: view directory as tree 
+	ack				      # CLI: better grep
+	hub				      # GitHub helpers for git
+	git				      # Version control
+  dockutil        # Manage OS X dock
 )
 
 echo "Installing brew binaries..."
