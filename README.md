@@ -20,3 +20,5 @@ curl danielsuo.com/boot | sh
 - 'SSH': ['.ssh/config', '.ssh/known_hosts'],
 - set up bettertouch tool
 - git autocomplete
+- caps lock / key remapping
+- cancel gestures

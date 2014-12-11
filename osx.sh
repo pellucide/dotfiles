@@ -16,6 +16,9 @@ defaults write com.apple.dock autohide -bool true
 # Remove all icons from dock
 dockutil --remove all
 
+# Add Downloads folder to other section and view as fan sorted by date modified
+dockutil --add ~/Downloads --section others --view fan --sort dateadded --display stack
+
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 
 ###############################################################################
