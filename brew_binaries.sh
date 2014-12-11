@@ -7,6 +7,7 @@ binaries=(
 	hub				      # GitHub helpers for git
 	git				      # Version control
   dockutil        # Manage OS X dock
+  autoconf        # Build tools
 )
 
 echo "Installing brew binaries..."
