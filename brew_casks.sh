@@ -30,6 +30,8 @@ apps=(
 	unity-web-player	# Install Unity Web Player
 	kindle						# Install Kindle
 	mactex						# Install Mac LaTeX
+	xquartz						# GUI
+	wireshark					# Packet analyzer/sender
 )
 
 echo "Installing apps..."
