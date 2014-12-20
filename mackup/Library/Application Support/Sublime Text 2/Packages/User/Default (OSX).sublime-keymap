@@ -1,5 +1,6 @@
 [
 	{ "keys": ["ctrl+pageup"], "command": "prev_view" },
 	{ "keys": ["ctrl+pagedown"], "command": "next_view" },
-	{ "keys": ["ctrl+shift+r"], "command": "reindent" , "args": { "single_line": false } }
+	{ "keys": ["ctrl+shift+r"], "command": "reindent" , "args": { "single_line": false } },
+  { "keys": ["alt+q"], "command": "wrap_lines", "args": {"width": 80} }
 ]
