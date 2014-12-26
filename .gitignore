@@ -1,1 +1,4 @@
 .DS_Store
+Package Control.cache
+*.cache
+Logs

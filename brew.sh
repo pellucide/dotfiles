@@ -23,3 +23,6 @@ brew install bash
 # Install more recent versions of some OS X tools
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
+
+# Install brew services
+brew tap homebrew/boneyard
