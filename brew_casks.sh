@@ -32,6 +32,7 @@ apps=(
 	mactex						# Install Mac LaTeX
 	xquartz						# GUI
 	wireshark					# Packet analyzer/sender
+	droplr						# Screenshot / image cloud
 )
 
 echo "Installing apps..."
