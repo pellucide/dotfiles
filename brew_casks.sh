@@ -23,7 +23,6 @@ apps=(
 	bettertouchtool		# Hotkeys and trackpad
 	flash							# Flash player
 	popcorn-time			# Netflix for bittorrent
-	onepassword				# 1Password password manager
 	calibre						# Ebook manager
 	the-unarchiver		# Archiving utility
 	silverlight				# Install Microsoft Silverlight

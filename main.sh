@@ -12,3 +12,6 @@
 
 # Restore application settings
 ./mackup.sh
+
+# Run OS X settings
+./osx.sh
