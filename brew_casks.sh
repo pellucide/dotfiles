@@ -34,6 +34,7 @@ apps=(
 	wireshark					# Packet analyzer/sender
 	cloudapp					# Screenshot / image cloud
 	flux							# Screen management
+	slack							# Work chat app
 )
 
 echo "Installing apps..."
