@@ -33,6 +33,7 @@ apps=(
 	xquartz						# GUI
 	wireshark					# Packet analyzer/sender
 	cloudapp					# Screenshot / image cloud
+	flux							# Screen management
 )
 
 echo "Installing apps..."

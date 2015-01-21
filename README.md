@@ -22,3 +22,4 @@ curl danielsuo.com/boot > boot && chmod +x boot | sh ./boot
 - git autocomplete
 - caps lock / key remapping
 - cancel gestures
+- flux settings
