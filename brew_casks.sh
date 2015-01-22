@@ -31,9 +31,9 @@ apps=(
 	mactex						# Install Mac LaTeX
 	xquartz						# GUI
 	wireshark					# Packet analyzer/sender
-	cloudapp					# Screenshot / image cloud
 	flux							# Screen management
 	slack							# Work chat app
+	processing				# Processing app
 )
 
 echo "Installing apps..."
@@ -44,4 +44,5 @@ cp ./apps/subl/License.sublime_license ~/Library/Application\ Support/Sublime\ T
 
 # Key remapping
 sh ~/dotfiles/apps/seil/seil-import.sh
+rm ~/Library/Application\ Support/KeyRemap4MacBook/private.xml
 ln -s ~/dotfiles/apps/keyremap4macbook/private.xml ~/Library/Application\ Support/KeyRemap4MacBook/private.xml

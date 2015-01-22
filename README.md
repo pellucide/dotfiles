@@ -1,7 +1,7 @@
 # Installation
 Run the following in Terminal on a new OS X machine:
 ```
-curl danielsuo.com/boot > boot && chmod +x boot | sh ./boot
+curl danielsuo.com/boot | sh
 ```
 
 # To Do
