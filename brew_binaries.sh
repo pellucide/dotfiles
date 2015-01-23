@@ -9,6 +9,7 @@ binaries=(
   dockutil        # Manage OS X dock
   autoconf        # Autotools
   automake        # Autotools
+  node            # Node.js
 )
 
 echo "Installing brew binaries..."
