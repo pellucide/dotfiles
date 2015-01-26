@@ -14,8 +14,7 @@
 		"*.dds",
 		"*.bmp",
 		"*.tga",
-		"*.gif",
-		"*.svg"
+		"*.gif"
 	],
 	"folder_exclude_patterns":
 	[
