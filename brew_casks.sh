@@ -14,7 +14,7 @@ apps=(
 	spotify						# Music streaming
 	sublime-text			# Text editor
 	seil							# Keyboard mapper
-	keyremap4macbook	# Keyboard remapper
+	karabiner					# Keyboard remapper
 	skype							# VoIP
 	transmission			# Bittorrent
 	vlc								# Media player
@@ -44,5 +44,3 @@ cp ./apps/subl/License.sublime_license ~/Library/Application\ Support/Sublime\ T
 
 # Key remapping
 sh ~/dotfiles/apps/seil/seil-import.sh
-rm ~/Library/Application\ Support/KeyRemap4MacBook/private.xml
-ln -s ~/dotfiles/apps/keyremap4macbook/private.xml ~/Library/Application\ Support/KeyRemap4MacBook/private.xml

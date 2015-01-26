@@ -20,6 +20,8 @@ curl danielsuo.com/boot | sh
 - 'SSH': ['.ssh/config', '.ssh/known_hosts'],
 - set up bettertouch tool
 - git autocomplete
-- caps lock / key remapping
 - cancel gestures
-- flux settings
+
+# Manual setup items to automate
+- Caps Lock -> No Action (defaults write doesn't seem to work)
+- Add bettertouchtool to startup items (defaults write doesn't seem to work)

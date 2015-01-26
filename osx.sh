@@ -36,12 +36,6 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
 # Use all F1, F2, etc. keys as standard function keys
 # defaults write -g com.apple.keyboard.fnState -boolean true
 
-# disable the caps lock key on the internal keyboard
-defaults write 'com.apple.keyboard.modifiermapping.1452-566-0' -array '<dict><key>HIDKeyboardModifierMappingDst</key><integer>-1</integer><key>HIDKeyboardModifierMappingSrc</key><integer>0</integer></dict>'
-
-# disable the caps lock key on external keyboards
-defaults write 'com.apple.keyboard.modifiermapping.1452-544-0' -array '<dict><key>HIDKeyboardModifierMappingDst</key><integer>-1</integer><key>HIDKeyboardModifierMappingSrc</key><integer>0</integer></dict>'
-
 ###############################################################################
 # SSD-specific tweaks                                                         
 ###############################################################################
