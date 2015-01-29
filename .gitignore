@@ -3,3 +3,5 @@ Package Control.cache
 *.cache
 Logs
 *.pyc
+
+encoding_cache.json
