@@ -5,12 +5,10 @@
 	[
 		".DS_Store",
 		"._*",
-		"*.jpg",
 		"*.crn",
 		"*.utf8",
 		"*.obj",
 		"*.mtl",
-		"*.png",
 		"*.dds",
 		"*.bmp",
 		"*.tga",
