@@ -34,6 +34,7 @@ apps=(
 	flux							# Screen management
 	slack							# Work chat app
 	processing				# Processing app
+	emacs							# text editor
 )
 
 echo "Installing apps..."
