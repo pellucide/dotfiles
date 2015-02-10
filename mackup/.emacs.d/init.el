@@ -73,3 +73,9 @@
 (when is-mac
   (require 'exec-path-from-shell)
   (exec-path-from-shell-initialize))
+
+;; Set up window navigation
+(global-set-key (kbd "C-x <up>") 'windmove-up)
+(global-set-key (kbd "C-x <down>") 'windmove-down)
+(global-set-key (kbd "C-x <left>") 'windmove-left)
+(global-set-key (kbd "C-x <right>") 'windmove-right)
