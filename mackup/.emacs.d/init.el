@@ -54,3 +54,8 @@
       (package-install package))))
 
 (install-packages)
+
+(load-theme 'monokai 1)
+
+;; magit key
+(global-set-key (kbd "C-c g") 'magit-status)
