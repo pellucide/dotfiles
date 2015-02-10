@@ -20,6 +20,9 @@
 ;; get rid of startup buffer
 (setq inhibit-startup-message t)
 
+;; Are we on a mac?
+(setq is-mac (equal system-type 'darwin))
+
 ;; A lovely manifest
 (defconst package-list
   '(anzu                                ; displays current/total matches on isearch
@@ -36,6 +39,7 @@
 ;;    comment-dwim-2                    ; (FORKED IN custom/) Comment-dwim with cycline
     dtrt-indent                         ; Guess indentation offset from minor mode
     ws-butler                           ; Trim whitespace
+    exec-path-from-shell                ; Get executable path from shell
     yasnippet                           ; Snippet support
     smartparens                         ; Better parens support
     projectile                          ; Project management
@@ -57,5 +61,15 @@
 
 (load-theme 'monokai 1)
 
-;; magit key
+;; Package: magit
 (global-set-key (kbd "C-c g") 'magit-status)
+
+;; Package: projejctile
+(require 'projectile)
+(projectile-global-mode)
+(setq projectile-enable-caching t)
+
+;; Environment variables from shell
+(when is-mac
+  (require 'exec-path-from-shell)
+  (exec-path-from-shell-initialize))

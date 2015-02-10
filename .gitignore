@@ -10,6 +10,7 @@ encoding_cache.json
 ede-projects.el
 eshell/*
 mackup/.emacs.d/elpa
+mackup/.emacs.d/url
 semanticdb/*
 projectile.cache
 projectile-bookmarks.eld
