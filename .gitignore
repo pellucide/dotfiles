@@ -5,3 +5,16 @@ Logs
 *.pyc
 
 encoding_cache.json
+
+# Emacs
+ede-projects.el
+eshell/*
+mackup/.emacs.d/elpa
+semanticdb/*
+projectile.cache
+projectile-bookmarks.eld
+.org-id-locations
+auto-save-list/*
+
+\#*\#
+*~
