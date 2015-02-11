@@ -28,6 +28,22 @@
 (delete-selection-mode)
 (global-set-key (kbd "RET") 'newline-and-indent)
 
+;; Replicate Sublime's newline functionality
+(defun new-line-arbitrary ()
+  "Inserts a new line after the line at point."
+  (interactive)
+  (progn
+    (end-of-line)
+    (newline)
+    )
+  )
+
+(global-set-key (kbd "M-RET") 'new-line-arbitrary)
+(global-set-key (kbd "<C-return>") 'new-line-arbitrary)
+
+;; enable for all programming modes
+(add-hook 'prog-mode-hook 'subword-mode)
+
 ;; A lovely manifest
 (defconst package-list
   '(
@@ -55,8 +71,10 @@
     projectile                          ; Project management
 
     ;; JavasScript packages
+    ac-js2                              ; AutoComplete for js2-mode 
     js2-mode                            ; JavaScript mode
-    ac-js2                              ; AutoComplete for js2-mode
+    
+    ;; Snippets    
     yasnippet                           ; Snippets for JavaScript
     auto-complete                       ; AutoComplete; TODO: investigate vs company
     
@@ -79,7 +97,7 @@
 
 ;; Themes
 (load-theme 'monokai 1)
-(nyan-mode 1)
+(nyan-mode )
 
 ;; Package: magit
 (global-set-key (kbd "C-c g") 'magit-status)
