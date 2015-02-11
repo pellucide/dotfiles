@@ -30,11 +30,16 @@
 
 ;; A lovely manifest
 (defconst package-list
-  '(anzu                                ; displays current/total matches on isearch
+  '(
+    anzu                                ; displays current/total matches on isearch
     company                             ; autocomplete framework
     duplicate-thing                     ; M-c to duplicate
     drag-stuff                          ; Line transposition
+
+    ;; Themes
     monokai-theme                       ; Preferred theme
+    nyan-mode                           ; Nyan-Mode
+    
     helm                                ; Finding-things framework
     helm-projectile                     ; Helm Projectile support
     helm-gtags                          ; Helm gtags support
@@ -58,7 +63,8 @@
     volatile-highlights                 ; Highlight last changes
     undo-tree                           ; Tree-based undo
     magit                               ; Git frontend
-    zygospore))                         ; C-x 1 now toggles
+    zygospore                           ; C-x 1 now toggles
+    ))
 
 (defun install-packages ()
   "Install all required packages."
@@ -71,7 +77,9 @@
 
 (install-packages)
 
+;; Themes
 (load-theme 'monokai 1)
+(nyan-mode 1)
 
 ;; Package: magit
 (global-set-key (kbd "C-c g") 'magit-status)
@@ -111,7 +119,6 @@
 ;; Package: yasnippet
 (require 'yasnippet)
 (yas-global-mode 1)
-(yas-minor-mode 1)
 
 ;;; Package: auto-complete-config
 ;;; should be loaded after yasnippet so that they can work together
