@@ -23,6 +23,11 @@
 ;; Are we on a mac?
 (setq is-mac (equal system-type 'darwin))
 
+;; Editing
+(setq-default indent-tabs-mode nil)
+(delete-selection-mode)
+(global-set-key (kbd "RET") 'newline-and-indent)
+
 ;; A lovely manifest
 (defconst package-list
   '(anzu                                ; displays current/total matches on isearch
@@ -36,13 +41,20 @@
     helm-swoop                          ; Helm swoop support
     function-args                       ; C: show inline arguments for function
     clean-aindent-mode                  ; Cleanup double-RET whitespace
-;;    comment-dwim-2                    ; (FORKED IN custom/) Comment-dwim with cycline
+    comment-dwim-2                      ; Comment-dwim with cycline
     dtrt-indent                         ; Guess indentation offset from minor mode
     ws-butler                           ; Trim whitespace
     exec-path-from-shell                ; Get executable path from shell
     yasnippet                           ; Snippet support
     smartparens                         ; Better parens support
     projectile                          ; Project management
+
+    ;; JavasScript packages
+    js2-mode                            ; JavaScript mode
+    ac-js2                              ; AutoComplete for js2-mode
+    yasnippet                           ; Snippets for JavaScript
+    auto-complete                       ; AutoComplete; TODO: investigate vs company
+    
     volatile-highlights                 ; Highlight last changes
     undo-tree                           ; Tree-based undo
     magit                               ; Git frontend
@@ -69,13 +81,55 @@
 (projectile-global-mode)
 (setq projectile-enable-caching t)
 
+;; Package: smartparens
+(require 'smartparens-config)
+(setq sp-base-key-bindings 'paredit)
+(setq sp-autoskip-closing-pair 'always)
+(setq sp-hybrid-kill-entire-symbol nil)
+(sp-use-paredit-bindings)
+
+;; Swap the smartparens keybindings around
+(defvar  sp-custom-bindings '(
+                              ("C-M-n" . sp-forward-sexp) ;; navigation
+                              ("C-M-p" . sp-backward-sexp)
+                              ("C-M-b" . sp-backward-down-sexp)
+                              ("C-M-f" . sp-up-sexp)
+                              )
+  )
+(--each sp-custom-bindings
+  (define-key sp-keymap (read-kbd-macro (car it)) (cdr it)))
+
+(show-smartparens-global-mode +1)
+(smartparens-global-mode 1)
+
+;; Package: js2-mode
+(add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
+(add-hook 'js-mode-hook 'js2-minor-mode)
+(add-hook 'js2-mode-hook 'ac-js2-mode)
+(setq js2-highlight-level 3)
+
+;; Package: yasnippet
+(require 'yasnippet)
+(yas-global-mode 1)
+(yas-minor-mode 1)
+
+;;; Package: auto-complete-config
+;;; should be loaded after yasnippet so that they can work together
+(require 'auto-complete-config)
+(ac-config-default)
+;;; set the trigger key so that it can work together with yasnippet on tab key,
+;;; if the word exists in yasnippet, pressing tab will cause yasnippet to
+;;; activate, otherwise, auto-complete will
+(ac-set-trigger-key "TAB")
+(ac-set-trigger-key "<tab>")
+
 ;; Environment variables from shell
 (when is-mac
   (require 'exec-path-from-shell)
   (exec-path-from-shell-initialize))
 
 ;; Set up window navigation
-(global-set-key (kbd "C-x <up>") 'windmove-up)
-(global-set-key (kbd "C-x <down>") 'windmove-down)
-(global-set-key (kbd "C-x <left>") 'windmove-left)
-(global-set-key (kbd "C-x <right>") 'windmove-right)
+(global-set-key (kbd "s-+") 'windmove-up)
+(global-set-key (kbd "s-\"") 'windmove-down)
+(global-set-key (kbd "s-{") 'windmove-left)
+(global-set-key (kbd "s-}") 'windmove-right)
