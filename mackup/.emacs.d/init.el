@@ -28,6 +28,23 @@
 (delete-selection-mode)
 (global-set-key (kbd "RET") 'newline-and-indent)
 
+;; will add two new lines and indent if a closing brace "}" is under point
+;; otherwise regular newline-and-indent behavior
+(defun new-line-dwim ()
+  (interactive)
+  (if (looking-at-p "}")
+      (progn
+        (newline-and-indent)
+        (newline-and-indent)
+        (previous-line)
+        (indent-for-tab-command)
+        )
+    (newline-and-indent)
+    )
+  )
+
+(global-set-key (kbd "RET") 'new-line-dwim)
+
 ;; Replicate Sublime's newline functionality
 (defun new-line-arbitrary ()
   "Inserts a new line after the line at point."
@@ -69,6 +86,8 @@
     yasnippet                           ; Snippet support
     smartparens                         ; Better parens support
     projectile                          ; Project management
+    multiple-cursors                    ; Multiple cursors
+    phi-search                          ; Multiple cursors with search
 
     ;; JavasScript packages
     ac-js2                              ; AutoComplete for js2-mode 
@@ -148,6 +167,21 @@
 (ac-set-trigger-key "TAB")
 (ac-set-trigger-key "<tab>")
 
+;; Package: multiple-cursors
+(require 'multiple-cursors)
+(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+
+;; Package: phi-search
+(require 'phi-search)
+(global-set-key (kbd "C-s") 'phi-search)
+(global-set-key (kbd "C-r") 'phi-search-backward)
+
+(require 'phi-replace)
+(global-set-key (kbd "M-R") 'phi-replace-query)
+
 ;; Environment variables from shell
 (when is-mac
   (require 'exec-path-from-shell)
@@ -158,3 +192,15 @@
 (global-set-key (kbd "s-\"") 'windmove-down)
 (global-set-key (kbd "s-{") 'windmove-left)
 (global-set-key (kbd "s-}") 'windmove-right)
+
+;; Package: drag-stuff
+(require 'drag-stuff)
+(drag-stuff-global-mode)
+(global-set-key (kbd "M-n") 'drag-stuff-down)
+(global-set-key (kbd "M-p") 'drag-stuff-up)
+
+(add-to-list 'load-path "~/.emacs.d")
+
+(require 'google-c-style)
+(add-hook 'c-mode-common-hook 'google-set-c-style)
+(add-hook 'c-mode-common-hook 'google-make-newline-indent)
