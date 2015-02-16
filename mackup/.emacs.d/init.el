@@ -28,6 +28,23 @@
 (delete-selection-mode)
 (global-set-key (kbd "RET") 'newline-and-indent)
 
+;; Commenting
+(defun comment-sublime ()
+  (interactive)
+  (let ((start (line-beginning-position))
+        (end (line-end-position)))
+    (when (or (not transient-mark-mode) (region-active-p))
+      (setq start (save-excursion
+                    (goto-char (region-beginning))
+                    (beginning-of-line)
+                    (point))
+            end (save-excursion
+                  (goto-char (region-end))
+                  (end-of-line)
+                  (point))))
+    (comment-or-uncomment-region start end)))
+(global-set-key (kbd "M-;") 'comment-sublime)
+
 ;; will add two new lines and indent if a closing brace "}" is under point
 ;; otherwise regular newline-and-indent behavior
 (defun new-line-dwim ()
