@@ -1,5 +1,8 @@
 {
 	"auto_upgrade_last_run": null,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -10,7 +13,7 @@
 		"ColorPicker",
 		"ConvertToUTF8",
 		"CSSTidy",
-		"Dust.js",
+		"DustBuster",
 		"File Navigator",
 		"Git",
 		"GitGutter",
