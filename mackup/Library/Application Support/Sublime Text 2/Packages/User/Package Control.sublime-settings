@@ -24,6 +24,7 @@
 		"IJulia",
 		"Image2Base64",
 		"Javascript Beautify",
+		"JavaScript Completions",
 		"JsFormat",
 		"JSONLint",
 		"Julia",
@@ -41,7 +42,6 @@
 		"SublimeREPL",
 		"Theme - Flatland",
 		"Theme - Spacegray",
-		"Three.js Autocomplete",
 		"Wrap Plus"
 	]
 }
