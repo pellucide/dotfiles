@@ -28,3 +28,4 @@ curl danielsuo.com/boot | sh
 - Privacy access for Karabiner, BTT
 - Turn off three finger tap to define
 - Turn off two finger tap
+- Install adobe creative cloud
