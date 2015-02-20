@@ -1,0 +1,1 @@
+{"description": "LaTeX plugin for Sublime Text 2/3", "url": "http://www.latexing.com", "platforms": ["osx", "windows"], "version": "0.5.11", "sublime_text": "<3000", "dependencies": []}

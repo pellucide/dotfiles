@@ -39,6 +39,7 @@ apps=(
     emacs                               # text editor
     dash                                # documentation
     skim                                # PDF reader
+    adobe-creative-cloud
 )
 
 echo "Installing apps..."
