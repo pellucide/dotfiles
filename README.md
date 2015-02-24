@@ -25,7 +25,7 @@ curl danielsuo.com/boot | sh
 # Manual setup items to automate
 - Caps Lock -> No Action (defaults write doesn't seem to work)
 - Add bettertouchtool to startup items (defaults write doesn't seem to work)
-- Privacy access for Karabiner, BTT
+- Privacy access for Karabiner, BTT, RescueTime
 - Turn off three finger tap to define
 - Turn off two finger tap
 - Install adobe creative cloud
