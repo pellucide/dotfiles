@@ -71,8 +71,8 @@
   contributors = shortlog --summary --numbered
 
   # http://blog.kfish.org/2010/04/git-lola.html
-  lol = log --graph --decorate --pretty=oneline --abbrev-commit
-  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  lol = log --graph --decorate --pretty=format:'%Cred%h%Creset %C(yellow)%an%Creset - %s %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  lola = log --graph --decorate --pretty=format:'%Cred%h%Creset %C(yellow)%an%Creset - %s %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative --all
 
 [apply]
 
