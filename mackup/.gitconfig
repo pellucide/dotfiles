@@ -70,6 +70,10 @@
   # List contributors with number of commits
   contributors = shortlog --summary --numbered
 
+  # http://blog.kfish.org/2010/04/git-lola.html
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+
 [apply]
 
   # Detect whitespace errors when applying a patch
@@ -95,6 +99,11 @@
   # Use colors in Git commands that are capable of colored output when
   # outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
   ui = auto
+
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
 
 [color "branch"]
 

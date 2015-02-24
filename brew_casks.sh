@@ -39,7 +39,8 @@ apps=(
     emacs                               # text editor
     dash                                # documentation
     skim                                # PDF reader
-    adobe-creative-cloud
+    adobe-creative-cloud		# Adobe
+    rescuetime				# Keep track of time
 )
 
 echo "Installing apps..."
