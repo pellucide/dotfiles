@@ -81,6 +81,8 @@
 
 [core]
 
+  editor = emacs
+
   # Use custom `.gitignore` and `.gitattributes`
   excludesfile = ~/.gitignore
   attributesfile = ~/.gitattributes
