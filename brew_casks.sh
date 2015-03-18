@@ -14,7 +14,7 @@ apps=(
     transmit                            # File transmission
     appcleaner				            # Delete apps thoroughly
     spotify                             # Music streaming
-    sublime-text			            # Text editor
+    sublime-text3			            # Text editor
     seil                                # Keyboard mapper
     karabiner                           # Keyboard remapper
     skype                               # VoIP
@@ -39,15 +39,16 @@ apps=(
     emacs                               # text editor
     dash                                # documentation
     skim                                # PDF reader
-    adobe-creative-cloud		# Adobe
-    rescuetime				# Keep track of time
+    adobe-creative-cloud		        # Adobe
+    rescuetime				            # Keep track of time
 )
 
 echo "Installing apps..."
 brew cask install --appdir="/Applications" ${apps[@]}
 
 # Copy sublime license
-cp ./apps/subl/License.sublime_license ~/Library/Application\ Support/Sublime\ Text\ 2/Settings/
+mkdir ~/Library/Application\ Support/Sublime\ Text\ 3/Settings
+cp ./apps/subl/License.sublime_license ~/Library/Application\ Support/Sublime\ Text\ 3/Settings/
 
 # Key remapping
 sh ~/dotfiles/apps/seil/seil-import.sh

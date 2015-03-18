@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[\usepackage{$1}]]></content>
-	<tabTrigger>use</tabTrigger>
-  <scope>text.tex.latex</scope>
-  <description>Usepackage</description>
-</snippet>

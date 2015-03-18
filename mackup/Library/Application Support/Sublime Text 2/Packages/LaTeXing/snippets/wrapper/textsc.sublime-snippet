@@ -1,5 +1,0 @@
-<snippet>
-	<content><![CDATA[\\textsc{${1:$SELECTION}}]]></content>
-	<scope>text.tex.latex</scope>
-	<description>Small Capitals Text</description>
-</snippet>

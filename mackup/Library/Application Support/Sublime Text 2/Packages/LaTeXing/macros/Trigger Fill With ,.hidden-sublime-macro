@@ -1,4 +1,0 @@
-[
-	{ "command": "insert_snippet", "args": { "contents": ",$1" }},
-	{ "command": "fill", "args": { "auto_trigger_source": true }}
-]
