@@ -47,8 +47,10 @@ echo "Installing apps..."
 brew cask install --appdir="/Applications" ${apps[@]}
 
 # Copy sublime license
-mkdir ~/Library/Application\ Support/Sublime\ Text\ 3/Settings
-cp ./apps/subl/License.sublime_license ~/Library/Application\ Support/Sublime\ Text\ 3/Settings/
+mkdir ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages
+
+cp ./apps/subl/License.sublime_license ~/Library/Application\ Support/Sublime\ Text\ 3/Local/
+wget -O ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package "https://sublime.wbond.net/Package%20Control.sublime-package" 
 
 # Key remapping
 sh ~/dotfiles/apps/seil/seil-import.sh
