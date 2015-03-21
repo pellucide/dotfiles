@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<history>
+<session>
+<command time_stamp="14c20067227">%-- 3/15/15, 8:40 PM --%</command>
+</session>
+<session>
+<command time_stamp="14c3cc10e7e">%-- 3/21/15, 10:33 AM --%</command>
+<command execution_time="14" repeat="3">path</command>
+</session>
+<session>
+<command time_stamp="14c3ce453fd">%-- 3/21/15, 11:12 AM --%</command>
+</session>
+<session>
+<command time_stamp="14c3cea0987">%-- 3/21/15, 11:18 AM --%</command>
+<command execution_time="13">path</command>
+</session>
+<session>
+<command time_stamp="14c3cf13401">%-- 3/21/15, 11:26 AM --%</command>
+<command execution_time="20">path</command>
+<command execution_time="90">path('blah',path)</command>
+<command execution_time="15">path('~/Downloads',path)</command>
+<command execution_time="20">path</command>
+</session>
+<session>
+<command time_stamp="14c3cf9871b">%-- 3/21/15, 11:35 AM --%</command>
+</session>
+<session>
+<command time_stamp="14c3d14c1a1">%-- 3/21/15, 12:05 PM --%</command>
+<command execution_time="376">setupSolarizedTheme</command>
+<command batch="1">setupSolarizedTheme('dark')</command>
+</session>
+<session>
+<command time_stamp="14c3d16a144">%-- 3/21/15, 12:07 PM --%</command>
+</session>
+</history>

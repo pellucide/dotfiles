@@ -1,0 +1,1 @@
+setupSolarizedTheme('dark')
