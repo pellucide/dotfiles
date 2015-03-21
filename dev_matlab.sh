@@ -1,0 +1,1 @@
+sudo ln -s /Applications/MATLAB_R2014a.app/bin/matlab /usr/bin/matlab

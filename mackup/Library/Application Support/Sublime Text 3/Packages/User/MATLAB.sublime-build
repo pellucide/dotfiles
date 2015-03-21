@@ -1,0 +1,18 @@
+{
+  "selector": "source.m",
+  "cmd": ["matlab", "-nodesktop", "-nosplash",
+        "-r", "run('$file')"],
+  "working_dir": "${project_path:${folder}}",
+
+  "variants": [
+
+    { "cmd": ["matlab", "-nosplash", "-r", "publish('$file_path/$file_name')"],
+      "name": "Publish Matlab"
+    },
+
+    {
+      "cmd": ["open", "$file_path/html/$file_base_name.html"],
+      "name": "Open published Matlab"
+    }
+  ]
+}
