@@ -32,4 +32,9 @@
 <session>
 <command time_stamp="14c3d16a144">%-- 3/21/15, 12:07 PM --%</command>
 </session>
+<session>
+<command time_stamp="14c3d4167f1">%-- 3/21/15, 12:53 PM --%</command>
+<command execution_time="12">java</command>
+<command execution_time="178">java.util.Hashtable</command>
+</session>
 </history>

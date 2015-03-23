@@ -1,4 +1,4 @@
-<MathWorks type="Path Cache File" version="1.1" date="Sat Mar 21 12:05:00 2015">
+<MathWorks type="Path Cache File" version="1.1" date="Sat Mar 21 12:47:04 2015">
  <D name="matlab/demos">
   <D name="matlab/demos/private">
    <F name="style.css"/>
@@ -1550,7 +1550,7 @@
   <F name="hgline2lineseries.m"/>
   <F name="im2frame.m"/>
   <F name="im2java.m"/>
-  <F name="image.m"/>
+  <N name="image.m"/>
   <F name="imagesc.m"/>
   <F name="imageview.m"/>
   <N name="ind2rgb.m"/>
@@ -1781,7 +1781,7 @@
   <F name="clipboard.m"/>
   <F name="cshelp.m"/>
   <F name="desktopmenufcn.m"/>
-  <F name="dialog.m"/>
+  <N name="dialog.m"/>
   <F name="dialogicons.mat"/>
   <F name="dragrect.m"/>
   <F name="editmenufcn.m"/>
@@ -1805,7 +1805,7 @@
   <F name="icondisp.m"/>
   <F name="inputdlg.m"/>
   <F name="insertmenufcn.m"/>
-  <F name="inspect.m"/>
+  <N name="inspect.m"/>
   <F name="isactiveuimode.m"/>
   <F name="ispref.m"/>
   <F name="javacomponent.m"/>
@@ -1947,7 +1947,7 @@
   <D name="matlab/codetools/+internal">
    <D name="matlab/codetools/+internal/+matlab">
     <D name="matlab/codetools/+internal/+matlab/+array">
-     <F name="StructArrayVariableEditorAdapter.m"/>
+     <C name="StructArrayVariableEditorAdapter.m"/>
     </D>
     <D name="matlab/codetools/+internal/+matlab/+codetools">
      <D name="matlab/codetools/+internal/+matlab/+codetools/+reports">
@@ -2021,7 +2021,7 @@
      </D>
     </D>
     <D name="matlab/codetools/+internal/+matlab/+plotpicker">
-     <F name="evalPlotActionStrings.m"/>
+     <N name="evalPlotActionStrings.m"/>
      <F name="focusCurrentFigure.m"/>
      <F name="identpickerfunc.m"/>
      <F name="inputPreProc.m"/>
@@ -2086,7 +2086,7 @@
      <F name="textToLines.m"/>
     </D>
     <D name="matlab/codetools/+matlab/+desktop/+vareditor">
-     <F name="VariableEditor.m"/>
+     <C name="VariableEditor.m"/>
     </D>
    </D>
   </D>
@@ -2172,9 +2172,9 @@
   <F name="mlint.m"/>
   <F name="mlintrpt.m"/>
   <F name="opentoline.m"/>
-  <F name="openvar.m"/>
+  <N name="openvar.m"/>
   <F name="pathtool.m"/>
-  <F name="plotpickerfunc.m"/>
+  <N name="plotpickerfunc.m"/>
   <N name="profile.m"/>
   <N name="profreport.m"/>
   <N name="profsave.m"/>
@@ -2375,7 +2375,7 @@
    </D>
     <F name="addcats.m"/>
     <F name="cat.m"/>
-    <F name="categorical.m"/>
+    <C name="categorical.m"/>
     <F name="categories.m"/>
     <F name="cellstr.m"/>
     <F name="char.m"/>
@@ -2594,7 +2594,7 @@
   <F name="enumeration.m"/>
   <F name="events.m"/>
   <N name="fieldnames.m"/>
-  <F name="func2str.m"/>
+  <N name="func2str.m"/>
   <F name="function_handle.m"/>
   <F name="functions.m"/>
   <F name="getfield.m"/>
@@ -2631,8 +2631,8 @@
   <N name="methods.m"/>
   <F name="methodsview.m"/>
   <F name="num2cell.m"/>
-  <F name="orderfields.m"/>
-  <F name="properties.m"/>
+  <N name="orderfields.m"/>
+  <N name="properties.m"/>
   <N name="rmfield.m"/>
   <F name="saveobj.m"/>
   <F name="setfield.m"/>
@@ -2643,7 +2643,7 @@
   <F name="struct2table.m"/>
   <F name="structfun.m"/>
   <F name="substruct.m"/>
-  <F name="superclasses.m"/>
+  <N name="superclasses.m"/>
   <F name="superiorfloat.m"/>
   <F name="superiorto.m"/>
   <F name="swapbytes.m"/>
@@ -2732,7 +2732,7 @@
    <D name="matlab/elmat/+matlab/+internal">
     <D name="matlab/elmat/+matlab/+internal/+builtinhelper">
      <F name="circshift.m"/>
-     <F name="flip.m"/>
+     <N name="flip.m"/>
      <F name="repmat.m"/>
     </D>
    </D>
@@ -2844,7 +2844,7 @@
   <N name="isnan.m"/>
   <N name="isrow.m"/>
   <N name="isscalar.m"/>
-  <F name="isvector.m"/>
+  <N name="isvector.m"/>
   <F name="j.m"/>
   <N name="length.m"/>
   <F name="linspace.m"/>
@@ -3141,7 +3141,7 @@
   <F name="exit.m"/>
   <N name="fileattrib.m"/>
   <N name="finfo.m"/>
-  <F name="format.m"/>
+  <N name="format.m"/>
   <F name="genpath.m"/>
   <N name="getenv.m"/>
   <F name="getmcruserdata.m"/>
@@ -3211,7 +3211,7 @@
   <F name="verLessThan.m"/>
   <N name="what.m"/>
   <N name="which.m"/>
-  <F name="who.m"/>
+  <N name="who.m"/>
   <N name="whos.m"/>
  </D>
  <D name="matlab/guide">
@@ -3847,11 +3847,11 @@
   <N name="inputname.m"/>
   <F name="isglobal.m"/>
   <F name="iskeyword.m"/>
-  <F name="isvarname.m"/>
+  <N name="isvarname.m"/>
   <N name="javachk.m"/>
   <F name="keyboard.m"/>
   <F name="lasterr.m"/>
-  <F name="lasterror.m"/>
+  <N name="lasterror.m"/>
   <N name="lastwarn.m"/>
   <F name="lists.m"/>
   <F name="localfunctions.m"/>
@@ -3983,7 +3983,7 @@
   <F name="bitshift.m"/>
   <F name="bitxor.m"/>
   <F name="colon.m"/>
-  <F name="ctranspose.m"/>
+  <N name="ctranspose.m"/>
   <N name="eq.m"/>
   <F name="ge.m"/>
   <F name="gt.m"/>

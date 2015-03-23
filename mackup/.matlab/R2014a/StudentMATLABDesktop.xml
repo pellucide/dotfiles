@@ -18,7 +18,7 @@
       </Split>
       <QuickAccessLocation Region="right_of_tabs"/>
    </Frame>
-   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="yes" Guest="no" Name="Editor" PropertyClass="com.mathworks.mde.editor.EditorGroup" SelectionOrder="23" Show="yes" ShowViews="no" Title="Editor">
+   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="yes" Guest="no" Name="Editor" PropertyClass="com.mathworks.mde.editor.EditorGroup" SelectionOrder="14" Show="yes" ShowViews="no" Title="Editor">
       <Location Context="docked" Height="360" ParentHeight="542" ParentWidth="1016" Path="EN" Type="nested" Width="1016" X="350" Y="199"/>
       <Location Context="nested" Height="360" ParentHeight="542" ParentWidth="1016" Path="EN" Type="nested" Width="1016" X="350" Y="199"/>
       <Location Context="undocked" External="yes" Type="floating"/>
@@ -38,7 +38,44 @@
       </Split>
    </Group>
    <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="no" Guest="no" Name="Web Browser" PropertyClass="com.mathworks.mde.webbrowser.WebBrowserGroup" Show="no" ShowViews="no" Title="Web Browser"/>
-   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="yes" Guest="no" Name="Array Editor" Show="no" ShowViews="no" Title="Variables"/>
+   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="yes" Guest="no" Name="Array Editor" Show="no" ShowViews="no" Title="Variables">
+      <Location Context="docked" Height="341" ParentHeight="360" ParentWidth="1016" Path="ENT" TabIndex="1" Type="nested" Width="1016" X="350" Y="218">
+         <ReferenceHierarchy>
+            <Split Orientation="leftRight" Position="341">
+               <Split Orientation="topBottom" Position="324">
+                  <View Name="Current Directory" Title="Current Folder"/>
+                  <View Name="Workspace" Title="Workspace"/>
+               </Split>
+               <Split Orientation="topBottom" Position="360">
+                  <Tabbed Placement="bottom" Selected="1">
+                     <Group Name="Editor" Title="Editor"/>
+                     <Group Name="Array Editor" Title="Variables"/>
+                  </Tabbed>
+                  <View Name="Command Window" Title="Command Window"/>
+               </Split>
+            </Split>
+         </ReferenceHierarchy>
+      </Location>
+      <Location Context="nested" Height="341" ParentHeight="360" ParentWidth="1016" Path="ENT" TabIndex="1" Type="nested" Width="1016" X="350" Y="218">
+         <ReferenceHierarchy>
+            <Split Orientation="leftRight" Position="341">
+               <Split Orientation="topBottom" Position="324">
+                  <View Name="Current Directory" Title="Current Folder"/>
+                  <View Name="Workspace" Title="Workspace"/>
+               </Split>
+               <Split Orientation="topBottom" Position="360">
+                  <Tabbed Placement="bottom" Selected="1">
+                     <Group Name="Editor" Title="Editor"/>
+                     <Group Name="Array Editor" Title="Variables"/>
+                  </Tabbed>
+                  <View Name="Command Window" Title="Command Window"/>
+               </Split>
+            </Split>
+         </ReferenceHierarchy>
+      </Location>
+      <Location Context="document" Type="floating"/>
+      <DocumentArea Arrangement="maximized" Bar="top" Empty="yes" MaxBarWidth="170" Showing="no" ShrinkTabs="no"/>
+   </Group>
    <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="no" Guest="no" Name="File Comparisons" PropertyClass="com.mathworks.comparisons.report.ComparisonReportGroup" Show="no" ShowViews="no" Title="Comparison Tool">
       <Location Context="undocked" External="yes" Height="600" Type="floating" Width="800"/>
    </Group>
@@ -51,7 +88,7 @@
       <Location Context="docked" Path="EE" Type="nested"/>
       <Location Anchored="yes" Context="undocked" External="yes" Height="250" Type="floating" Width="400" X="394" Y="436"/>
    </Client>
-   <Client Class="com.mathworks.mde.explorer.Explorer" Dock="yes" Guest="no" Name="Current Directory" SelectionOrder="8" Show="yes" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="Current Folder">
+   <Client Class="com.mathworks.mde.explorer.Explorer" Dock="yes" Guest="no" Name="Current Directory" SelectionOrder="7" Show="yes" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="Current Folder">
       <Location Context="docked" Height="324" ParentHeight="542" ParentWidth="341" Path="WN" Type="nested" Width="341" Y="199"/>
       <Location Context="nested" Height="324" ParentHeight="542" ParentWidth="341" Path="WN" Type="nested" Width="341" Y="199"/>
    </Client>
@@ -76,14 +113,9 @@
    <Client Class="com.mathworks.page.plottool.PropertyEditor" Dock="yes" Group="Figures" Guest="no" Name="Property Editor" Show="no" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="Property Editor">
       <Location Context="docked" Path="S" Type="nested"/>
    </Client>
-   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="11" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/Users/danielsuo/Downloads/test.m">
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="8" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/Users/danielsuo/Documents/MATLAB/startup.m">
       <Location Context="docked" Maximized="yes" Type="floating"/>
       <Location Context="floatingIn" Maximized="yes" Type="floating"/>
-      <ClientData EditorFileName="/Users/danielsuo/Downloads/test.m"/>
-   </Client>
-   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="7" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/Applications/MATLAB_R2014a.app/toolbox/local/userpath.m [Read Only]">
-      <Location Context="docked" Maximized="yes" Type="floating"/>
-      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
-      <ClientData EditorFileName="/Applications/MATLAB_R2014a.app/toolbox/local/userpath.m"/>
+      <ClientData EditorFileName="/Users/danielsuo/Documents/MATLAB/startup.m"/>
    </Client>
 </Layout>
