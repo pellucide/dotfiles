@@ -11,6 +11,7 @@ binaries=(
   automake        # Autotools
   node            # Node.js
   duti            # Set default applications
+  bchunk          # disk format stuff
 )
 
 echo "Installing brew binaries..."
