@@ -29,3 +29,4 @@ curl danielsuo.com/boot | sh
 - Turn off three finger tap to define
 - Turn off two finger tap
 - Install adobe creative cloud
+- Disable keyboard shortcuts
