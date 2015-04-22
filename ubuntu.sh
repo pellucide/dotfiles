@@ -15,6 +15,7 @@ apps=(
     google-chrome-stable
     python-pip
     autokey-qt
+    emacs
 )
 
 # Install Mackup with PIP and restore
@@ -40,6 +41,10 @@ xmodmap -e "keysym Caps_Lock = Hyper_L" -e "keycode 66 = BackSpace" -e "remove M
 
 # By hand
 # - Add autokey to startup applications (automate by moving autokey.desktop to ~/.config/autostart)
+
+# Docker
+# wget -qO- https://get.docker.com/ | sh
+# sudo usermod -aG docker floored
 
 # To do
 # - Fix hyper key

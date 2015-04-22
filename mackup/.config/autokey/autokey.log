@@ -1,0 +1,646 @@
+2015-04-22 13:34:19,577 INFO - root - Initialising application
+2015-04-22 13:34:19,581 INFO - root - Initialise global hotkeys
+2015-04-22 13:34:19,581 INFO - config-manager - No configuration found - creating new one
+2015-04-22 13:34:19,583 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 13:34:19,584 INFO - config-manager - Persisting configuration
+2015-04-22 13:34:19,584 INFO - config-manager - Finished persisting configuration - no errors
+2015-04-22 13:34:19,584 INFO - service - Starting service
+2015-04-22 13:34:19,646 INFO - interface - XRecord interface thread starting
+2015-04-22 13:34:19,646 INFO - service - Service now marked as running
+2015-04-22 13:34:19,656 INFO - root - Entering main()
+2015-04-22 13:34:34,277 INFO - root - Initialising application
+2015-04-22 13:34:34,281 INFO - root - Initialise global hotkeys
+2015-04-22 13:34:34,281 INFO - config-manager - Loading config from existing file: /home/floored/.config/autokey/autokey.json
+2015-04-22 13:34:34,283 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 13:34:34,283 INFO - config-manager - Successfully loaded configuration
+2015-04-22 13:34:34,283 INFO - service - Starting service
+2015-04-22 13:34:34,321 INFO - interface - XRecord interface thread starting
+2015-04-22 13:34:34,322 INFO - service - Service now marked as running
+2015-04-22 13:34:34,330 INFO - root - Entering main()
+2015-04-22 13:45:01,450 INFO - root - Initialising application
+2015-04-22 13:45:01,455 INFO - root - Initialise global hotkeys
+2015-04-22 13:45:01,455 INFO - config-manager - Loading config from existing file: /home/floored/.config/autokey/autokey.json
+2015-04-22 13:45:01,457 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 13:45:01,457 INFO - config-manager - Successfully loaded configuration
+2015-04-22 13:45:01,458 INFO - service - Starting service
+2015-04-22 13:45:01,519 INFO - interface - XRecord interface thread starting
+2015-04-22 13:45:01,520 INFO - service - Service now marked as running
+2015-04-22 13:45:01,656 INFO - root - Displaying configuration window
+2015-04-22 13:46:00,163 INFO - root - Initialising application
+2015-04-22 13:46:00,167 INFO - root - Initialise global hotkeys
+2015-04-22 13:46:00,167 INFO - config-manager - Loading config from existing file: /home/floored/.config/autokey/autokey.json
+2015-04-22 13:46:00,169 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 13:46:00,169 INFO - config-manager - Successfully loaded configuration
+2015-04-22 13:46:00,169 INFO - service - Starting service
+2015-04-22 13:46:00,210 INFO - interface - XRecord interface thread starting
+2015-04-22 13:46:00,210 INFO - service - Service now marked as running
+2015-04-22 13:46:00,218 INFO - root - Displaying configuration window
+2015-04-22 13:49:06,855 INFO - root - Initialising application
+2015-04-22 13:49:06,860 INFO - root - Initialise global hotkeys
+2015-04-22 13:49:06,860 INFO - config-manager - Loading config from existing file: /home/floored/.config/autokey/autokey.json
+2015-04-22 13:49:06,861 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 13:49:06,862 INFO - config-manager - Successfully loaded configuration
+2015-04-22 13:49:06,862 INFO - service - Starting service
+2015-04-22 13:49:06,905 INFO - interface - XRecord interface thread starting
+2015-04-22 13:49:06,906 INFO - service - Service now marked as running
+2015-04-22 13:49:06,914 INFO - root - Displaying configuration window
+2015-04-22 13:57:14,805 INFO - root - Initialising application
+2015-04-22 13:57:14,826 INFO - root - Initialise global hotkeys
+2015-04-22 13:57:14,826 INFO - config-manager - Loading config from existing file: /home/floored/.config/autokey/autokey.json
+2015-04-22 13:57:14,880 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 13:57:14,880 INFO - config-manager - Successfully loaded configuration
+2015-04-22 13:57:14,881 INFO - service - Starting service
+2015-04-22 13:57:15,008 INFO - interface - XRecord interface thread starting
+2015-04-22 13:57:15,008 INFO - service - Service now marked as running
+2015-04-22 13:57:15,249 INFO - root - Displaying configuration window
+2015-04-22 13:58:49,842 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:23:40,012 ERROR - service - Script error
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/service.py", line 454, in execute
+    exec script.code in scope
+  File "<string>", line 8, in <module>
+  File "/usr/lib/python2.7/dist-packages/autokey/scripting.py", line 259, in info_dialog
+    return self.__runKdialog(title, ["--msgbox", message], kwargs)
+  File "/usr/lib/python2.7/dist-packages/autokey/scripting.py", line 242, in __runKdialog
+    p = subprocess.Popen(["kdialog", "--title", title] + args, stdout=subprocess.PIPE)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1327, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+2015-04-22 14:25:48,578 WARNING - interface - Failed to ungrab hotkey [] None: 'NoneType' object has no attribute 'startswith'
+2015-04-22 14:25:48,921 WARNING - interface - Failed to ungrab hotkey [] None: 'NoneType' object has no attribute 'startswith'
+2015-04-22 14:27:07,975 WARNING - interface - Failed to ungrab hotkey [] None: 'NoneType' object has no attribute 'startswith'
+2015-04-22 14:27:08,527 WARNING - interface - Failed to ungrab hotkey [] None: 'NoneType' object has no attribute 'startswith'
+2015-04-22 14:27:09,039 WARNING - interface - Failed to ungrab hotkey [] None: 'NoneType' object has no attribute 'startswith'
+2015-04-22 14:27:10,168 WARNING - interface - Failed to ungrab hotkey [] None: 'NoneType' object has no attribute 'startswith'
+2015-04-22 14:27:10,543 WARNING - interface - Failed to ungrab hotkey [] None: 'NoneType' object has no attribute 'startswith'
+2015-04-22 14:27:11,632 WARNING - interface - Failed to ungrab hotkey [] None: 'NoneType' object has no attribute 'startswith'
+2015-04-22 14:27:12,086 WARNING - interface - Failed to ungrab hotkey [] None: 'NoneType' object has no attribute 'startswith'
+2015-04-22 14:27:16,512 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:27:16,512 WARNING - interface - Failed to ungrab hotkey [] None: 'NoneType' object has no attribute 'startswith'
+2015-04-22 14:27:56,139 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:27:58,078 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:27:58,735 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:27:59,102 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:28:00,607 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:28:02,152 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:28:02,678 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:28:03,095 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:28:03,358 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:28:03,590 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:28:03,814 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:28:04,030 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:28:04,278 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:28:04,542 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:28:04,774 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:28:04,974 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:28:10,923 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:28:12,705 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:28:13,189 WARNING - config-manager - No action taken for delete event at /home/floored/.config/autokey/data/My Phrases/New Phrase.txt
+2015-04-22 14:28:13,691 WARNING - config-manager - No action taken for delete event at /home/floored/.config/autokey/data/My Phrases/.New Phrase.json
+2015-04-22 14:34:26,496 INFO - root - Displaying configuration window
+2015-04-22 14:36:02,053 INFO - root - Displaying configuration window
+2015-04-22 14:36:04,100 INFO - root - Displaying configuration window
+2015-04-22 14:36:05,686 INFO - root - Displaying configuration window
+2015-04-22 14:36:06,885 INFO - root - Displaying configuration window
+2015-04-22 14:36:14,562 INFO - root - Displaying configuration window
+2015-04-22 14:36:29,576 INFO - service - Pausing - service now marked as stopped
+2015-04-22 14:36:31,511 INFO - service - Unpausing - service now marked as running
+2015-04-22 14:37:26,321 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:38:08,795 WARNING - config-manager - No action taken for delete event at /home/floored/.config/autokey/data/Test/.folder.json
+2015-04-22 14:38:09,297 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:38:20,021 ERROR - service - Script error
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/service.py", line 454, in execute
+    exec script.code in scope
+  File "<string>", line 8, in <module>
+  File "/usr/lib/python2.7/dist-packages/autokey/scripting.py", line 259, in info_dialog
+    return self.__runKdialog(title, ["--msgbox", message], kwargs)
+  File "/usr/lib/python2.7/dist-packages/autokey/scripting.py", line 242, in __runKdialog
+    p = subprocess.Popen(["kdialog", "--title", title] + args, stdout=subprocess.PIPE)
+  File "/usr/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1327, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
+2015-04-22 14:38:21,087 INFO - root - Displaying configuration window
+2015-04-22 14:39:41,832 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:39:48,634 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:39:49,136 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:00,392 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:00,895 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:01,396 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:01,898 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:02,399 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:02,901 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:03,402 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:03,904 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:04,405 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:04,908 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:05,411 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:05,913 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:06,416 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:06,919 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:07,420 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:07,922 WARNING - config-manager - No action taken for create/update event at /home/floored/.config/autokey/data/suo/README.md
+2015-04-22 14:40:08,423 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:08,926 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:09,429 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:09,932 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:10,435 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:10,938 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:11,440 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:11,943 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:12,444 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:12,946 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:13,447 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:13,949 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:14,450 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:14,952 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:15,455 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:15,958 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:16,461 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:16,964 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:17,467 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:17,969 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:40:18,472 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:48:18,168 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:48:21,385 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:50:30,627 INFO - root - Shutting down
+2015-04-22 14:50:30,628 INFO - service - Service shutting down
+2015-04-22 14:50:30,916 INFO - config-manager - Persisting configuration
+2015-04-22 14:50:30,916 INFO - config-manager - Backing up existing config file
+2015-04-22 14:50:30,916 INFO - config-manager - Finished persisting configuration - no errors
+2015-04-22 14:50:31,128 INFO - inotify - Shutting down file monitor
+2015-04-22 14:50:36,552 INFO - root - Initialising application
+2015-04-22 14:50:36,558 INFO - root - Initialise global hotkeys
+2015-04-22 14:50:36,559 INFO - config-manager - Loading config from existing file: /home/floored/.config/autokey/autokey.json
+2015-04-22 14:50:36,564 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 14:50:36,564 INFO - config-manager - Successfully loaded configuration
+2015-04-22 14:50:36,565 INFO - service - Starting service
+2015-04-22 14:50:36,617 INFO - interface - XRecord interface thread starting
+2015-04-22 14:50:36,617 INFO - service - Service now marked as running
+2015-04-22 14:50:42,003 INFO - root - Displaying configuration window
+2015-04-22 14:50:49,762 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:50:50,579 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:50:50,825 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:50:52,945 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:50:54,739 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:50:55,625 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:50:59,241 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:51:06,813 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:51:07,193 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:51:08,401 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:55:37,249 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:56:26,522 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:57:12,682 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:57:16,682 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:57:19,626 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:57:22,801 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:57:25,626 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:57:28,762 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:57:30,018 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:57:30,706 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:57:31,467 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:57:32,018 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:57:33,810 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:57:36,659 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:57:37,690 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:57:54,805 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:58:09,901 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 14:58:17,306 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 15:06:29,934 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 15:13:18,929 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:06:02,155 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:14:50,158 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 16:18:23,804 INFO - root - Initialising application
+2015-04-22 16:18:23,869 INFO - root - Initialise global hotkeys
+2015-04-22 16:18:23,869 INFO - config-manager - Loading config from existing file: /home/floored/.config/autokey/autokey.json
+2015-04-22 16:18:25,279 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 16:18:25,279 INFO - config-manager - Successfully loaded configuration
+2015-04-22 16:18:25,279 INFO - service - Starting service
+2015-04-22 16:18:25,576 INFO - interface - XRecord interface thread starting
+2015-04-22 16:18:25,576 INFO - service - Service now marked as running
+2015-04-22 16:22:04,205 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:22:41,973 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:24:52,715 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:24:52,717 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 551, in __grab_keyboard
+    focus.grab_keyboard(True, X.GrabModeAsync, X.GrabModeAsync, X.CurrentTime)
+AttributeError: 'int' object has no attribute 'grab_keyboard'
+2015-04-22 16:24:52,729 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 776, in __releaseKey
+    self.__sendKeyReleaseEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 919, in __sendKeyReleaseEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:52,730 WARNING - interface - Error sending modified key [u'<ctrl>'] u'l': 'int' object has no attribute 'send_event'
+2015-04-22 16:24:52,730 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 770, in __pressKey
+    self.__sendKeyPressEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 899, in __sendKeyPressEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:55,258 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:24:55,261 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 551, in __grab_keyboard
+    focus.grab_keyboard(True, X.GrabModeAsync, X.GrabModeAsync, X.CurrentTime)
+AttributeError: 'int' object has no attribute 'grab_keyboard'
+2015-04-22 16:24:55,261 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 776, in __releaseKey
+    self.__sendKeyReleaseEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 919, in __sendKeyReleaseEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:55,262 WARNING - interface - Error sending modified key [u'<ctrl>'] u'l': 'int' object has no attribute 'send_event'
+2015-04-22 16:24:55,262 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 770, in __pressKey
+    self.__sendKeyPressEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 899, in __sendKeyPressEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:55,482 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:24:55,485 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 551, in __grab_keyboard
+    focus.grab_keyboard(True, X.GrabModeAsync, X.GrabModeAsync, X.CurrentTime)
+AttributeError: 'int' object has no attribute 'grab_keyboard'
+2015-04-22 16:24:55,486 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 776, in __releaseKey
+    self.__sendKeyReleaseEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 919, in __sendKeyReleaseEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:55,487 WARNING - interface - Error sending modified key [u'<ctrl>'] u'l': 'int' object has no attribute 'send_event'
+2015-04-22 16:24:55,488 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 770, in __pressKey
+    self.__sendKeyPressEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 899, in __sendKeyPressEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:55,746 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:24:55,749 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 551, in __grab_keyboard
+    focus.grab_keyboard(True, X.GrabModeAsync, X.GrabModeAsync, X.CurrentTime)
+AttributeError: 'int' object has no attribute 'grab_keyboard'
+2015-04-22 16:24:55,750 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 776, in __releaseKey
+    self.__sendKeyReleaseEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 919, in __sendKeyReleaseEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:55,751 WARNING - interface - Error sending modified key [u'<ctrl>'] u'l': 'int' object has no attribute 'send_event'
+2015-04-22 16:24:55,751 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 770, in __pressKey
+    self.__sendKeyPressEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 899, in __sendKeyPressEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:56,018 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:24:56,021 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 551, in __grab_keyboard
+    focus.grab_keyboard(True, X.GrabModeAsync, X.GrabModeAsync, X.CurrentTime)
+AttributeError: 'int' object has no attribute 'grab_keyboard'
+2015-04-22 16:24:56,022 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 776, in __releaseKey
+    self.__sendKeyReleaseEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 919, in __sendKeyReleaseEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:56,023 WARNING - interface - Error sending modified key [u'<ctrl>'] u'l': 'int' object has no attribute 'send_event'
+2015-04-22 16:24:56,023 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 770, in __pressKey
+    self.__sendKeyPressEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 899, in __sendKeyPressEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:56,306 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:24:56,309 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 551, in __grab_keyboard
+    focus.grab_keyboard(True, X.GrabModeAsync, X.GrabModeAsync, X.CurrentTime)
+AttributeError: 'int' object has no attribute 'grab_keyboard'
+2015-04-22 16:24:56,310 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 776, in __releaseKey
+    self.__sendKeyReleaseEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 919, in __sendKeyReleaseEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:56,311 WARNING - interface - Error sending modified key [u'<ctrl>'] u'l': 'int' object has no attribute 'send_event'
+2015-04-22 16:24:56,311 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 770, in __pressKey
+    self.__sendKeyPressEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 899, in __sendKeyPressEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:56,601 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:24:56,604 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 551, in __grab_keyboard
+    focus.grab_keyboard(True, X.GrabModeAsync, X.GrabModeAsync, X.CurrentTime)
+AttributeError: 'int' object has no attribute 'grab_keyboard'
+2015-04-22 16:24:56,605 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 776, in __releaseKey
+    self.__sendKeyReleaseEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 919, in __sendKeyReleaseEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:56,606 WARNING - interface - Error sending modified key [u'<ctrl>'] u'l': 'int' object has no attribute 'send_event'
+2015-04-22 16:24:56,607 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 770, in __pressKey
+    self.__sendKeyPressEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 899, in __sendKeyPressEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:57,152 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:24:57,154 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 551, in __grab_keyboard
+    focus.grab_keyboard(True, X.GrabModeAsync, X.GrabModeAsync, X.CurrentTime)
+AttributeError: 'int' object has no attribute 'grab_keyboard'
+2015-04-22 16:24:57,154 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 776, in __releaseKey
+    self.__sendKeyReleaseEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 919, in __sendKeyReleaseEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:57,155 WARNING - interface - Error sending modified key [u'<ctrl>'] u'l': 'int' object has no attribute 'send_event'
+2015-04-22 16:24:57,156 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 770, in __pressKey
+    self.__sendKeyPressEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 899, in __sendKeyPressEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:57,648 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:24:57,649 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 551, in __grab_keyboard
+    focus.grab_keyboard(True, X.GrabModeAsync, X.GrabModeAsync, X.CurrentTime)
+AttributeError: 'int' object has no attribute 'grab_keyboard'
+2015-04-22 16:24:57,649 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 776, in __releaseKey
+    self.__sendKeyReleaseEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 919, in __sendKeyReleaseEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:57,649 WARNING - interface - Error sending modified key [u'<ctrl>'] u'l': 'int' object has no attribute 'send_event'
+2015-04-22 16:24:57,650 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 770, in __pressKey
+    self.__sendKeyPressEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 899, in __sendKeyPressEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:58,168 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:24:58,169 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 551, in __grab_keyboard
+    focus.grab_keyboard(True, X.GrabModeAsync, X.GrabModeAsync, X.CurrentTime)
+AttributeError: 'int' object has no attribute 'grab_keyboard'
+2015-04-22 16:24:58,170 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 776, in __releaseKey
+    self.__sendKeyReleaseEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 919, in __sendKeyReleaseEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:58,170 WARNING - interface - Error sending modified key [u'<ctrl>'] u'l': 'int' object has no attribute 'send_event'
+2015-04-22 16:24:58,170 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 770, in __pressKey
+    self.__sendKeyPressEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 899, in __sendKeyPressEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:58,583 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:24:58,584 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 551, in __grab_keyboard
+    focus.grab_keyboard(True, X.GrabModeAsync, X.GrabModeAsync, X.CurrentTime)
+AttributeError: 'int' object has no attribute 'grab_keyboard'
+2015-04-22 16:24:58,585 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 776, in __releaseKey
+    self.__sendKeyReleaseEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 919, in __sendKeyReleaseEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:58,585 WARNING - interface - Error sending modified key [u'<ctrl>'] u'a': 'int' object has no attribute 'send_event'
+2015-04-22 16:24:58,585 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 770, in __pressKey
+    self.__sendKeyPressEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 899, in __sendKeyPressEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:58,711 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:24:58,712 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 551, in __grab_keyboard
+    focus.grab_keyboard(True, X.GrabModeAsync, X.GrabModeAsync, X.CurrentTime)
+AttributeError: 'int' object has no attribute 'grab_keyboard'
+2015-04-22 16:24:58,712 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 776, in __releaseKey
+    self.__sendKeyReleaseEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 919, in __sendKeyReleaseEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:58,712 WARNING - interface - Error sending modified key [u'<ctrl>'] u'l': 'int' object has no attribute 'send_event'
+2015-04-22 16:24:58,713 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 770, in __pressKey
+    self.__sendKeyPressEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 899, in __sendKeyPressEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:58,871 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:24:58,872 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 551, in __grab_keyboard
+    focus.grab_keyboard(True, X.GrabModeAsync, X.GrabModeAsync, X.CurrentTime)
+AttributeError: 'int' object has no attribute 'grab_keyboard'
+2015-04-22 16:24:58,873 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 776, in __releaseKey
+    self.__sendKeyReleaseEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 919, in __sendKeyReleaseEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:58,873 WARNING - interface - Error sending modified key [u'<ctrl>'] u'a': 'int' object has no attribute 'send_event'
+2015-04-22 16:24:58,873 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 770, in __pressKey
+    self.__sendKeyPressEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 899, in __sendKeyPressEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:58,895 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:24:58,896 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 551, in __grab_keyboard
+    focus.grab_keyboard(True, X.GrabModeAsync, X.GrabModeAsync, X.CurrentTime)
+AttributeError: 'int' object has no attribute 'grab_keyboard'
+2015-04-22 16:24:58,896 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 776, in __releaseKey
+    self.__sendKeyReleaseEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 919, in __sendKeyReleaseEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:24:58,897 WARNING - interface - Error sending modified key [u'<ctrl>'] u'l': 'int' object has no attribute 'send_event'
+2015-04-22 16:24:58,897 ERROR - interface - Error in X event loop thread
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 116, in __eventLoop
+    method(*args)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 770, in __pressKey
+    self.__sendKeyPressEvent(self.__lookupKeyCode(keyName), 0)
+  File "/usr/lib/python2.7/dist-packages/autokey/interface.py", line 899, in __sendKeyPressEvent
+    focus.send_event(keyEvent)
+AttributeError: 'int' object has no attribute 'send_event'
+2015-04-22 16:26:03,922 INFO - root - Initialising application
+2015-04-22 16:26:03,928 INFO - root - Initialise global hotkeys
+2015-04-22 16:26:03,929 INFO - config-manager - Loading config from existing file: /home/floored/.config/autokey/autokey.json
+2015-04-22 16:26:03,934 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2015-04-22 16:26:03,934 INFO - config-manager - Successfully loaded configuration
+2015-04-22 16:26:03,935 INFO - service - Starting service
+2015-04-22 16:26:04,034 INFO - interface - XRecord interface thread starting
+2015-04-22 16:26:04,034 INFO - service - Service now marked as running
+2015-04-22 16:27:07,024 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:43:16,384 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:26,575 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:28,849 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:32,455 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:33,400 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:34,096 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:35,775 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:36,055 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:36,215 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:37,319 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:38,456 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:40,975 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:42,840 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:43,175 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:43,335 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:44,017 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:44,210 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:44,394 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:49,631 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:50,007 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:50,175 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:50,520 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:58,664 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:59,015 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:59,159 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:46:59,319 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:47:00,274 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:47:00,543 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:47:00,687 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:47:01,144 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:47:01,319 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:47:01,471 INFO - service - Matched hotkey phrase/script with prompt=False
+2015-04-22 16:47:01,615 INFO - service - Matched hotkey phrase/script with prompt=False
