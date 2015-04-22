@@ -32,7 +32,16 @@ sudo mkdir -p ~/.fonts/truetype
 sudo mkdir -p ~/.fonts/truetype
 sudo fc-cache -f -v
 
+# Git
+git config --global credential.helper cache
+
 # Autokey
+xmodmap -e "keysym Caps_Lock = Hyper_L" -e "keycode 66 = BackSpace" -e "remove Mod4 = Hyper_L" -e "add Mod3 = Hyper_L" -e "keycode 66 = Hyper_L"
 
 # By hand
 # - Add autokey to startup applications (automate by moving autokey.desktop to ~/.config/autostart)
+
+# To do
+# - Fix hyper key
+# - Get ctrl-shift-a / e working
+# - Swap windows and alt
