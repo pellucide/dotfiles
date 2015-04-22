@@ -25,3 +25,8 @@ mackup restore
 sudo apt-add-repository -y ppa:rael-gc/scudcloud
 sudo apt-get update
 sudo apt-get install scudcloud
+
+# Install fonts
+sudo mkdir -p ~/.fonts/truetype
+sudo mkdir -p ~/.fonts/truetype
+sudo fc-cache -f -v
