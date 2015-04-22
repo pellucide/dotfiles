@@ -14,6 +14,7 @@ apps=(
     sublime-text-installer
     google-chrome-stable
     python-pip
+    autokey-qt
 )
 
 # Install Mackup with PIP and restore
@@ -30,3 +31,8 @@ sudo apt-get install scudcloud
 sudo mkdir -p ~/.fonts/truetype
 sudo mkdir -p ~/.fonts/truetype
 sudo fc-cache -f -v
+
+# Autokey
+
+# By hand
+# - Add autokey to startup applications (automate by moving autokey.desktop to ~/.config/autostart)
