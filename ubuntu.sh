@@ -16,6 +16,7 @@ apps=(
     python-pip
     autokey-qt
     emacs
+    curl
 )
 
 # Install Mackup with PIP and restore
