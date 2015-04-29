@@ -17,6 +17,7 @@ apps=(
     autokey-qt
     emacs
     curl
+    jq
 )
 
 # Install Mackup with PIP and restore
