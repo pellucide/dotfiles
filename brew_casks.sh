@@ -41,6 +41,7 @@ apps=(
     skim                                # PDF reader
     adobe-creative-cloud		        # Adobe
     rescuetime				            # Keep track of time
+    eagle                               # EAGLE CAD
 )
 
 echo "Installing apps..."

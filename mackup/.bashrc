@@ -1,14 +1,4 @@
-source ~/.git-completion.bash
+export PATH=$NVM_DIR/v$NODE_VERSION/bin:$PATH
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
-# added by travis gem
-[ -f /Users/danielsuo/.travis/travis.sh ] && source /Users/danielsuo/.travis/travis.sh
-
-
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/fincoda
-source /usr/local/bin/virtualenvwrapper.sh
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+export NVM_DIR="/Users/danielsuo/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
