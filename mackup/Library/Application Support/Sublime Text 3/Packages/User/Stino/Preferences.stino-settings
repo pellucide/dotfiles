@@ -1,6 +1,8 @@
 {
-    "arduino_ide_path": "/Users/danielsuo/Documents/Arduino", 
+    "arduino_ide_path": "/Users/danielsuo/Applications/arduino.app", 
     "lang_id": "en", 
     "serial_port": "/dev/cu.Bluetooth-Incoming-Port", 
-    "sketchbook_path": "/Users/danielsuo/prototype"
+    "sketchbook_path": "/Users/danielsuo/prototype", 
+    "target_board_id": "ide.arduino.avr.yun", 
+    "target_programmer_id": "ide.arduino.avr.avrisp"
 }

@@ -1,2 +1,7 @@
+# https://github.com/Robot-Will/Stino
+
 brew cask install arduino
 brew install ino
+
+brew tap larsimmisch/homebrew-avr
+brew install avr-libc

@@ -6,11 +6,8 @@
                 "caption": "Sketchbook", 
                 "children": [
                     {
-                        "args": {
-                            "sketch_path": "/Users/danielsuo/prototype/test"
-                        }, 
-                        "caption": "test", 
-                        "command": "open_sketch"
+                        "caption": "None", 
+                        "command": "none_command"
                     }
                 ], 
                 "id": "sketchbook"
