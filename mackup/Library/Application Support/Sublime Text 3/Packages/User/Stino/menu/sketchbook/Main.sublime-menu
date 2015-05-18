@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "Arduino", 
+        "children": [
+            {
+                "caption": "Sketchbook", 
+                "children": [
+                    {
+                        "args": {
+                            "sketch_path": "/Users/danielsuo/prototype/test"
+                        }, 
+                        "caption": "test", 
+                        "command": "open_sketch"
+                    }
+                ], 
+                "id": "sketchbook"
+            }
+        ], 
+        "id": "arduino", 
+        "mnemonic": "A"
+    }
+]

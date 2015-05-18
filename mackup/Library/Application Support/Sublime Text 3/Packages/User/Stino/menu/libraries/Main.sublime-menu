@@ -1,0 +1,19 @@
+[
+    {
+        "caption": "Arduino", 
+        "children": [
+            {
+                "caption": "Import Library", 
+                "children": [
+                    {
+                        "caption": "None", 
+                        "command": "none_command"
+                    }
+                ], 
+                "id": "import_library"
+            }
+        ], 
+        "id": "arduino", 
+        "mnemonic": "A"
+    }
+]

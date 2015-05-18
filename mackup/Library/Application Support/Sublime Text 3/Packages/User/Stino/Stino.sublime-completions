@@ -1,0 +1,15 @@
+{
+    "completions": [
+        "define", 
+        "error", 
+        "include", 
+        "elif", 
+        "endif", 
+        "ifdef", 
+        "ifndef", 
+        "undef", 
+        "line", 
+        "pragma"
+    ], 
+    "scope": "source.arduino"
+}

@@ -1,0 +1,19 @@
+[
+    {
+        "caption": "Arduino", 
+        "children": [
+            {
+                "caption": "Board", 
+                "children": [
+                    {
+                        "caption": "None", 
+                        "command": "none_command"
+                    }
+                ], 
+                "id": "boards"
+            }
+        ], 
+        "id": "arduino", 
+        "mnemonic": "A"
+    }
+]
