@@ -21,11 +21,11 @@
 		".hg"
 	],
 	"font_face": "Apercu Mono",
-	"font_size": 12.0,
+	"font_size": 13.0,
 	"ignored_packages":
 	[
-		"Stylus",
 		"Vintage",
+		"Stylus",
 		"RubyTest"
 	],
 	"tab_size": 2,
