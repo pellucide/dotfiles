@@ -40,7 +40,6 @@ apps=(
     dash                                # documentation
     skim                                # PDF reader
     adobe-creative-cloud		        # Adobe
-    rescuetime				            # Keep track of time
     eagle                               # EAGLE CAD
     duet                                # Share screen with ipad
 )
