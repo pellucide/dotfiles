@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<history>
+<session>
+<command time_stamp="14e6af5129b">%-- 7/7/15, 7:58 PM --%</command>
+<command error="true" execution_time="9107" repeat="3">main</command>
+</session>
+<session>
+<command time_stamp="14e6af7f301">%-- 7/7/15, 8:01 PM --%</command>
+<command batch="1">main</command>
+</session>
+</history>

@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <history>
 <session>
-<command time_stamp="14c20067227">%-- 3/15/15, 8:40 PM --%</command>
-</session>
-<session>
 <command time_stamp="14c3cc10e7e">%-- 3/21/15, 10:33 AM --%</command>
 <command execution_time="14" repeat="3">path</command>
-</session>
-<session>
-<command time_stamp="14c3ce453fd">%-- 3/21/15, 11:12 AM --%</command>
 </session>
 <session>
 <command time_stamp="14c3cea0987">%-- 3/21/15, 11:18 AM --%</command>
@@ -22,14 +16,507 @@
 <command execution_time="20">path</command>
 </session>
 <session>
-<command time_stamp="14c3cf9871b">%-- 3/21/15, 11:35 AM --%</command>
-</session>
-<session>
 <command time_stamp="14c3d14c1a1">%-- 3/21/15, 12:05 PM --%</command>
 <command execution_time="376">setupSolarizedTheme</command>
 <command batch="1">setupSolarizedTheme('dark')</command>
 </session>
 <session>
-<command time_stamp="14c3d16a144">%-- 3/21/15, 12:07 PM --%</command>
+<command time_stamp="14c3d4167f1">%-- 3/21/15, 12:53 PM --%</command>
+<command execution_time="12">java</command>
+<command execution_time="178">java.util.Hashtable</command>
+</session>
+<session>
+<command time_stamp="14e518b914a">%-- 7/2/15, 9:32 PM --%</command>
+<command execution_time="14" repeat="2">main</command>
+<command execution_time="557">calib</command>
+<command execution_time="19">color</command>
+<command execution_time="1137">t</command>
+<command execution_time="11">9</command>
+<command execution_time="14">7</command>
+<command error="true" execution_time="35">30mm</command>
+<command execution_time="14" repeat="2">[13]</command>
+<command execution_time="45" repeat="2">30</command>
+<command execution_time="24">load('calib_data_color.mat')</command>
+<command execution_time="21">load('calib_data.mat')</command>
+<command error="true" execution_time="55">calib_data</command>
+<command execution_time="9">9</command>
+<command execution_time="14">7</command>
+<command execution_time="10">9</command>
+<command execution_time="10">7</command>
+<command execution_time="12">est_dist=[1;0;1;1;0]</command>
+<command execution_time="14">0</command>
+<command execution_time="125">asdf</command>
+<command execution_time="294">uiopen('/Users/danielsuo/mobot/src/capture/calibration/iPhone 5/asdf1',1)</command>
+<command execution_time="35">stereo_gui</command>
+<command execution_time="16">Calib_Results_color.mat</command>
+<command execution_time="9" repeat="2">Calib_Results_infrared.mat</command>
+<command execution_time="92">Calib_Results_color.mat</command>
+<command error="true" execution_time="31">rm(est_dist)</command>
+<command error="true" execution_time="32">remove(est_dist)</command>
+<command execution_time="15">calib</command>
+<command execution_time="19">stereo_gui</command>
+<command execution_time="10">Calib_Results.mat</command>
+<command execution_time="92">Calib_Results_infrared.mat</command>
+<command execution_time="12" repeat="2">clear</command>
+<command execution_time="88">clear all</command>
+<command execution_time="21">clearvars</command>
+<command execution_time="11">clear</command>
+<command error="true" execution_time="24">a01</command>
+<command error="true" execution_time="24">a</command>
+<command execution_time="29">load('calib_data_color.mat')</command>
+<command error="true" execution_time="24">a</command>
+<command error="true" execution_time="25">a1</command>
+<command execution_time="157">calib</command>
+<command execution_time="12">color</command>
+<command execution_time="669">t</command>
+<command execution_time="25">load('calib_data_color.mat')</command>
+<command execution_time="15">[13]</command>
+<command execution_time="8">infrared</command>
+<command execution_time="316">t</command>
+<command execution_time="72">clear all</command>
+<command execution_time="85" repeat="2">calib</command>
+<command execution_time="11">infrared</command>
+<command execution_time="573">t</command>
+<command execution_time="12">load('calib_data_infrared.mat')</command>
+<command execution_time="14">[13]</command>
+<command execution_time="24">stereo_gui</command>
+<command execution_time="10">Calib_Results_color.mat</command>
+<command execution_time="111">Calib_Results_infrared.mat</command>
+<command execution_time="76">calib</command>
+<command execution_time="8">color</command>
+<command execution_time="229">t</command>
+<command execution_time="12">load('calib_data_color.mat')</command>
+<command execution_time="45">run('/Users/danielsuo/mobot/src/capture/calibration/iPhone 5/Calib_Results_color.m')</command>
+<command execution_time="33">run('/Users/danielsuo/mobot/src/capture/calibration/iPhone 5/Calib_Results_color_old2.m')</command>
+<command execution_time="9">color</command>
+<command execution_time="257">t</command>
+<command execution_time="25">load('calib_data_color.mat')</command>
+<command execution_time="70">clear all</command>
+<command execution_time="15">load('calib_data_infrared.mat')</command>
+<command execution_time="12">infrared</command>
+<command execution_time="758">t</command>
+<command execution_time="35">stereo_gui</command>
+<command execution_time="9">Calib_Results_color.mat</command>
+<command execution_time="104">Calib_Results_infrared.mat</command>
+<command execution_time="14">load('calib_data_color.mat')</command>
+<command execution_time="75">calib</command>
+<command execution_time="8">color</command>
+<command execution_time="252">t</command>
+<command execution_time="25">load('calib_data_color.mat')</command>
+<command execution_time="8">color</command>
+<command execution_time="225">t</command>
+<command execution_time="8">infrared</command>
+<command execution_time="224">t</command>
+<command execution_time="16">stereo_gui</command>
+<command execution_time="19">calib</command>
+<command execution_time="9">infrared</command>
+<command execution_time="256">t</command>
+<command execution_time="19">stereo_gui</command>
+<command execution_time="14">load('calib_data_infrared.mat')</command>
+<command execution_time="16">calib</command>
+<command execution_time="9">infrared</command>
+<command execution_time="226">t</command>
+<command execution_time="17" repeat="2">stereo_gui</command>
+<command execution_time="12">Calib_Results_right.mat</command>
+<command execution_time="91">Calib_Results_left.mat</command>
+<command execution_time="26">addpath('~/mobot/src/capture/calibration/WarpMesh')</command>
+<command batch="2">cd(fileparts(which('main')))</command>
+<command batch="2" execution_time="15">cd('WarpMesh')</command>
+<command execution_time="68">load('demo.mat')</command>
+<command execution_time="75">figure</command>
+<command batch="3">close all;</command>
+<command batch="3" execution_time="120">clear</command>
+<command execution_time="38">load demo.mat</command>
+<command execution_time="4325">image</command>
+<command execution_time="77">figure</command>
+<command execution_time="30">imagesc(image)</command>
+<command execution_time="70">imagesc(XYZcamera(:,:,3))</command>
+<command execution_time="1236">help imagesc</command>
+<command execution_time="18">imagesc(XYZcamera(:,:,2))</command>
+<command execution_time="18">imagesc(XYZcamera(:,:,1))</command>
+<command execution_time="17">imagesc(XYZcamera(:,:,4))</command>
+<command error="true" execution_time="62">imagesc(XYZcamera(:,:,:))</command>
+<command execution_time="13">imagesc(XYZcamera(:,:,3))</command>
+<command execution_time="17">imagesc(XYZcamera(:,:,2))</command>
+<command execution_time="15">imagesc(XYZcamera(:,:,1))</command>
+<command execution_time="15">imagesc(XYZcamera(:,:,4))</command>
+<command execution_time="18">imagesc(XYZcamera(:,:,3))</command>
+<command execution_time="10">K</command>
+<command error="true" execution_time="28">R</command>
+<command execution_time="11">Rt</command>
+<command execution_time="15">imagesc(labelNow)</command>
+<command execution_time="68">figure</command>
+<command batch="4">subplot(2,3,1);</command>
+<command batch="4">imagesc(XYZcamera(:,:,3));</command>
+<command batch="4" execution_time="67">axis equal; axis tight; axis off; title('before warping');</command>
+<command batch="5">subplot(2,3,2);</command>
+<command batch="5">imagesc(labelNow);</command>
+<command batch="5" execution_time="29">axis equal; axis tight; axis off; title('before warping');</command>
+<command batch="6" error="true">subplot(2,3,4);</command>
+<command batch="6" error="true">imagesc(depth);</command>
+<command batch="6" error="true" execution_time="53">axis equal; axis tight; axis off; title('after warping');</command>
+<command error="true" execution_time="15">imagesc(det);</command>
+<command batch="7">[label,depth] = WarpMeshMatlab(XYZcamera,labelNow,K, Rt);</command>
+<command batch="7">% warp color</command>
+<command batch="7" execution_time="835">[imageWarp,depth] = WarpMeshMatlabColor(XYZcamera,double(image),K, Rt);</command>
+<command batch="8">subplot(2,3,4);</command>
+<command batch="8">imagesc(depth);</command>
+<command batch="8" execution_time="26">axis equal; axis tight; axis off; title('after warping');</command>
+<command batch="9">subplot(2,3,5);</command>
+<command batch="9">imagesc(label);</command>
+<command batch="9" execution_time="28">axis equal; axis tight; axis off; title('after warping');</command>
+<command execution_time="144">help double</command>
+<command execution_time="938">labelNow</command>
+<command execution_time="1056">XYZcamera(:,:,4)</command>
+<command execution_time="90" repeat="2">imagesc(XYZcamera(:,:,4) .* double(labelNow))</command>
+<command error="true" execution_time="12">imagesc(XYZcamera(:, :, 4)</command>
+<command execution_time="16">imagesc(XYZcamera(:,:,4))</command>
+<command execution_time="14">[1:10]</command>
+<command execution_time="12">zeros(1)</command>
+<command execution_time="973">zeros(640,480)</command>
+<command execution_time="1066">z = zeros(640,480)</command>
+<command error="true" execution_time="17">imagesc(XYZcamera(:,:,4).*z)</command>
+<command execution_time="10">z = zeros(480, 640);</command>
+<command execution_time="20">imagesc(XYZcamera(:,:,4).*z)</command>
+<command execution_time="14">imagesc(XYZcamera(:,:,4).*(z+1))</command>
+<command execution_time="16">imagesc(XYZcamera(:,:,4).*(z+2))</command>
+<command execution_time="22" repeat="2">imagesc(XYZcamera(:,:,4).*(z+3))</command>
+<command execution_time="1091">XYZcamera(:,:,4)</command>
+<command execution_time="19">imagesc(XYZcamera(:,:,4).*z)</command>
+<command execution_time="16">imagesc(XYZcamera(:,:,4).*(z+0.5))</command>
+<command error="true" execution_time="39">man imagesc</command>
+<command execution_time="105">help imagesc</command>
+<command error="true" execution_time="17">image(XYZcamera(:,:,4))</command>
+<command execution_time="15">imagesc(XYZcamera(:,:,4))</command>
+<command execution_time="230">imagesc(labelNow)</command>
+<command execution_time="26">imagesc(XYZcamera(:,:,4) .* double(labelNow))</command>
+<command execution_time="40">x = rand(2,2,4)</command>
+<command error="true" execution_time="17">x(2,3,3)</command>
+<command execution_time="12">x(2,3)</command>
+<command error="true" execution_time="14">x[2,3]</command>
+<command error="true" execution_time="17">x(0,0)</command>
+<command execution_time="12">x(1,1)</command>
+<command execution_time="45">x</command>
+<command execution_time="12">x(1,4)</command>
+<command execution_time="10">x</command>
+<command error="true" execution_time="14">x[1]</command>
+<command execution_time="12">x(1)</command>
+<command execution_time="13">x</command>
+<command execution_time="10">x(1,:,4)</command>
+<command execution_time="16">x</command>
+<command execution_time="12">x(:,:,4)</command>
+<command execution_time="12">x(1,:,4)</command>
+<command execution_time="9">x(1,1,4)</command>
+<command execution_time="13">x(:,:,4)</command>
+<command execution_time="12">x(1,1,4)</command>
+<command execution_time="14">x(1,1,4) == 0.9572</command>
+<command execution_time="12">x(1,1,4) = 0</command>
+<command execution_time="34">x</command>
+<command execution_time="13">x(:,:,4)~=0</command>
+<command error="true" execution_time="13">(x(:,:,4)~=0)(:)</command>
+<command error="true" execution_time="16">x(:,:,4)~=0(:)</command>
+<command execution_time="13">y = x(:,:,4)~=0</command>
+<command execution_time="15">y(:)</command>
+<command batch="10">WarpMesh</command>
+</session>
+<session>
+<command time_stamp="14e56f7561c">%-- 7/3/15, 10:48 PM --%</command>
+<command batch="11" error="true">addpath('~/mobot/src/capture/calibration/TOOLBOX_calib')</command>
+<command batch="11" error="true">addpath('~/mobot/src/capture/calibration/WarpMesh')</command>
+<command batch="11" error="true">cd(fileparts(which('main')))</command>
+<command batch="11" error="true">cd('WarpMesh')</command>
+<command batch="11" error="true" execution_time="133">% calib</command>
+<command execution_time="35">main</command>
+<command execution_time="1833">demo</command>
+<command execution_time="15">XYZcamera = double(XYZcamera);</command>
+<command execution_time="15">XYZcamera(:,:,4) = XYZcamera(:,:,4) .* double(labelNow);</command>
+<command batch="12">X = reshape(XYZcamera,[],4)';</command>
+<command batch="12">X = X(1:3,:);</command>
+<command batch="12">X = transformPointCloud(X,Rt);</command>
+<command batch="12">X = reshape(X',[480,640,3]);</command>
+<command batch="12">XYZcamera(:,:,1) = X(:,:,1);</command>
+<command batch="12">XYZcamera(:,:,2) = X(:,:,2);</command>
+<command batch="12" execution_time="51">XYZcamera(:,:,3) = X(:,:,3);</command>
+<command batch="13">P = [K [0;0;0]];</command>
+<command batch="13">XYZcamera(:,:,1) = -XYZcamera(:,:,1);</command>
+<command batch="13" execution_time="123">[label,depth]=WarpMesh(P,640,480,XYZcamera);</command>
+<command batch="14">label = label';</command>
+<command batch="14" execution_time="15">label = label(:,end:-1:1);</command>
+<command execution_time="13">depth = depth';</command>
+<command error="true" execution_time="34">x</command>
+<command execution_time="16">x = rand(2,2,2)</command>
+<command execution_time="15">x(end:-1:1)</command>
+<command execution_time="16">x(end:-1:1,end:-1:1)</command>
+<command execution_time="15">x(end:-1:1,:)</command>
+<command execution_time="14">any([1,2,0])</command>
+<command execution_time="12">any([0,1,0])</command>
+<command execution_time="13">any([0,0,0])</command>
+<command error="true" execution_time="16">single</command>
+<command execution_time="666">help single</command>
+</session>
+<session>
+<command time_stamp="14e59a96e4f">%-- 7/4/15, 11:22 AM --%</command>
+<command execution_time="725">load('demo.mat')</command>
+<command execution_time="704">imagesc(XYZcamera(:,:,2))</command>
+<command execution_time="124">imagesc(XYZcamera(:,:,1))</command>
+<command execution_time="44">imagesc(XYZcamera(:,:,3))</command>
+<command execution_time="3946">uiopen('/Users/danielsuo/Downloads/iPhone1/2015-07-04T17.54.11.178/depth/0000001413.png',1)</command>
+<command execution_time="306">uiopen('/Users/danielsuo/Downloads/iPhone1/2015-07-04T20.35.42.937/depth/0000006070.png',1)</command>
+<command execution_time="22">imagesc(image)</command>
+<command execution_time="111">imagesc(x0000006070)</command>
+<command execution_time="12">x0000006070(1,1)</command>
+<command execution_time="10">x0000006070(1,2)</command>
+<command execution_time="21">max(x0000006070)</command>
+<command execution_time="11">max(max(x0000006070))</command>
+<command execution_time="241">uiopen('/Users/danielsuo/Downloads/iPhone1/2015-07-04T20.49.24.572 copy/depth/0000000509.png',1)</command>
+<command execution_time="16">imagesc(x0000000509)</command>
+<command execution_time="17">max(max(x0000006070))</command>
+<command execution_time="21">imagesc(x0000006070)</command>
+<command execution_time="15">imagesc(x0000000509)</command>
+<command execution_time="298">uiopen('/Users/danielsuo/Downloads/iPhone1/2015-07-04T21.18.24.703/depth/0000000100.png',1)</command>
+<command execution_time="93">imagesc(x0000000100)</command>
+<command execution_time="351">uiopen('/Users/danielsuo/Downloads/iPhone1/2015-07-04T21.31.10.970/depth/0000000064.png',1)</command>
+<command execution_time="1576">uiopen('/Users/danielsuo/Downloads/uint16.dat',1)</command>
+<command execution_time="996">x=reshape(VarName1, 480, 640)</command>
+<command execution_time="16">imagesc(x)</command>
+<command execution_time="805">x=reshape(VarName1, 640, 480)'</command>
+<command execution_time="26">imagesc(x)</command>
+<command execution_time="1817">VarName2 = x0000000064(:)</command>
+<command execution_time="13">imagesc(reshape(VarName2, 640, 480)')</command>
+<command execution_time="12">imagesc(reshape(VarName2, 480, 640))</command>
+<command error="true" execution_time="95">VarName2 = x0000000064'(:)</command>
+<command execution_time="833">VarName2 = x0000000064'</command>
+<command execution_time="1397">VarName2 = VarName2(:)</command>
+<command execution_time="13">imagesc(reshape(VarName2, 640, 480)')</command>
+<command execution_time="217">plot(VarName1, VarName2)</command>
+<command execution_time="14">max(VarName1)</command>
+<command execution_time="141">load('/Users/danielsuo/mobot/src/capture/calibration/iPhone 5/Calib_Results_stereo.mat')</command>
+<command execution_time="199">uiopen('/Users/danielsuo/Downloads/iPhone1/uint16.dat',1)</command>
+<command execution_time="34">workspace</command>
+<command execution_time="13">size(depth)</command>
+<command execution_time="717">depth = reshape(depth, 640, 480)'</command>
+<command execution_time="25">imagesc(depth)</command>
+<command execution_time="12">size(depth)</command>
+<command execution_time="14">fc_right</command>
+<command execution_time="729">help repmat</command>
+<command execution_time="2816">xyz = repmat(depth, 4,1)</command>
+<command execution_time="12">size(xyz)</command>
+<command execution_time="83">help repmat</command>
+<command execution_time="88" repeat="2">imagesc(xyz)</command>
+<command execution_time="16">size(xyz)</command>
+<command execution_time="16">xyz = reshape(repmat(depth, 4,1), 480, 640, 4);</command>
+<command execution_time="15">size(xyz)</command>
+<command execution_time="17">1:480</command>
+<command execution_time="49">size(depth)</command>
+<command execution_time="18">a = rand(3,4)</command>
+<command error="true" execution_time="44">a .* [1,2]</command>
+<command error="true" execution_time="39">kron</command>
+<command execution_time="343">help kron</command>
+<command execution_time="85">help meshgrid</command>
+<command execution_time="2885">xyz</command>
+<command execution_time="12">size(xyz)</command>
+<command execution_time="13">a</command>
+<command error="true" execution_time="18">a - [1;2;3]</command>
+<command error="true" execution_time="16">a - [1,2,3]</command>
+<command error="true" execution_time="23">a .- [1,2,3]</command>
+<command error="true" execution_time="17">a .- [1;2;3]</command>
+<command execution_time="14">a</command>
+<command execution_time="13">a - 1</command>
+<command error="true" execution_time="19">a - (1,2,3)</command>
+<command error="true" execution_time="17">a - [1;2;3]</command>
+<command error="true" execution_time="16">a .- [1;2;3]</command>
+<command error="true" execution_time="20">a .- (1;2;3)</command>
+<command error="true" execution_time="20">a .- (1,2,3)</command>
+<command execution_time="15">a</command>
+<command error="true" execution_time="19">a .- [1 2 3]</command>
+<command execution_time="15">ans</command>
+<command error="true" execution_time="18">ans .- [1 2 3]</command>
+<command error="true" execution_time="16">ans - [1 2 3]</command>
+<command error="true" execution_time="22">ans - [1;2;3]</command>
+<command error="true" execution_time="19">ans - [1,2,3]</command>
+<command execution_time="51">help bsxfun</command>
+<command execution_time="13">a</command>
+<command execution_time="13">a + 1</command>
+<command execution_time="15">a + 1,2,3</command>
+<command error="true" execution_time="18">a + [1,2,3]</command>
+<command error="true" execution_time="15">a + [1,2,3,4]</command>
+<command error="true" execution_time="17">a + [1;2;3;4]</command>
+<command execution_time="14">bsxfun(@minus, a, [1;2;3])</command>
+<command error="true" execution_time="17">bsxfun(@minus, a, 1:3)</command>
+<command error="true" execution_time="18">bsxfun(@minus, a, 1:3')</command>
+<command execution_time="21">1:3</command>
+<command execution_time="14">bsxfun(@minus, a, 1:4')</command>
+<command error="true" execution_time="16">bsxfun(@minus, a, 1:3)</command>
+<command execution_time="11">bsxfun(@minus, a, 1:4)</command>
+<command error="true" execution_time="14">bsxfun(@minus, a, [1:4]')</command>
+<command execution_time="13">bsxfun(@minus, a, [1:3]')</command>
+<command execution_time="16">bsxfun(@minus, a, [1:4])</command>
+<command error="true" execution_time="13">bsxfun(@minus, a, [1:3])</command>
+<command execution_time="12">bsxfun(@minus, a, [1:3]')</command>
+<command execution_time="16">1:3</command>
+<command execution_time="10">[1:3] - 2</command>
+<command execution_time="13">[[1:3] - 2] / 4</command>
+<command error="true" execution_time="16">bsxfun(@minus, a, [[1:3] - 2] / 4')</command>
+<command execution_time="15">bsxfun(@minus, a, ([[1:3] - 2] / 4)')</command>
+<command execution_time="17" repeat="2">a</command>
+<command error="true" execution_time="16">xyz(:,:,1) = bsxfun(@minus, xyz(:,:,1), ([[1:480] - 240] / 575));</command>
+<command execution_time="15">xyz(:,:,1) = bsxfun(@minus, xyz(:,:,1), ([[1:480] - 240] / 575)');</command>
+<command execution_time="14">xyz(:,:,2) = bsxfun(@minus, xyz(:,:,1), ([[1:640] - 320] / 575));</command>
+<command execution_time="378">uiopen('/Users/danielsuo/Downloads/iPhone1/2015-07-05T22.15.11.427/depth/0000000629.png',1)</command>
+<command execution_time="235">uiopen('/Users/danielsuo/Downloads/iPhone1/2015-07-05T22.17.43.999/depth/0000000364.png',1)</command>
+<command execution_time="13">atan2(4,3)</command>
+<command execution_time="13">atan2(4,-3)</command>
+<command execution_time="13">atan2(-4,-3)</command>
+<command execution_time="12">atan2(-4,3)</command>
+<command execution_time="15">atan2(1,1)</command>
+<command execution_time="15">atan2(-1,1)</command>
+<command execution_time="14">atan2(-1,-1)</command>
+<command execution_time="12">atan2(1,-1)</command>
+<command execution_time="17">atan2(a, 2)</command>
+<command execution_time="11">a</command>
+<command execution_time="15">2</command>
+<command execution_time="407" repeat="2">main</command>
+<command execution_time="16">KK_right</command>
+<command execution_time="502" repeat="3">main</command>
+<command error="true" execution_time="31">WarpMeshMatlabColor</command>
+<command execution_time="436">main</command>
+<command execution_time="13">K</command>
+<command execution_time="378" repeat="2">main</command>
+<command execution_time="50">imagesc(xyz(:,:,3))</command>
+<command error="true" execution_time="330" repeat="3">main</command>
+<command execution_time="1300">demo</command>
+<command execution_time="425" repeat="9">main</command>
+<command execution_time="2074">depth1 = depth1(:)</command>
+<command execution_time="13">depth = depth(:);</command>
+<command execution_time="27">plot(depth1, depth)</command>
+<command execution_time="2352">scatter(depth1, depth)</command>
+<command execution_time="2293">scatter(depth1, 1/depth)</command>
+<command execution_time="2167">scatter(1/depth1, depth)</command>
+<command execution_time="365" repeat="13">main</command>
+<command error="true" execution_time="37">WarpMeshMatlabColor</command>
+<command execution_time="315" repeat="2">main</command>
+<command error="true" execution_time="16">WarpMeshMatlabColor</command>
+<command execution_time="305">main</command>
+<command error="true" execution_time="17">WarpMeshMatlabColor</command>
+<command execution_time="207" repeat="6">main</command>
+<command execution_time="13">KK_right</command>
+<command error="true" execution_time="71" repeat="3">main</command>
+<command error="true" execution_time="17">WarpMeshMatlabColor</command>
+<command execution_time="197" repeat="2">main</command>
+<command error="true" execution_time="15">WarpMeshMatlabColor</command>
+<command execution_time="191">main</command>
+<command execution_time="12">K</command>
+<command execution_time="14">Rt</command>
+<command execution_time="15">K * Rt</command>
+<command execution_time="390" repeat="3">main</command>
+<command batch="15">addpath('~/mobot/src/capture/calibration/TOOLBOX_calib')</command>
+<command batch="15">addpath('~/mobot/src/capture/calibration/WarpMesh')</command>
+<command batch="15">cd(fileparts(which('main')))</command>
+<command batch="15">cd('iPhone 5')</command>
+<command batch="15">% Get depth image -&gt; depth</command>
+<command batch="15">depth = imread('~/data/iPhone1/2015-07-06T13.17.57.107/depth/0000000074.png');</command>
+<command batch="15">% Get color image -&gt; image</command>
+<command batch="15">image = imread('~/data/iPhone1/2015-07-06T13.17.57.107/color/0000000074.jpg');</command>
+<command batch="15">% Get stereo calib -&gt; K, Rt</command>
+<command batch="15">load('~/mobot/src/capture/calibration/iPhone 5/Calib_Results_stereo.mat')</command>
+<command batch="15">depth = imread('~/data/iPhone1/2015-07-06T12.59.11.539/depth/0000000151.png');</command>
+<command batch="15">image = imread('~/data/iPhone1/2015-07-06T12.59.11.539/color/0000000151.jpg');</command>
+<command batch="15">% CAMERA PARAMETERS</command>
+<command batch="15">% focal distance in pixels</command>
+<command batch="15">% f = 575;</command>
+<command batch="15">% Image dimensions</command>
+<command batch="15">width = 640;</command>
+<command batch="15">height = 480;</command>
+<command batch="15">% Transform</command>
+<command batch="15">Rt = [inv(R) -T / 1000];</command>
+<command batch="15">% Depth camera intrinsic</command>
+<command batch="15">K = KK_right;</command>
+<command batch="15">% K(1,3) = width / 2;</command>
+<command batch="15">% K(2,3) = height / 2;</command>
+<command batch="15">% Depth is in 10ths of mm. Convert to meters</command>
+<command batch="15">depth = double(depth) / 10000;</command>
+<command batch="15">% Principal point</command>
+<command batch="15">% c = [width / 2, height / 2];</command>
+<command batch="15">% Assuming depth is z coordinate</command>
+<command batch="15">% X-coordinate</command>
+<command batch="15">xcoord = repmat([1:width], height, 1) - K(1,3);</command>
+<command batch="15">% xcoord = repmat([1:width], height, 1) - width / 2;</command>
+<command batch="15">% Y-coordinate`</command>
+<command batch="15">ycoord = repmat([1:height]', 1, width) - K(2,3);</command>
+<command batch="15">% ycoord = repmat([1:height]', 1, width) - height / 2;</command>
+<command batch="15">% Get angles</command>
+<command batch="15">tanx = xcoord / K(1,1);</command>
+<command batch="15">tany = ycoord / K(2,2);</command>
+<command batch="15">xcoord = depth .* tanx;</command>
+<command batch="15">ycoord = depth .* tany;</command>
+<command batch="15">zcoord = depth;</command>
+<command batch="15">XYZcamera = cat(3, xcoord, ycoord, zcoord, zcoord ~= 0);</command>
+<command batch="15" execution_time="112">XYZcamera = double(XYZcamera);</command>
+<command batch="16">X = reshape(XYZcamera,[],4)';</command>
+<command batch="16">X = X(1:3,:);</command>
+<command batch="16">% X = transformPointCloud(X,K * Rt);</command>
+<command batch="16">P = K * Rt;</command>
+<command batch="16">X = P(1:3,1:3) * X + repmat(P(1:3,4),1,size(X,2));</command>
+<command batch="16" execution_time="35">X = reshape(X',[height,width,3]);</command>
+<command execution_time="72" repeat="3">imagesc(X(:,:,1))</command>
+<command execution_time="337">main</command>
+<command execution_time="22">imagesc(X(:,:,1)==XYZcamera(:,:,1))</command>
+<command execution_time="13">P</command>
+<command batch="17">X = reshape(XYZcamera,[],4)';</command>
+<command batch="17" execution_time="21">X = X(1:3,:);</command>
+<command execution_time="12">size(X)</command>
+<command execution_time="20">Y = P(1:3,1:3) * X + repmat(P(1:3,4),1,size(X,2));</command>
+<command execution_time="2778">A = X==Y</command>
+<command execution_time="192" repeat="3">main</command>
+<command execution_time="965">XYZcamera(:,:,1)</command>
+<command execution_time="225" repeat="7">main</command>
+<command execution_time="14">P</command>
+<command execution_time="12">P = K * Rt / 1000;</command>
+<command execution_time="11" repeat="2">P</command>
+<command execution_time="13">K</command>
+<command execution_time="12">K / 1000</command>
+<command execution_time="15">Rt</command>
+<command execution_time="214" repeat="4">main</command>
+<command execution_time="15">a = rand(2,2,2);</command>
+<command execution_time="13">a</command>
+<command execution_time="14">b = [1,2; 1,2]</command>
+<command error="true" execution_time="18">a *b</command>
+<command error="true" execution_time="18">a .* b</command>
+<command error="true" execution_time="18">a * b</command>
+<command error="true" execution_time="51">TIMES(a,b)</command>
+<command error="true" execution_time="17">times(a,b)</command>
+<command error="true" execution_time="45">bsxfuns(@TIMES,a,b)</command>
+<command execution_time="13">bsxfun(@times,a,b)</command>
+<command execution_time="16">a</command>
+<command execution_time="12">b</command>
+<command error="true" execution_time="292" repeat="2">main</command>
+<command execution_time="13">size(X)</command>
+<command execution_time="12">size(image)</command>
+<command execution_time="16">size(X(:,:,3)~=0)</command>
+<command error="true" execution_time="18">whos(X(:,:,3)~=0)</command>
+<command execution_time="1036">a = X(:,:,3)~=0</command>
+<command execution_time="83">help bsxfun</command>
+<command error="true" execution_time="24">imageWarp = bsxfun(@times, image, X(:,:,3)~=0);</command>
+<command execution_time="17">workspace</command>
+<command execution_time="253">main</command>
+<command execution_time="27">workspace</command>
+<command execution_time="282">main</command>
+<command error="true" execution_time="36">showPointCloud(X)</command>
+<command error="true" execution_time="34">numeric</command>
+<command error="true" execution_time="21">isnumeric</command>
+<command execution_time="26">workspace</command>
+<command error="true" execution_time="34">showPointCloud</command>
+<command execution_time="2562" repeat="7">main</command>
+<command execution_time="14">K</command>
+<command execution_time="22">K / 1000</command>
+<command execution_time="14">Rt</command>
+<command execution_time="1421">main</command>
+</session>
+<session>
+<command time_stamp="14e6ad3e077">%-- 7/7/15, 7:22 PM --%</command>
+</session>
+<session>
+<command time_stamp="14e6ad41175">%-- 7/7/15, 7:22 PM --%</command>
+<command execution_time="2548">main</command>
 </session>
 </history>

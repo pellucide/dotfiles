@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<history>
+<session>
+<command time_stamp="14e6af5129b">%-- 7/7/15, 7:58 PM --%</command>
+<command error="true" execution_time="9107" repeat="3">main</command>
+</session>
+<session>
+<command time_stamp="14e6af7f301">%-- 7/7/15, 8:01 PM --%</command>
+<command batch="1">main</command>
+</session>
+<session>
+<command time_stamp="14e6afa518d">%-- 7/7/15, 8:04 PM --%</command>
+<command execution_time="2374" repeat="8">main</command>
+<command error="true" execution_time="436">P</command>
+<command execution_time="20">P = [K [0;0;0]];</command>
+<command execution_time="21">P</command>
+<command execution_time="23">P'</command>
+<command execution_time="19">P</command>
+<command error="true" execution_time="1083" repeat="2">WarpMeshMatlabColor</command>
+<command execution_time="2039">main</command>
+<command execution_time="28">P</command>
+<command execution_time="17">P'</command>
+<command execution_time="2424" repeat="6">main</command>
+<command execution_time="73" repeat="3">imagesc(XYZcamera(:,:,1))</command>
+<command execution_time="64">imagesc(XYZcamera(:,:,2))</command>
+<command execution_time="56">imagesc(XYZcamera(:,:,3))</command>
+<command execution_time="72">imagesc(XYZcamera(:,:,2))</command>
+<command execution_time="87">XYZcamera(1:100,1:100,2)</command>
+<command execution_time="2358">main</command>
+<command execution_time="75">imagesc(XYZcamera(:,:,1))</command>
+<command execution_time="67">imagesc(XYZcamera(:,:,2))</command>
+<command execution_time="2162" repeat="2">main</command>
+<command execution_time="225" repeat="2">showPointCloud(XYZcamera(:,:,1:3), imageWarp)</command>
+<command execution_time="2223">main</command>
+<command execution_time="148">showPointCloud(XYZcamera(:,:,1:3), imageWarp)</command>
+<command error="true" execution_time="1879" repeat="10">main</command>
+<command execution_time="3278">imageWarp = uint8(imageWarp)</command>
+<command execution_time="3249" repeat="13">main</command>
+<command execution_time="20">K</command>
+<command error="true" execution_time="141">KK_Left</command>
+<command execution_time="17">KK_left</command>
+<command execution_time="21">KK_right</command>
+<command execution_time="2869">main</command>
+<command execution_time="16">Rt</command>
+<command execution_time="21">K</command>
+<command execution_time="2645" repeat="3">main</command>
+<command execution_time="21">size(depth)</command>
+<command error="true" execution_time="25">size(depth)(1)</command>
+<command error="true" execution_time="19">size(depth)[1]</command>
+<command error="true" execution_time="25">size(depth)(1,1)</command>
+<command execution_time="19">a = size(depth)</command>
+<command error="true" execution_time="20">a[1]</command>
+<command execution_time="18">a(1,1)</command>
+<command execution_time="18">[height, width] = size(depth);</command>
+<command execution_time="20">height</command>
+<command execution_time="30">width</command>
+<command execution_time="19">R</command>
+<command execution_time="22">inv(R)</command>
+<command execution_time="3006" repeat="2">main</command>
+<command execution_time="50">KK_left</command>
+<command execution_time="20">KK_right</command>
+</session>
+</history>

@@ -1,4 +1,4 @@
-<MathWorks type="Path Cache File" version="1.1" date="Sat Mar 21 12:47:04 2015">
+<MathWorks type="Path Cache File" version="1.1" date="Tue Jul  7 19:56:55 2015">
  <D name="matlab/demos">
   <D name="matlab/demos/private">
    <F name="style.css"/>
@@ -464,7 +464,7 @@
    <N name="verticalline.m"/>
   </D>
   <F name="Contents.m"/>
-  <F name="axis.m"/>
+  <N name="axis.m"/>
   <F name="basicfitdatastat.m"/>
   <F name="box.m"/>
   <F name="doclick.m"/>
@@ -502,10 +502,10 @@
   <F name="semilogy.m"/>
   <F name="setscribecontextmenu.m"/>
   <F name="setscribeobjectdata.m"/>
-  <F name="subplot.m"/>
+  <N name="subplot.m"/>
   <F name="texlabel.m"/>
   <N name="text.m"/>
-  <F name="title.m"/>
+  <N name="title.m"/>
   <F name="xlabel.m"/>
   <F name="ylabel.m"/>
   <F name="zoom.p"/>
@@ -589,7 +589,7 @@
   <F name="lines.m"/>
   <F name="material.m"/>
   <F name="mesh.m"/>
-  <F name="objbounds.m"/>
+  <N name="objbounds.m"/>
   <F name="parula.m"/>
   <F name="pbaspect.m"/>
   <F name="pink.m"/>
@@ -610,10 +610,10 @@
   <F name="white.m"/>
   <N name="whitebg.m"/>
   <F name="winter.m"/>
-  <F name="xlim.m"/>
-  <F name="ylim.m"/>
+  <N name="xlim.m"/>
+  <N name="ylim.m"/>
   <F name="zlabel.m"/>
-  <F name="zlim.m"/>
+  <N name="zlim.m"/>
   <d name="en"/>
  </D>
  <D name="matlab/graphics">
@@ -822,15 +822,15 @@
   <F name="axescheck.m"/>
   <F name="bwcontr.m"/>
   <F name="capturescreen.m"/>
-  <F name="cla.m"/>
-  <F name="clf.m"/>
+  <N name="cla.m"/>
+  <N name="clf.m"/>
   <F name="clg.m"/>
   <N name="close.p"/>
   <N name="closereq.m"/>
   <F name="colornone.m"/>
   <F name="copyobj.m"/>
   <F name="copyoptionsfcn.m"/>
-  <F name="datachildren.m"/>
+  <N name="datachildren.m"/>
   <F name="datacursormode.m"/>
   <F name="dateTickPicker.m"/>
   <F name="datetickstr.m"/>
@@ -846,7 +846,7 @@
   <N name="findall.p"/>
   <N name="findobj.m"/>
   <F name="findprinters.m"/>
-  <F name="gca.m"/>
+  <N name="gca.m"/>
   <N name="gcbf.m"/>
   <N name="gcbo.m"/>
   <N name="gcf.m"/>
@@ -877,16 +877,16 @@
   <F name="hold.m"/>
   <F name="is2D.m"/>
   <N name="isappdata.m"/>
-  <F name="isgraphics.m"/>
+  <N name="isgraphics.m"/>
   <N name="ishandle.m"/>
   <N name="ishghandle.m"/>
-  <F name="ishold.m"/>
+  <N name="ishold.m"/>
   <F name="light.m"/>
   <F name="line.m"/>
   <F name="linkaxes.m"/>
   <F name="linkprop.m"/>
   <F name="makehgtform.m"/>
-  <F name="newplot.m"/>
+  <N name="newplot.m"/>
   <F name="noanimate.m"/>
   <F name="nodither.m"/>
   <F name="openFigure.m"/>
@@ -910,7 +910,7 @@
   <F name="refresh.m"/>
   <F name="refreshdata.m"/>
   <F name="regionpicker.m"/>
-  <F name="reset.m"/>
+  <N name="reset.m"/>
   <F name="resetplotview.m"/>
   <N name="rmappdata.m"/>
   <F name="saveFigure.p"/>
@@ -1213,7 +1213,7 @@
   <F name="deselectall.m"/>
   <F name="getselectobjects.m"/>
   <F name="graph2dhelper.m"/>
-  <F name="hgconvertunits.m"/>
+  <N name="hgconvertunits.m"/>
   <F name="invalidateaxis.m"/>
   <F name="legend.m"/>
   <F name="legendcolorbarlayout.m"/>
@@ -1551,7 +1551,7 @@
   <F name="im2frame.m"/>
   <F name="im2java.m"/>
   <N name="image.m"/>
-  <F name="imagesc.m"/>
+  <N name="imagesc.m"/>
   <F name="imageview.m"/>
   <N name="ind2rgb.m"/>
   <F name="interpstreamspeed.m"/>
@@ -1994,7 +1994,7 @@
       <F name="clearBreakpoint.m"/>
       <F name="mdbclearfunction.m"/>
       <F name="setBreakpoint.m"/>
-      <F name="unmapFilePath.m"/>
+      <N name="unmapFilePath.m"/>
      </D>
     </D>
     <D name="matlab/codetools/+internal/+matlab/+importtool">
@@ -2166,7 +2166,7 @@
   <F name="makecontentsfile.m"/>
   <F name="makemcode.m"/>
   <F name="matlab-report-styles.css"/>
-  <F name="mdbfileonpath.m"/>
+  <N name="mdbfileonpath.m"/>
   <F name="mdbpublish.m"/>
   <N name="mdbstatus.m"/>
   <F name="mlint.m"/>
@@ -2636,7 +2636,7 @@
   <N name="rmfield.m"/>
   <F name="saveobj.m"/>
   <F name="setfield.m"/>
-  <F name="single.m"/>
+  <N name="single.m"/>
   <F name="str2func.m"/>
   <F name="struct.m"/>
   <F name="struct2cell.m"/>
@@ -2813,7 +2813,7 @@
   <F name="compan.m"/>
   <F name="diag.m"/>
   <N name="eps.m"/>
-  <F name="eye.m"/>
+  <N name="eye.m"/>
   <N name="false.m"/>
   <N name="find.m"/>
   <F name="flintmax.m"/>
@@ -2860,8 +2860,8 @@
   <F name="peaks.m"/>
   <F name="permute.m"/>
   <F name="pi.m"/>
-  <F name="realmax.m"/>
-  <F name="realmin.m"/>
+  <N name="realmax.m"/>
+  <N name="realmin.m"/>
   <N name="repmat.m"/>
   <N name="reshape.m"/>
   <F name="rosser.m"/>
@@ -3118,7 +3118,7 @@
    <F name="unix_tilde_expansion.mexmaci64"/>
   </D>
   <F name="Contents.m"/>
-  <F name="addpath.m"/>
+  <N name="addpath.m"/>
   <N name="beep.m"/>
   <F name="bench.dat"/>
   <F name="bench.m"/>
@@ -3155,7 +3155,7 @@
   <N name="ispc.m"/>
   <F name="isstudent.m"/>
   <N name="isunix.m"/>
-  <F name="java.m"/>
+  <N name="java.m"/>
   <F name="javaaddpath.m"/>
   <F name="javaclasspath.m"/>
   <F name="javarmpath.m"/>
@@ -3164,7 +3164,7 @@
   <F name="libisloaded.m"/>
   <F name="libpointer.m"/>
   <F name="libstruct.m"/>
-  <F name="load.m"/>
+  <N name="load.m"/>
   <F name="loadlibrary.m"/>
   <F name="logo.m"/>
   <F name="ls.m"/>
@@ -3180,7 +3180,7 @@
   <N name="mkdir.m"/>
   <F name="more.m"/>
   <F name="movefile.m"/>
-  <F name="namelengthmax.m"/>
+  <N name="namelengthmax.m"/>
   <C name="onCleanup.m"/>
   <N name="open.m"/>
   <F name="pack.m"/>
@@ -3240,22 +3240,22 @@
   <D name="matlab/helptools/+helpUtils">
    <D name="matlab/helptools/+helpUtils/+classInformation">
     <F name="abstractMethod.m"/>
-    <F name="base.m"/>
+    <C name="base.m"/>
     <F name="classElement.m"/>
     <F name="classItem.m"/>
     <F name="constructor.m"/>
     <F name="fileConstructor.m"/>
-    <F name="fileMethod.m"/>
-    <F name="fullConstructor.m"/>
+    <C name="fileMethod.m"/>
+    <C name="fullConstructor.m"/>
     <F name="localConstructor.m"/>
     <F name="localMethod.m"/>
     <F name="method.m"/>
-    <F name="package.m"/>
-    <F name="packagedFunction.m"/>
+    <C name="package.m"/>
+    <C name="packagedFunction.m"/>
     <F name="packagedItem.m"/>
-    <F name="packagedUnknown.m"/>
+    <C name="packagedUnknown.m"/>
     <F name="simpleElement.m"/>
-    <F name="simpleMCOSConstructor.m"/>
+    <C name="simpleMCOSConstructor.m"/>
     <F name="simpleMCOSElement.m"/>
    </D>
    <D name="matlab/helptools/+helpUtils/+classWrapper">
@@ -3263,8 +3263,8 @@
     <F name="UDD.m"/>
     <F name="base.m"/>
     <F name="raw.m"/>
-    <F name="rawMCOS.m"/>
-    <F name="rawUDD.m"/>
+    <C name="rawMCOS.m"/>
+    <C name="rawUDD.m"/>
     <F name="super.m"/>
     <F name="superMCOS.m"/>
     <F name="superUDD.m"/>
@@ -3296,44 +3296,44 @@
      <F name="getHelpTextFromDoc.m"/>
      <F name="getPathItem.m"/>
      <F name="getTopicHelpText.m"/>
-     <F name="helpProcess.m"/>
+     <C name="helpProcess.m"/>
      <F name="hotlinkHelp.m"/>
      <F name="prepareHelpForDisplay.m"/>
     </D>
-   <F name="atomicHelpPart.m"/>
+   <C name="atomicHelpPart.m"/>
    <F name="buildHelpXML.m"/>
-   <F name="callHelpFunction.m"/>
+   <N name="callHelpFunction.m"/>
    <F name="checkForDemoRedirect.m"/>
    <F name="class2xml.m"/>
    <F name="errorDocCallback.m"/>
-   <F name="extractCaseCorrectedName.m"/>
-   <F name="extractFile.m"/>
+   <N name="extractCaseCorrectedName.m"/>
+   <N name="extractFile.m"/>
    <F name="extractHelpText.m"/>
-   <F name="fixFileNameCase.m"/>
+   <N name="fixFileNameCase.m"/>
    <N name="fixLocalFunctionCase.m"/>
-   <F name="getDocTopic.m"/>
-   <F name="getHelpFunction.m"/>
+   <N name="getDocTopic.m"/>
+   <N name="getHelpFunction.m"/>
    <F name="getMethod.m"/>
-   <F name="getPackageName.m"/>
+   <N name="getPackageName.m"/>
    <F name="getSimpleElement.m"/>
    <F name="getSimpleElementTypes.m"/>
-   <F name="hashedDirInfo.m"/>
-   <F name="helpParts.m"/>
-   <F name="highlightHelp.m"/>
+   <N name="hashedDirInfo.m"/>
+   <C name="helpParts.m"/>
+   <N name="highlightHelp.m"/>
    <F name="isAccessible.m"/>
-   <F name="isClassMFile.m"/>
+   <N name="isClassMFile.m"/>
    <F name="isDocInstalled.m"/>
-   <F name="isObjectDirectorySpecified.m"/>
+   <N name="isObjectDirectorySpecified.m"/>
    <N name="isOperator.m"/>
    <F name="isUnderDocroot.m"/>
-   <F name="makeDualCommand.m"/>
+   <N name="makeDualCommand.m"/>
    <F name="makePackagedName.m"/>
-   <F name="minimizePath.m"/>
+   <N name="minimizePath.m"/>
    <F name="removeDotsFromFilePath.m"/>
    <N name="safeWhich.m"/>
    <N name="separateImplicitDirs.m"/>
    <N name="splitClassInformation.m"/>
-   <F name="splitOverqualification.m"/>
+   <N name="splitOverqualification.m"/>
    <F name="underDocroot.m"/>
   </D>
   <D name="matlab/helptools/+webutils">
@@ -3371,7 +3371,7 @@
   <F name="docroot.m"/>
   <F name="docsearch.m"/>
   <F name="echodemo.m"/>
-  <F name="help.m"/>
+  <N name="help.m"/>
   <F name="help2html.m"/>
   <F name="helpPopup.m"/>
   <F name="helpbrowser.m"/>
@@ -3634,7 +3634,7 @@
   <F name="untar.m"/>
   <F name="unzip.m"/>
   <F name="urlread.m"/>
-  <F name="urlwrite.m"/>
+  <N name="urlwrite.m"/>
   <F name="writetable.m"/>
   <N name="xlsfinfo.m"/>
   <F name="xlsread.m"/>
@@ -3687,7 +3687,7 @@
     <F name="addParameter.m"/>
     <F name="addRequired.m"/>
     <F name="copy.m"/>
-    <F name="inputParser.m"/>
+    <N name="inputParser.m"/>
     <F name="parse.m"/>
    </D>
    <D name="matlab/lang/@opaque">
@@ -3826,7 +3826,7 @@
   <F name="continue.m"/>
   <F name="details.m"/>
   <N name="disp.m"/>
-  <F name="display.m"/>
+  <N name="display.m"/>
   <F name="doclink.m"/>
   <F name="else.m"/>
   <F name="elseif.m"/>
@@ -3864,7 +3864,7 @@
   <N name="nargin.m"/>
   <N name="narginchk.m"/>
   <N name="nargout.m"/>
-  <F name="nargoutchk.m"/>
+  <N name="nargoutchk.m"/>
   <F name="online_concatenator.m"/>
   <F name="otherwise.m"/>
   <F name="parallel_function.m"/>
@@ -3883,8 +3883,8 @@
   <F name="spmd_feval.m"/>
   <F name="switch.m"/>
   <F name="try.m"/>
-  <F name="validateattributes.m"/>
-  <F name="validatestring.m"/>
+  <N name="validateattributes.m"/>
+  <N name="validatestring.m"/>
   <F name="varargin.m"/>
   <F name="varargout.m"/>
   <N name="warning.m"/>
@@ -3974,13 +3974,13 @@
   <F name="and.m"/>
   <N name="any.m"/>
   <F name="arith.m"/>
-  <F name="bitand.m"/>
+  <N name="bitand.m"/>
   <F name="bitcmp.m"/>
   <F name="bitget.m"/>
   <F name="bitmax.m"/>
-  <F name="bitor.m"/>
+  <N name="bitor.m"/>
   <F name="bitset.m"/>
-  <F name="bitshift.m"/>
+  <N name="bitshift.m"/>
   <F name="bitxor.m"/>
   <F name="colon.m"/>
   <N name="ctranspose.m"/>
@@ -4322,7 +4322,7 @@
   <F name="Contents.m"/>
   <F name="base2dec.m"/>
   <F name="bin2dec.m"/>
-  <F name="blanks.m"/>
+  <N name="blanks.m"/>
   <N name="cellstr.m"/>
   <F name="char.m"/>
   <N name="deblank.m"/>
@@ -4336,7 +4336,7 @@
   <N name="iscellstr.m"/>
   <N name="ischar.m"/>
   <F name="isletter.m"/>
-  <F name="isspace.m"/>
+  <N name="isspace.m"/>
   <F name="isstr.m"/>
   <N name="isstrprop.m"/>
   <N name="lower.m"/>
@@ -4811,8 +4811,8 @@
    <D name="matlab/audiovideo/+audiovideo/+internal/private">
      <F name="mexAVGetAbsolutePath.mexmaci64"/>
     </D>
-    <F name="FilePath.m"/>
-    <F name="absolutePathForReading.m"/>
+    <C name="FilePath.m"/>
+    <N name="absolutePathForReading.m"/>
    </D>
    <D name="matlab/audiovideo/+audiovideo/+writer">
     <D name="matlab/audiovideo/+audiovideo/+writer/+profile">
@@ -4836,7 +4836,7 @@
     </D>
     <F name="ProfileInfo.m"/>
    </D>
-   <F name="FileFormatInfo.m"/>
+   <C name="FileFormatInfo.m"/>
   </D>
   <D name="matlab/audiovideo/private">
    <N name="findchunk.m"/>
@@ -4860,7 +4860,7 @@
   <F name="aufinfo.m"/>
   <F name="auread.m"/>
   <F name="auwrite.m"/>
-  <F name="avgate.m"/>
+  <N name="avgate.m"/>
   <F name="avifinfo.m"/>
   <F name="aviinfo.m"/>
   <F name="aviread.m"/>
@@ -4948,7 +4948,7 @@
  <D name="matlab/configtools">
   <D name="matlab/configtools/+matlab">
    <D name="matlab/configtools/+matlab/+internal">
-    <F name="getSettingsRoot.m"/>
+    <N name="getSettingsRoot.m"/>
    </D>
   </D>
   <F name="settings.xsd"/>
@@ -6032,7 +6032,7 @@
   <F name="hdfvh.m"/>
   <F name="hdfvs.m"/>
   <N name="imfinfo.m"/>
-  <F name="imformats.m"/>
+  <N name="imformats.m"/>
   <N name="imread.m"/>
   <N name="imwrite.m"/>
   <F name="libtiffcopyright.txt"/>
@@ -6170,7 +6170,7 @@
  </D>
  <D name="shared/asynciolib">
   <D name="shared/asynciolib/+asyncio">
-   <F name="Channel.m"/>
+   <C name="Channel.m"/>
    <F name="CustomEventInfo.m"/>
    <F name="DataEventInfo.m"/>
    <F name="InputStream.m"/>
