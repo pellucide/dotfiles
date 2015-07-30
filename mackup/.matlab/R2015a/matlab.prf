@@ -1,5 +1,5 @@
 #MATLAB Preferences
-#Wed Jul 08 00:03:47 EDT 2015
+#Thu Jul 16 20:41:40 EDT 2015
 CommandWindowShowHandleGraphics2Message=Bfalse
 ReplaceSearchText19=S
 ReplaceSearchText18=S
@@ -11,7 +11,7 @@ ReplaceSearchText13=S
 ReplaceSearchText12=S
 ReplaceSearchText11=S
 ReplaceSearchText10=S
-ReplaceSearchText=Slabel
+ReplaceSearchText=SI
 ColorsText=C-8219755
 Colors_M_SystemCommands=C-4945920
 LimitSearchToSelection=Bfalse
@@ -35,7 +35,7 @@ ReplaceText13=S
 ReplaceText12=S
 ReplaceText11=S
 ReplaceText10=S
-ReplaceMatchCase=Bfalse
+ReplaceMatchCase=Btrue
 MatlabExitConfirm=Bfalse
 Editor.NonlocalVariableHighlighting.TextColor=C-8087552
 CommandWindowShowStartupMessage=Bfalse
@@ -53,24 +53,30 @@ Colors_M_Comments=C-13983593
 ReplaceText5=S
 RLOrderB2_WB_2014b_1=S0:1:
 ReplaceSearchText6=S
+ReplaceSearchText5=S% label = label';
 ReplaceText4=S
-ReplaceSearchText5=S
+ReplaceSearchText4=Slabel
 ReplaceText3=S
-ReplaceSearchText4=S
+ReplaceSearchText3=Scornerfinder
 ReplaceText2=S
-ReplaceSearchText3=S
-ReplaceSearchText2=S% label = label';
+ReplaceSearchText2=S    [xxi] = cornerfinder([xi;yi],I,winty,wintx);
 ColorsUseSystem=Bfalse
 EditorShowLineNumbers=Btrue
 ColorsMLintAutoFixBackground=C-10126462
 DocumentsDetailViewerCollapsed=Btrue
 ColorsUseMLintAutoFixBackground=Bfalse
 ReplaceText=S
+EditorMRU8=S/Users/danielsuo/mobot/src/capture/calibration/WarpMesh/iPad.m
+EditorMRU7=S/Users/danielsuo/mobot/src/capture/calibration/TOOLBOX_calib/calib_gui.m
+EditorMRU6=S/Users/danielsuo/mobot/src/capture/calibration/TOOLBOX_calib/calib_gui_normal.m
+EditorMRU5=S/Users/danielsuo/mobot/src/capture/calibration/TOOLBOX_calib/click_calib.m
 Editorhighlight-caret-row-boolean=Btrue
+EditorMRU4=S/Users/danielsuo/mobot/src/capture/calibration/TOOLBOX_calib/click_ima_calib.m
 Colors_M_Errors=C-2411985
 Colors_M_UnterminatedStrings=C-3519722
-EditorMRU2=S/Users/danielsuo/mobot/src/capture/calibration/main.m
-EditorMRU1=S/Users/danielsuo/mobot/src/capture/calibration/WarpMesh/WarpMeshMatlabColor.m
+EditorMRU3=S/Users/danielsuo/mobot/src/capture/calibration/TOOLBOX_calib/cornerfinder.m
+EditorMRU2=S/Users/danielsuo/mobot/src/capture/calibration/TOOLBOX_calib/stereo_gui.m
+EditorMRU1=S/Users/danielsuo/mobot/src/capture/calibration/TOOLBOX_calib/go_calib_stereo.m
 EditorRightTextLineVisible=Btrue
 ColorsBackground=C-16766154
 Colors_M_Keywords=C-14251311

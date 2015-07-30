@@ -2,6 +2,7 @@
 <settings name="matlab" xmlns="urn:mathworks.matlab.settings" xsi:schemaLocation="urn:mathworks.matlab.settings settings.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <key name="DeleteFilesPermanently">
         <bool>
+            <value>1</value>
         </bool>
     </key>
     <key name="G11nLanguagePref">
@@ -84,6 +85,8 @@
             </key>
             <key name="History">
                 <string minArraySize="0" maxArraySize="500">
+                    <value><![CDATA[/Users/danielsuo/mobot/src/capture/calibration/iPhone 6 Plus]]></value>
+                    <value><![CDATA[/Users/danielsuo/mobot/src/capture/calibration/iPhone 5s]]></value>
                     <value><![CDATA[/Users/danielsuo/mobot/src/capture/calibration/WarpMesh]]></value>
                     <value><![CDATA[/]]></value>
                 </string>
@@ -126,8 +129,8 @@
                 <key name="ColumnSizes">
                     <string minArraySize="0" maxArraySize="100000">
                         <value><![CDATA[40]]></value>
-                        <value><![CDATA[248]]></value>
-                        <value><![CDATA[49]]></value>
+                        <value><![CDATA[220]]></value>
+                        <value><![CDATA[47]]></value>
                         <value><![CDATA[0]]></value>
                         <value><![CDATA[0]]></value>
                         <value><![CDATA[0]]></value>
@@ -352,7 +355,7 @@
         </key>
         <key name="LastFolderPath">
             <string>
-                <value><![CDATA[/Users/danielsuo/mobot/src/capture/calibration/WarpMesh]]></value>
+                <value><![CDATA[/Users/danielsuo/mobot/src/capture/calibration/iPhone 6 Plus]]></value>
             </string>
         </key>
     </settings>
