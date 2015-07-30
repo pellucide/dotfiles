@@ -5,7 +5,7 @@
 
 [credential]
 
-	helper = cache
+	helper = osxkeychain
 
 [push]
 

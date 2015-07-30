@@ -24,9 +24,9 @@
 	"font_size": 11.0,
 	"ignored_packages":
 	[
+		"RubyTest",
 		"Stylus",
-		"Vintage",
-		"RubyTest"
+		"Vintage"
 	],
 	"tab_size": 2,
 	"theme": "Spacegray Eighties.sublime-theme",
