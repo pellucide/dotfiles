@@ -1,7 +1,7 @@
 (require 'package)
 
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+	     '("melpa" . "http://melpa.milkbox.net/packages/") t)
 
 (package-initialize)
 
@@ -23,202 +23,213 @@
 ;; Are we on a mac?
 (setq is-mac (equal system-type 'darwin))
 
-;; Editing
-(setq-default indent-tabs-mode nil)
-(delete-selection-mode)
-(global-set-key (kbd "RET") 'newline-and-indent)
+;; set PATH so global is up
+(setenv "PATH" (concat (getenv "PATH") ":/usr/local/bin"))
+(setq exec-path (append exec-path '("/usr/local/bin")))
 
-;; Commenting
-(defun comment-sublime ()
-  (interactive)
-  (let ((start (line-beginning-position))
-        (end (line-end-position)))
-    (when (or (not transient-mark-mode) (region-active-p))
-      (setq start (save-excursion
-                    (goto-char (region-beginning))
-                    (beginning-of-line)
-                    (point))
-            end (save-excursion
-                  (goto-char (region-end))
-                  (end-of-line)
-                  (point))))
-    (comment-or-uncomment-region start end)))
-(global-set-key (kbd "M-;") 'comment-sublime)
+;; get rid of windows sounds
+(setq ring-bell-function 'ignore)
 
-;; will add two new lines and indent if a closing brace "}" is under point
-;; otherwise regular newline-and-indent behavior
-(defun new-line-dwim ()
-  (interactive)
-  (if (looking-at-p "}")
-      (progn
-        (newline-and-indent)
-        (newline-and-indent)
-        (previous-line)
-        (indent-for-tab-command)
-        )
-    (newline-and-indent)
-    )
-  )
+;; for macs
+(setq mac-option-modifier 'super)
+(setq mac-command-modifier 'meta)
 
-(global-set-key (kbd "RET") 'new-line-dwim)
+; ;; Editing
+; (Setq-Default indent-tabs-mode nil)
+; (delete-selection-mode)
+; (global-set-key (kbd "RET") 'newline-and-indent)
 
-;; Replicate Sublime's newline functionality
-(defun new-line-arbitrary ()
-  "Inserts a new line after the line at point."
-  (interactive)
-  (progn
-    (end-of-line)
-    (newline)
-    )
-  )
+; ;; Commenting
+; (defun comment-sublime ()
+;   (interactive)
+;   (let ((start (line-beginning-position))
+;         (end (line-end-position)))
+;     (when (or (not transient-mark-mode) (region-active-p))
+;       (setq start (save-excursion
+;                     (goto-char (region-beginning))
+;                     (beginning-of-line)
+;                     (point))
+;             end (save-excursion
+;                   (goto-char (region-end))
+;                   (end-of-line)
+;                   (point))))
+;     (comment-or-uncomment-region start end)))
+; (global-set-key (kbd "M-;") 'comment-sublime)
 
-(global-set-key (kbd "M-RET") 'new-line-arbitrary)
-(global-set-key (kbd "<C-return>") 'new-line-arbitrary)
+; ;; will add two new lines and indent if a closing brace "}" is under point
+; ;; otherwise regular newline-and-indent behavior
+; (defun new-line-dwim ()
+;   (interactive)
+;   (if (looking-at-p "}")
+;       (progn
+;         (newline-and-indent)
+;         (newline-and-indent)
+;         (previous-line)
+;         (indent-for-tab-command)
+;         )
+;     (newline-and-indent)
+;     )
+;   )
 
-;; enable for all programming modes
-(add-hook 'prog-mode-hook 'subword-mode)
+; (global-set-key (kbd "RET") 'new-line-dwim)
 
-;; A lovely manifest
-(defconst package-list
-  '(
-    anzu                                ; displays current/total matches on isearch
-    company                             ; autocomplete framework
-    duplicate-thing                     ; M-c to duplicate
-    drag-stuff                          ; Line transposition
+; ;; Replicate Sublime's newline functionality
+; (defun new-line-arbitrary ()
+;   "Inserts a new line after the line at point."
+;   (interactive)
+;   (progn
+;     (end-of-line)
+;     (newline)
+;     )
+;   )
 
-    ;; Themes
-    monokai-theme                       ; Preferred theme
-    nyan-mode                           ; Nyan-Mode
+; (global-set-key (kbd "M-RET") 'new-line-arbitrary)
+; (global-set-key (kbd "<C-return>") 'new-line-arbitrary)
+
+; ;; enable for all programming modes
+; (add-hook 'prog-mode-hook 'subword-mode)
+
+; ;; A lovely manifest
+; (defconst package-list
+;   '(
+;     anzu                                ; displays current/total matches on isearch
+;     company                             ; autocomplete framework
+;     duplicate-thing                     ; M-c to duplicate
+;     drag-stuff                          ; Line transposition
+
+;     ;; Themes
+;     monokai-theme                       ; Preferred theme
+;     nyan-mode                           ; Nyan-Mode
     
-    helm                                ; Finding-things framework
-    helm-projectile                     ; Helm Projectile support
-    helm-gtags                          ; Helm gtags support
-    helm-swoop                          ; Helm swoop support
-    function-args                       ; C: show inline arguments for function
-    clean-aindent-mode                  ; Cleanup double-RET whitespace
-    comment-dwim-2                      ; Comment-dwim with cycline
-    dtrt-indent                         ; Guess indentation offset from minor mode
-    ws-butler                           ; Trim whitespace
-    exec-path-from-shell                ; Get executable path from shell
-    yasnippet                           ; Snippet support
-    smartparens                         ; Better parens support
-    projectile                          ; Project management
-    multiple-cursors                    ; Multiple cursors
-    phi-search                          ; Multiple cursors with search
+;     helm                                ; Finding-things framework
+;     helm-projectile                     ; Helm Projectile support
+;     helm-gtags                          ; Helm gtags support
+;     helm-swoop                          ; Helm swoop support
+;     function-args                       ; C: show inline arguments for function
+;     clean-aindent-mode                  ; Cleanup double-RET whitespace
+;     comment-dwim-2                      ; Comment-dwim with cycline
+;     dtrt-indent                         ; Guess indentation offset from minor mode
+;     ws-butler                           ; Trim whitespace
+;     exec-path-from-shell                ; Get executable path from shell
+;     yasnippet                           ; Snippet support
+;     smartparens                         ; Better parens support
+;     projectile                          ; Project management
+;     multiple-cursors                    ; Multiple cursors
+;     phi-search                          ; Multiple cursors with search
 
-    ;; JavasScript packages
-    ac-js2                              ; AutoComplete for js2-mode 
-    js2-mode                            ; JavaScript mode
+;     ;; JavasScript packages
+;     ac-js2                              ; AutoComplete for js2-mode 
+;     js2-mode                            ; JavaScript mode
     
-    ;; Snippets    
-    yasnippet                           ; Snippets for JavaScript
-    auto-complete                       ; AutoComplete; TODO: investigate vs company
+;     ;; Snippets    
+;     yasnippet                           ; Snippets for JavaScript
+;     auto-complete                       ; AutoComplete; TODO: investigate vs company
     
-    volatile-highlights                 ; Highlight last changes
-    undo-tree                           ; Tree-based undo
-    magit                               ; Git frontend
-    zygospore                           ; C-x 1 now toggles
-    ))
+;     volatile-highlights                 ; Highlight last changes
+;     undo-tree                           ; Tree-based undo
+;     magit                               ; Git frontend
+;     zygospore                           ; C-x 1 now toggles
+;     ))
 
-(defun install-packages ()
-  "Install all required packages."
-  (interactive)
-  (unless package-archive-contents
-    (package-refresh-contents))
-  (dolist (package package-list)
-    (unless (package-installed-p package)
-      (package-install package))))
+; (defun install-packages ()
+;   "Install all required packages."
+;   (interactive)
+;   (unless package-archive-contents
+;     (package-refresh-contents))
+;   (dolist (package package-list)
+;     (unless (package-installed-p package)
+;       (package-install package))))
 
-(install-packages)
+; (install-packages)
 
-;; Themes
-(load-theme 'monokai 1)
-(nyan-mode )
+; ;; Themes
+; (load-theme 'monokai 1)
+; (nyan-mode )
 
-;; Package: magit
-(global-set-key (kbd "C-c g") 'magit-status)
+; ;; Package: magit
+; (global-set-key (kbd "C-c g") 'magit-status)
 
-;; Package: projejctile
-(require 'projectile)
-(projectile-global-mode)
-(setq projectile-enable-caching t)
+; ;; Package: projejctile
+; (require 'projectile)
+; (projectile-global-mode)
+; (setq projectile-enable-caching t)
 
-;; Package: smartparens
-(require 'smartparens-config)
-(setq sp-base-key-bindings 'paredit)
-(setq sp-autoskip-closing-pair 'always)
-(setq sp-hybrid-kill-entire-symbol nil)
-(sp-use-paredit-bindings)
+; ;; Package: smartparens
+; (require 'smartparens-config)
+; (setq sp-base-key-bindings 'paredit)
+; (setq sp-autoskip-closing-pair 'always)
+; (setq sp-hybrid-kill-entire-symbol nil)
+; (sp-use-paredit-bindings)
 
-;; Swap the smartparens keybindings around
-(defvar  sp-custom-bindings '(
-                              ("C-M-n" . sp-forward-sexp) ;; navigation
-                              ("C-M-p" . sp-backward-sexp)
-                              ("C-M-b" . sp-backward-down-sexp)
-                              ("C-M-f" . sp-up-sexp)
-                              )
-  )
-(--each sp-custom-bindings
-  (define-key sp-keymap (read-kbd-macro (car it)) (cdr it)))
+; ;; Swap the smartparens keybindings around
+; (defvar  sp-custom-bindings '(
+;                               ("C-M-n" . sp-forward-sexp) ;; navigation
+;                               ("C-M-p" . sp-backward-sexp)
+;                               ("C-M-b" . sp-backward-down-sexp)
+;                               ("C-M-f" . sp-up-sexp)
+;                               )
+;   )
+; (--each sp-custom-bindings
+;   (define-key sp-keymap (read-kbd-macro (car it)) (cdr it)))
 
-(show-smartparens-global-mode +1)
-(smartparens-global-mode 1)
+; (show-smartparens-global-mode +1)
+; (smartparens-global-mode 1)
 
-;; Package: js2-mode
-(add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
-(add-hook 'js-mode-hook 'js2-minor-mode)
-(add-hook 'js2-mode-hook 'ac-js2-mode)
-(setq js2-highlight-level 3)
+; ;; Package: js2-mode
+; (add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
+; (add-hook 'js-mode-hook 'js2-minor-mode)
+; (add-hook 'js2-mode-hook 'ac-js2-mode)
+; (setq js2-highlight-level 3)
 
-;; Package: yasnippet
-(require 'yasnippet)
-(yas-global-mode 1)
+; ;; Package: yasnippet
+; (require 'yasnippet)
+; (yas-global-mode 1)
 
-;;; Package: auto-complete-config
-;;; should be loaded after yasnippet so that they can work together
-(require 'auto-complete-config)
-(ac-config-default)
-;;; set the trigger key so that it can work together with yasnippet on tab key,
-;;; if the word exists in yasnippet, pressing tab will cause yasnippet to
-;;; activate, otherwise, auto-complete will
-(ac-set-trigger-key "TAB")
-(ac-set-trigger-key "<tab>")
+; ;;; Package: auto-complete-config
+; ;;; should be loaded after yasnippet so that they can work together
+; (require 'auto-complete-config)
+; (ac-config-default)
+; ;;; set the trigger key so that it can work together with yasnippet on tab key,
+; ;;; if the word exists in yasnippet, pressing tab will cause yasnippet to
+; ;;; activate, otherwise, auto-complete will
+; (ac-set-trigger-key "TAB")
+; (ac-set-trigger-key "<tab>")
 
-;; Package: multiple-cursors
-(require 'multiple-cursors)
-(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
-(global-set-key (kbd "C->") 'mc/mark-next-like-this)
-(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
-(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+; ;; Package: multiple-cursors
+; (require 'multiple-cursors)
+; (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+; (global-set-key (kbd "C->") 'mc/mark-next-like-this)
+; (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+; (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 
-;; Package: phi-search
-(require 'phi-search)
-(global-set-key (kbd "C-s") 'phi-search)
-(global-set-key (kbd "C-r") 'phi-search-backward)
+; ;; Package: phi-search
+; (require 'phi-search)
+; (global-set-key (kbd "C-s") 'phi-search)
+; (global-set-key (kbd "C-r") 'phi-search-backward)
 
-(require 'phi-replace)
-(global-set-key (kbd "M-R") 'phi-replace-query)
+; (require 'phi-replace)
+; (global-set-key (kbd "M-R") 'phi-replace-query)
 
-;; Environment variables from shell
-(when is-mac
-  (require 'exec-path-from-shell)
-  (exec-path-from-shell-initialize))
+; ;; Environment variables from shell
+; (when is-mac
+;   (require 'exec-path-from-shell)
+;   (exec-path-from-shell-initialize))
 
-;; Set up window navigation
-(global-set-key (kbd "s-+") 'windmove-up)
-(global-set-key (kbd "s-\"") 'windmove-down)
-(global-set-key (kbd "s-{") 'windmove-left)
-(global-set-key (kbd "s-}") 'windmove-right)
+; ;; Set up window navigation
+; (global-set-key (kbd "s-+") 'windmove-up)
+; (global-set-key (kbd "s-\"") 'windmove-down)
+; (global-set-key (kbd "s-{") 'windmove-left)
+; (global-set-key (kbd "s-}") 'windmove-right)
 
-;; Package: drag-stuff
-(require 'drag-stuff)
-(drag-stuff-global-mode)
-(global-set-key (kbd "M-n") 'drag-stuff-down)
-(global-set-key (kbd "M-p") 'drag-stuff-up)
+; ;; Package: drag-stuff
+; (require 'drag-stuff)
+; (drag-stuff-global-mode)
+; (global-set-key (kbd "M-n") 'drag-stuff-down)
+; (global-set-key (kbd "M-p") 'drag-stuff-up)
 
-(add-to-list 'load-path "~/.emacs.d")
+; (add-to-list 'load-path "~/.emacs.d")
 
-(require 'google-c-style)
-(add-hook 'c-mode-common-hook 'google-set-c-style)
-(add-hook 'c-mode-common-hook 'google-make-newline-indent)
-(put 'upcase-region 'disabled nil)
+; (require 'google-c-style)
+; (add-hook 'c-mode-common-hook 'google-set-c-style)
+; (add-hook 'c-mode-common-hook 'google-make-newline-indent)
+; (put 'upcase-region 'disabled nil)
