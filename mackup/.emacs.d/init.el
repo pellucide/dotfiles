@@ -34,72 +34,90 @@
 (setq mac-option-modifier 'super)
 (setq mac-command-modifier 'meta)
 
-; ;; Editing
-; (Setq-Default indent-tabs-mode nil)
-; (delete-selection-mode)
-; (global-set-key (kbd "RET") 'newline-and-indent)
+;; Package list
 
-; ;; Commenting
-; (defun comment-sublime ()
-;   (interactive)
-;   (let ((start (line-beginning-position))
-;         (end (line-end-position)))
-;     (when (or (not transient-mark-mode) (region-active-p))
-;       (setq start (save-excursion
-;                     (goto-char (region-beginning))
-;                     (beginning-of-line)
-;                     (point))
-;             end (save-excursion
-;                   (goto-char (region-end))
-;                   (end-of-line)
-;                   (point))))
-;     (comment-or-uncomment-region start end)))
-; (global-set-key (kbd "M-;") 'comment-sublime)
 
-; ;; will add two new lines and indent if a closing brace "}" is under point
-; ;; otherwise regular newline-and-indent behavior
-; (defun new-line-dwim ()
-;   (interactive)
-;   (if (looking-at-p "}")
-;       (progn
-;         (newline-and-indent)
-;         (newline-and-indent)
-;         (previous-line)
-;         (indent-for-tab-command)
-;         )
-;     (newline-and-indent)
-;     )
-;   )
+;; Editing
+(setq-default indent-tabs-mode nil)
+(delete-selection-mode)
+(global-set-key (kbd "RET") 'newline-and-indent)
 
-; (global-set-key (kbd "RET") 'new-line-dwim)
+;; Commenting
+(defun comment-sublime ()
+  (interactive)
+  (let ((start (line-beginning-position))
+        (end (line-end-position)))
+    (when (or (not transient-mark-mode) (region-active-p))
+      (setq start (save-excursion
+                    (goto-char (region-beginning))
+                    (beginning-of-line)
+                    (point))
+            end (save-excursion
+                  (goto-char (region-end))
+                  (end-of-line)
+                  (point))))
+    (comment-or-uncomment-region start end)))
+(global-set-key (kbd "M-;") 'comment-sublime)
 
-; ;; Replicate Sublime's newline functionality
-; (defun new-line-arbitrary ()
-;   "Inserts a new line after the line at point."
-;   (interactive)
-;   (progn
-;     (end-of-line)
-;     (newline)
-;     )
-;   )
+;; will add two new lines and indent if a closing brace "}" is under point
+;; otherwise regular newline-and-indent behavior
+(defun new-line-dwim ()
+  (interactive)
+  (if (looking-at-p "}")
+      (progn
+        (newline-and-indent)
+        (newline-and-indent)
+        (previous-line)
+        (indent-for-tab-command)
+        )
+    (newline-and-indent)
+    )
+  )
 
-; (global-set-key (kbd "M-RET") 'new-line-arbitrary)
-; (global-set-key (kbd "<C-return>") 'new-line-arbitrary)
+(global-set-key (kbd "RET") 'new-line-dwim)
 
-; ;; enable for all programming modes
-; (add-hook 'prog-mode-hook 'subword-mode)
+;; Replicate Sublime's newline functionality
+(defun new-line-arbitrary ()
+  "Inserts a new line after the line at point."
+  (interactive)
+  (progn
+    (end-of-line)
+    (newline)
+    )
+  )
 
-; ;; A lovely manifest
-; (defconst package-list
-;   '(
+(global-set-key (kbd "M-RET") 'new-line-arbitrary)
+(global-set-key (kbd "<C-return>") 'new-line-arbitrary)
+
+;; enable for all programming modes
+(add-hook 'prog-mode-hook 'subword-mode)
+
+;; Evaluate region or buffer
+(defun eval-region-or-buffer ()
+  (interactive)
+  (let ((debug-on-error t))
+    (cond
+     (mark-active
+      (call-interactively 'eval-region)
+      (message "Region evaluated!")
+      (setq deactivate-mark t))
+     (t
+      (eval-buffer)
+      (message "Buffer evaluated!")))))
+
+(global-set-key (kbd "C-x C-e") 'eval-region-or-buffer)
+
+;; A lovely manifest
+(defconst package-list
+  '(
 ;     anzu                                ; displays current/total matches on isearch
 ;     company                             ; autocomplete framework
 ;     duplicate-thing                     ; M-c to duplicate
 ;     drag-stuff                          ; Line transposition
 
-;     ;; Themes
-;     monokai-theme                       ; Preferred theme
-;     nyan-mode                           ; Nyan-Mode
+    ;; Themes
+    monokai-theme                       ; Preferred theme
+    nyan-mode                           ; Nyan-Mode
     
 ;     helm                                ; Finding-things framework
 ;     helm-projectile                     ; Helm Projectile support
@@ -129,22 +147,22 @@
 ;     undo-tree                           ; Tree-based undo
 ;     magit                               ; Git frontend
 ;     zygospore                           ; C-x 1 now toggles
-;     ))
+    ))
 
-; (defun install-packages ()
-;   "Install all required packages."
-;   (interactive)
-;   (unless package-archive-contents
-;     (package-refresh-contents))
-;   (dolist (package package-list)
-;     (unless (package-installed-p package)
-;       (package-install package))))
+(defun install-packages ()
+  "Install all required packages."
+  (interactive)
+  (unless package-archive-contents
+    (package-refresh-contents))
+  (dolist (package package-list)
+    (unless (package-installed-p package)
+      (package-install package))))
 
-; (install-packages)
+(install-packages)
 
-; ;; Themes
-; (load-theme 'monokai 1)
-; (nyan-mode )
+;; Themes
+(load-theme 'monokai 1)
+(nyan-mode )
 
 ; ;; Package: magit
 ; (global-set-key (kbd "C-c g") 'magit-status)
