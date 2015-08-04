@@ -102,6 +102,7 @@
       (eval-buffer)
       (message "Buffer evaluated!")))))
 
+;; Eval region or buffer
 (global-set-key (kbd "C-c C-e") 'eval-region-or-buffer)
 
 ;; A lovely manifest
