@@ -55,4 +55,4 @@ cp ./apps/subl/License.sublime_license ~/Library/Application\ Support/Sublime\ T
 wget -O ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package "https://sublime.wbond.net/Package%20Control.sublime-package" 
 
 # Key remapping
-sh ~/dotfiles/apps/seil/seil-import.sh
+# sh ~/dotfiles/apps/seil/seil-import.sh

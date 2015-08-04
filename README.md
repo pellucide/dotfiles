@@ -23,7 +23,7 @@ curl danielsuo.com/boot | sh
 - cancel gestures
 
 # Manual setup items to automate
-- Caps Lock -> No Action (defaults write doesn't seem to work)
+- Caps Lock -> Ctrl (defaults write doesn't seem to work)
 - Add bettertouchtool to startup items (defaults write doesn't seem to work)
 - Privacy access for Karabiner, BTT, RescueTime
 - Turn off three finger tap to define

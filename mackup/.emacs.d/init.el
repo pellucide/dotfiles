@@ -34,9 +34,6 @@
 (setq mac-option-modifier 'super)
 (setq mac-command-modifier 'meta)
 
-;; Package list
-
-
 ;; Editing
 (setq-default indent-tabs-mode nil)
 (delete-selection-mode)
@@ -105,7 +102,7 @@
       (eval-buffer)
       (message "Buffer evaluated!")))))
 
-(global-set-key (kbd "C-x C-e") 'eval-region-or-buffer)
+(global-set-key (kbd "C-c C-e") 'eval-region-or-buffer)
 
 ;; A lovely manifest
 (defconst package-list
