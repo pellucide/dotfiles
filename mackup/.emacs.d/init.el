@@ -5,6 +5,9 @@
 
 (package-initialize)
 
+;; Add emacs folder
+(add-to-list 'load-path "~/.emacs.d")
+
 ;; prompts are y or n instead of yes or no
 (defalias 'yes-or-no-p 'y-or-n-p)
 
@@ -108,14 +111,13 @@
 ;; A lovely manifest
 (defconst package-list
   '(
-
-    
-;     anzu                                ; displays current/total matches on isearch
-;     company                             ; autocomplete framework
-;     duplicate-thing                     ; M-c to duplicate
-
     ;; Text manipulation
     drag-stuff                          ; Line transposition
+    smartparens                         ; Better parens support
+    yasnippet                           ; Snippet support
+    ws-butler                           ; Trim whitespace
+    duplicate-thing                     ; M-c to duplicate
+    multiple-cursors                    ; Multiple cursors
 
     ;; Themes
     monokai-theme                       ; Preferred theme
@@ -126,30 +128,28 @@
     helm-projectile                     ; Helm Projectile support
     helm-gtags                          ; Helm gtags support
     helm-swoop                          ; Helm swoop support
+
+    ;; Coding
+    function-args                       ; C: show inline arguments for function
+    company                             ; Code completion
+    projectile                          ; Project management
+
+    ;; Source control
+    magit                               ; Git frontend
+
     
-;     function-args                       ; C: show inline arguments for function
 ;     clean-aindent-mode                  ; Cleanup double-RET whitespace
 ;     comment-dwim-2                      ; Comment-dwim with cycline
+    ;; anzu                                ; displays current/total matches on isearch
 ;     dtrt-indent                         ; Guess indentation offset from minor mode
-;     ws-butler                           ; Trim whitespace
 ;     exec-path-from-shell                ; Get executable path from shell
-;     yasnippet                           ; Snippet support
-;     smartparens                         ; Better parens support
-;     projectile                          ; Project management
-;     multiple-cursors                    ; Multiple cursors
-;     phi-search                          ; Multiple cursors with search
 
 ;     ;; JavasScript packages
 ;     ac-js2                              ; AutoComplete for js2-mode 
 ;     js2-mode                            ; JavaScript mode
     
-;     ;; Snippets    
-;     yasnippet                           ; Snippets for JavaScript
-;     auto-complete                       ; AutoComplete; TODO: investigate vs company
-    
 ;     volatile-highlights                 ; Highlight last changes
 ;     undo-tree                           ; Tree-based undo
-;     magit                               ; Git frontend
 ;     zygospore                           ; C-x 1 now toggles
     ))
 
@@ -168,20 +168,25 @@
 (load-theme 'monokai 1)
 (nyan-mode )
 
-; ;; Package: magit
-; (global-set-key (kbd "C-c g") 'magit-status)
+;; Package: magit
+(global-set-key (kbd "C-c g") 'magit-status)
 
-; ;; Package: projejctile
-; (require 'projectile)
-; (projectile-global-mode)
-; (setq projectile-enable-caching t)
+;; Package: projejctile
+(require 'projectile)
+(projectile-global-mode)
+(setq projectile-enable-caching t)
+(setq projectile-completion-system 'helm)
+(helm-projectile-on)
 
-; ;; Package: smartparens
-; (require 'smartparens-config)
-; (setq sp-base-key-bindings 'paredit)
-; (setq sp-autoskip-closing-pair 'always)
-; (setq sp-hybrid-kill-entire-symbol nil)
-; (sp-use-paredit-bindings)
+;; Package: smartparens
+(require 'smartparens-config)
+(setq sp-base-key-bindings 'paredit)
+(setq sp-autoskip-closing-pair 'always)
+(setq sp-hybrid-kill-entire-symbol nil)
+(sp-use-paredit-bindings)
+
+(show-smartparens-global-mode +1)
+(smartparens-global-mode 1)
 
 ; ;; Swap the smartparens keybindings around
 ; (defvar  sp-custom-bindings '(
@@ -194,8 +199,6 @@
 ; (--each sp-custom-bindings
 ;   (define-key sp-keymap (read-kbd-macro (car it)) (cdr it)))
 
-; (show-smartparens-global-mode +1)
-; (smartparens-global-mode 1)
 
 ; ;; Package: js2-mode
 ; (add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
@@ -203,9 +206,9 @@
 ; (add-hook 'js2-mode-hook 'ac-js2-mode)
 ; (setq js2-highlight-level 3)
 
-; ;; Package: yasnippet
-; (require 'yasnippet)
-; (yas-global-mode 1)
+;; Package: yasnippet
+(require 'yasnippet)
+(yas-global-mode 1)
 
 ; ;;; Package: auto-complete-config
 ; ;;; should be loaded after yasnippet so that they can work together
@@ -217,39 +220,29 @@
 ; (ac-set-trigger-key "TAB")
 ; (ac-set-trigger-key "<tab>")
 
-; ;; Package: multiple-cursors
-; (require 'multiple-cursors)
-; (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
-; (global-set-key (kbd "C->") 'mc/mark-next-like-this)
-; (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
-; (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
-
-; ;; Package: phi-search
-; (require 'phi-search)
-; (global-set-key (kbd "C-s") 'phi-search)
-; (global-set-key (kbd "C-r") 'phi-search-backward)
-
-; (require 'phi-replace)
-; (global-set-key (kbd "M-R") 'phi-replace-query)
+;; Package: multiple-cursors
+(require 'multiple-cursors)
+(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c C-,") 'mc/mark-all-like-this)
 
 ; ;; Environment variables from shell
 ; (when is-mac
 ;   (require 'exec-path-from-shell)
 ;   (exec-path-from-shell-initialize))
 
-; ;; Set up window navigation
-; (global-set-key (kbd "s-+") 'windmove-up)
-; (global-set-key (kbd "s-\"") 'windmove-down)
-; (global-set-key (kbd "s-{") 'windmove-left)
-; (global-set-key (kbd "s-}") 'windmove-right)
+;; ;; Set up window navigation
+;; (global-set-key (kbd "s-+") 'windmove-up)
+;; (global-set-key (kbd "s-\"") 'windmove-down)
+;; (global-set-key (kbd "s-{") 'windmove-left)
+;; (global-set-key (kbd "s-}") 'windmove-right)
 
 ;; Package: drag-stuff
 (require 'drag-stuff)
 (drag-stuff-global-mode)
 (global-set-key (kbd "M-n") 'drag-stuff-down)
 (global-set-key (kbd "M-p") 'drag-stuff-up)
-
-; (add-to-list 'load-path "~/.emacs.d")
 
 ; (require 'google-c-style)
 ; (add-hook 'c-mode-common-hook 'google-set-c-style)
@@ -409,4 +402,34 @@ point reaches the beginning or end of the buffer, stop there."
       (move-beginning-of-line 1))))
 
 (global-set-key (kbd "C-a") 'prelude-move-beginning-of-line)
+
+;; Package: semantic
+(require 'cc-mode)
+(require 'semantic)
+
+;; Package: company
+(require 'company)
+(add-hook 'after-init-hook 'global-company-mode)
+
+(setq company-backends (delete 'company-semantic company-backends))
+(define-key c-mode-map [(tab)] 'company-complete)
+(define-key c++-mode-map [(tab)] 'company-complete)
+(add-to-list 'company-backends 'company-c-headers)
+
+(global-semanticdb-minor-mode 1)
+(global-semantic-idle-scheduler-mode 1)
+
+(semantic-mode 1)
+
+;; Package: function-args
+;; (require 'function-args)
+;; (fa-config-default)
+;; (define-key c-mode-map  [(control tab)] 'moo-complete)
+;; (define-key c++-mode-map  [(control tab)] 'moo-complete)
+;; (define-key c-mode-map (kbd "M-o")  'fa-show)
+;; (define-key c++-mode-map (kbd "M-o")  'fa-show)
+
+;; Package: ws-butler
+(require 'ws-butler)
+(add-hook 'c-mode-common-hook 'ws-butler-mode)
 
