@@ -42,7 +42,8 @@ apps=(
     adobe-creative-cloud		        # Adobe
     eagle                               # EAGLE CAD
     duet                                # Share screen with ipad
-    evernote                            # evernote
+    evernote                            # 
+    cheatsheet                          # keyboard shortcut
 )
 
 echo "Installing apps..."
