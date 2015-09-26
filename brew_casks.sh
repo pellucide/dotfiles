@@ -33,7 +33,6 @@ apps=(
     mactex                              # Install Mac LaTeX
     xquartz                             # GUI
     wireshark                           # Packet analyzer/sender
-    flux                                # Screen management
     slack                               # Work chat app
     processing                          # Processing app
     emacs                               # text editor

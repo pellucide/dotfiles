@@ -1,7 +1,11 @@
 {
 	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"HtmlTidy",
+		"MarkdownBuild",
+		"SplitScreen"
 	],
 	"installed_packages":
 	[
@@ -10,9 +14,11 @@
 		"AngularJS",
 		"AutoPEP8",
 		"BracketHighlighter",
+		"C++11",
 		"ColorPicker",
 		"ConvertToUTF8",
 		"CSSTidy",
+		"CUDA C++",
 		"DustBuster",
 		"ExtendedTabSwitcher",
 		"File Navigator",
@@ -32,9 +38,11 @@
 		"LaTeX Snippets",
 		"LaTeX-cwl",
 		"LaTeXing",
+		"LaTeXTools",
 		"Make File Executable",
 		"Markdown Preview",
 		"MarkdownBuild",
+		"OpenCL",
 		"OpenGL Shading Language (GLSL)",
 		"Origami",
 		"Package Control",

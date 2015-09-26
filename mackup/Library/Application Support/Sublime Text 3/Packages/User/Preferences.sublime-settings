@@ -24,9 +24,12 @@
 	"font_size": 11.0,
 	"ignored_packages":
 	[
+		"HtmlTidy",
+		"MarkdownBuild",
 		"RubyTest",
-		"Vintage",
-		"Stylus"
+		"SplitScreen",
+		"Stylus",
+		"Vintage"
 	],
 	"tab_size": 2,
 	"theme": "Spacegray Eighties.sublime-theme",
