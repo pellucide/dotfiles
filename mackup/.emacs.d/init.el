@@ -1,3 +1,5 @@
+(add-to-list 'load-path "/usr/share/emacs24/site-lisp/doxymacs")
+
 (require 'package)
 
 (add-to-list 'package-archives
@@ -244,8 +246,8 @@
 ;; Package: drag-stuff
 (require 'drag-stuff)
 (drag-stuff-global-mode)
-(global-set-key (kbd "M-n") 'drag-stuff-down)
-(global-set-key (kbd "M-p") 'drag-stuff-up)
+(global-set-key (kbd "M-N") 'drag-stuff-down)
+(global-set-key (kbd "M-P") 'drag-stuff-up)
 
 ; (require 'google-c-style)
 ; (add-hook 'c-mode-common-hook 'google-set-c-style)
@@ -447,13 +449,16 @@ point reaches the beginning or end of the buffer, stop there."
 (semantic-mode 1)
 
 ;; activate whitespace-mode to view all whitespace characters
-(global-set-key (kbd "C-c w") 'whitespace-mode)
+;; (global-set-key (kbd "C-c w") 'whitespace-mode)
 
 ;; show unncessary whitespace that can mess up your diff
-(add-hook 'prog-mode-hook (lambda () (interactive) (setq show-trailing-whitespace 1)))
+;; (add-hook 'prog-mode-hook (lambda () (interactive) (setq show-trailing-whitespace 1)))
 
 ;; use space to indent by default
 (setq-default indent-tabs-mode nil)
 
 ;; set appearance of a tab that is represented by 4 spaces
-(setq-default tab-width 4)
+(setq-default tab-width 2)
+
+(require 'doxymacs)
+(add-hook 'c-mode-common-hook'doxymacs-mode)
