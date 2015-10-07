@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"enable_tab_scrolling": true,
 	"file_exclude_patterns":
 	[
@@ -23,8 +23,13 @@
 	"font_size": 11.0,
 	"ignored_packages":
 	[
-		"Vintage",
-		"RubyTest"
+		"DustBuster",
+		"HtmlTidy",
+		"MarkdownBuild",
+		"OpenGL Shading Language (GLSL)",
+		"RubyTest",
+		"SplitScreen",
+		"Vintage"
 	],
 	"tab_size": 2,
 	"theme": "Spacegray Eighties.sublime-theme",

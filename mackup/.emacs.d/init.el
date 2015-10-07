@@ -137,6 +137,9 @@
     ;; Source control
     magit                               ; Git frontend
 
+    ggtags
+
+    sr-speedbar
     
 ;     clean-aindent-mode                  ; Cleanup double-RET whitespace
 ;     comment-dwim-2                      ; Comment-dwim with cycline
@@ -422,14 +425,35 @@ point reaches the beginning or end of the buffer, stop there."
 (semantic-mode 1)
 
 ;; Package: function-args
-;; (require 'function-args)
-;; (fa-config-default)
-;; (define-key c-mode-map  [(control tab)] 'moo-complete)
-;; (define-key c++-mode-map  [(control tab)] 'moo-complete)
-;; (define-key c-mode-map (kbd "M-o")  'fa-show)
-;; (define-key c++-mode-map (kbd "M-o")  'fa-show)
+(require 'function-args)
+(fa-config-default)
+(define-key c-mode-map  [(control tab)] 'moo-complete)
+(define-key c++-mode-map  [(control tab)] 'moo-complete)
+(define-key c-mode-map (kbd "M-o")  'fa-show)
+(define-key c++-mode-map (kbd "M-o")  'fa-show)
 
 ;; Package: ws-butler
 (require 'ws-butler)
 (add-hook 'c-mode-common-hook 'ws-butler-mode)
 
+(require 'sr-speedbar)
+
+(require 'cc-mode)
+(require 'semantic)
+
+(global-semanticdb-minor-mode 1)
+(global-semantic-idle-scheduler-mode 1)
+
+(semantic-mode 1)
+
+;; activate whitespace-mode to view all whitespace characters
+(global-set-key (kbd "C-c w") 'whitespace-mode)
+
+;; show unncessary whitespace that can mess up your diff
+(add-hook 'prog-mode-hook (lambda () (interactive) (setq show-trailing-whitespace 1)))
+
+;; use space to indent by default
+(setq-default indent-tabs-mode nil)
+
+;; set appearance of a tab that is represented by 4 spaces
+(setq-default tab-width 4)
