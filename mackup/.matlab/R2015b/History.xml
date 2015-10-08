@@ -182,4 +182,23 @@
 <command error="true" execution_time="32">bundleAdjustment2D3DBoxFile</command>
 <command error="true" execution_time="3519" repeat="2">main</command>
 </session>
+<session>
+<command time_stamp="15044450ad9">%-- 10/07/2015 05:46:27 PM --%</command>
+<command execution_time="18">pwd</command>
+<command execution_time="71">cd ..</command>
+<command execution_time="62">ls</command>
+<command execution_time="144">cd mobot/src/reconstruction/src/gpu/result/</command>
+<command execution_time="18">ls</command>
+</session>
+<session>
+<command time_stamp="1504448d489">%-- 10/07/2015 05:50:35 PM --%</command>
+<command execution_time="89">cd mobot/src/reconstruction/src/gpu/</command>
+<command execution_time="39">ls</command>
+<command execution_time="55">cd result/</command>
+<command execution_time="12">ls</command>
+<command error="true" execution_time="56">image imResult_beforeransac.jpg</command>
+<command execution_time="960">imread imRresult_beforeransac.jpg</command>
+<command error="true" execution_time="17">image(imread imRresult_beforeransac.jpg)</command>
+<command execution_time="635" repeat="19">main</command>
+</session>
 </history>

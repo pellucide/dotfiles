@@ -40,7 +40,7 @@
 (setq mac-command-modifier 'meta)
 
 ;; Editing
-(setq-default indent-tabs-mode nil)
+;; (setq-default indent-tabs-mode nil)
 (delete-selection-mode)
 (global-set-key (kbd "RET") 'newline-and-indent)
 
@@ -92,7 +92,7 @@
 (global-set-key (kbd "<C-return>") 'new-line-arbitrary)
 
 ;; enable for all programming modes
-(add-hook 'prog-mode-hook 'subword-mode)
+;; (add-hook 'prog-mode-hook 'subword-mode)
 
 ;; Evaluate region or buffer
 (defun eval-region-or-buffer ()
@@ -134,6 +134,7 @@
     ;; Coding
     function-args                       ; C: show inline arguments for function
     company                             ; Code completion
+    company-irony
     projectile                          ; Project management
 
     ;; Source control
@@ -142,6 +143,11 @@
     ggtags
 
     sr-speedbar
+
+    cuda-mode
+
+    avy
+    ace-window
     
 ;     clean-aindent-mode                  ; Cleanup double-RET whitespace
 ;     comment-dwim-2                      ; Comment-dwim with cycline
@@ -215,16 +221,6 @@
 (require 'yasnippet)
 (yas-global-mode 1)
 
-; ;;; Package: auto-complete-config
-; ;;; should be loaded after yasnippet so that they can work together
-; (require 'auto-complete-config)
-; (ac-config-default)
-; ;;; set the trigger key so that it can work together with yasnippet on tab key,
-; ;;; if the word exists in yasnippet, pressing tab will cause yasnippet to
-; ;;; activate, otherwise, auto-complete will
-; (ac-set-trigger-key "TAB")
-; (ac-set-trigger-key "<tab>")
-
 ;; Package: multiple-cursors
 (require 'multiple-cursors)
 (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
@@ -264,7 +260,7 @@
 (global-set-key (kbd "C-c h") 'helm-command-prefix)
 (global-unset-key (kbd "C-x c"))
 
-(define-key helm-map (kbd "<tab>") 'helm-execute-persistent-action) ; rebihnd tab to do persistent action
+;; (define-key helm-map (kbd "<tab>") 'helm-execute-persistent-action) ; rebihnd tab to do persistent action
 (define-key helm-map (kbd "C-i") 'helm-execute-persistent-action) ; make TAB works in terminal
 (define-key helm-map (kbd "C-z")  'helm-select-action) ; list actions using C-z
 
@@ -414,15 +410,20 @@ point reaches the beginning or end of the buffer, stop there."
 
 ;; Package: company
 (require 'company)
-(add-hook 'after-init-hook 'global-company-mode)
+(add-hook 'aftern-init-hook 'global-company-mode)
 
 (setq company-backends (delete 'company-semantic company-backends))
-(define-key c-mode-map [(tab)] 'company-complete)
-(define-key c++-mode-map [(tab)] 'company-complete)
+(define-key c-mode-map [()] 'company-complete)
+(define-key c++-mode-map [()] 'company-complete)
 (add-to-list 'company-backends 'company-c-headers)
+
+(setq company-idle-delay 0)
 
 (global-semanticdb-minor-mode 1)
 (global-semantic-idle-scheduler-mode 1)
+
+(eval-after-load 'company
+  '(add-to-list 'company-backends 'company-irony))
 
 (semantic-mode 1)
 
@@ -462,3 +463,10 @@ point reaches the beginning or end of the buffer, stop there."
 
 (require 'doxymacs)
 (add-hook 'c-mode-common-hook'doxymacs-mode)
+
+(require 'cuda-mode)
+
+(require 'ace-window)
+(global-set-key (kbd "M-p") 'ace-window)
+
+(global-linum-mode t)
