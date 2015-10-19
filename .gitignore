@@ -17,6 +17,8 @@ projectile-bookmarks.eld
 .org-id-locations
 auto-save-list/*
 *.save
+melpa
+elpa
 
 \#*\#
 *~
