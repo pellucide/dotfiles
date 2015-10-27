@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <history>
 <session>
-<command time_stamp="14e6af5129b">%-- 7/7/15, 7:58 PM --%</command>
+<command time_stamp="14e6af5129b">%-- 07/07/2015 07:58:43 PM --%</command>
 <command error="true" execution_time="9107" repeat="3">main</command>
 </session>
 <session>
-<command time_stamp="14e6af7f301">%-- 7/7/15, 8:01 PM --%</command>
+<command time_stamp="14e6af7f301">%-- 07/07/2015 08:01:51 PM --%</command>
 <command batch="1">main</command>
 </session>
 <session>
-<command time_stamp="14e6afa518d">%-- 7/7/15, 8:04 PM --%</command>
+<command time_stamp="14e6afa518d">%-- 07/07/2015 08:04:27 PM --%</command>
 <command execution_time="2374" repeat="8">main</command>
 <command error="true" execution_time="436">P</command>
 <command execution_time="20">P = [K [0;0;0]];</command>
@@ -200,5 +200,321 @@
 <command execution_time="960">imread imRresult_beforeransac.jpg</command>
 <command error="true" execution_time="17">image(imread imRresult_beforeransac.jpg)</command>
 <command execution_time="635" repeat="19">main</command>
+<command execution_time="20">isempty([])</command>
+<command execution_time="19">isempty([1])</command>
+<command execution_time="32">num2str(1)</command>
+<command error="true" execution_time="558">matlabpool</command>
+<command execution_time="698">help matlabpool</command>
+<command execution_time="251">help dbstop</command>
+<command error="true" execution_time="1002" repeat="3">main</command>
+<command error="true" execution_time="257">RGBDsfm</command>
+<command error="true" execution_time="34187">main</command>
+<command error="true" execution_time="34">tril</command>
+<command execution_time="351">help tril</command>
+<command error="true" execution_time="171">RGBDsfm</command>
+<command execution_time="1490">main</command>
+<command error="true" execution_time="46">data.images</command>
+<command execution_time="58" repeat="2">data.image</command>
+<command execution_time="30">data.image{1}</command>
+<command execution_time="24">data.image{2}</command>
+<command execution_time="23">data.image{3}</command>
+<command error="true" execution_time="60">data.dpeth{3}</command>
+<command execution_time="26">data.depth{3}</command>
+<command execution_time="28">rand</command>
+<command execution_time="13">rand('state',0)</command>
+<command error="true" execution_time="142">state</command>
+<command execution_time="280">help rand</command>
+<command execution_time="169">help parfor</command>
+<command error="true" execution_time="130">numel(data.image)</command>
+<command execution_time="1039">main</command>
+<command execution_time="26">numel(data.image)</command>
+<command execution_time="27">size(data.image)</command>
+<command execution_time="28">length(data.image)</command>
+<command execution_time="168">help numel</command>
+<command execution_time="31">cell(1, 10)</command>
+<command execution_time="133">model.index.frames</command>
+<command execution_time="28">model.index.frames(1)</command>
+<command execution_time="29">a = model.index.frames(1)</command>
+<command error="true" execution_time="30">a[1]</command>
+<command execution_time="29">a(1)</command>
+<command execution_time="77">a{1}</command>
+<command execution_time="29">size(a{1})</command>
+<command execution_time="123">frames</command>
+<command error="true" execution_time="64">descr</command>
+<command execution_time="139">descrs</command>
+<command execution_time="121">frames</command>
+<command execution_time="57502" repeat="2">main</command>
+<command execution_time="834">help bwdist</command>
+<command error="true" execution_time="141">length(data.image)</command>
+<command execution_time="64327">main</command>
+<command execution_time="59">data.image</command>
+<command execution_time="31">length(data.image)</command>
+<command execution_time="479">eye(length(data.image))</command>
+<command execution_time="655">bwdist(eye(length(data.image)))</command>
+<command execution_time="602">bwdist(eye(length(data.image)))/150</command>
+<command execution_time="33">max(bwdist(eye(length(data.image))))</command>
+<command execution_time="32">max(max(bwdist(eye(length(data.image)))))</command>
+<command execution_time="626">min(1,bwdist(eye(length(data.image)))/150)</command>
+<command execution_time="26">max(max(min(1,bwdist(eye(length(data.image)))/150)))</command>
+<command execution_time="34">max(max(bwdist(eye(length(data.image)))))</command>
+<command execution_time="555">tril(min(1,bwdist(eye(length(data.image)))/150),-1)</command>
+<command execution_time="336">help full</command>
+<command execution_time="1579">scores</command>
+<command execution_time="20">length(scores)</command>
+<command error="true" execution_time="67">dim(scores)</command>
+<command execution_time="19">size(scores)</command>
+<command error="true" execution_time="41">wDistance .* scores</command>
+<command execution_time="552" repeat="2">scores</command>
+<command execution_time="1810">main</command>
+<command execution_time="1537" repeat="2">scores</command>
+<command execution_time="19">nnz(scores)</command>
+<command execution_time="20">389*389</command>
+<command execution_time="637">full(scores)</command>
+<command execution_time="28">BOWmodel.index</command>
+<command execution_time="2225">BOWmodel.index.histograms</command>
+<command execution_time="19">size(BOWmodel.index.histograms)</command>
+<command execution_time="56963">main</command>
+<command error="true" execution_time="176">wDistance</command>
+<command execution_time="54733">main</command>
+<command error="true" execution_time="149">scores</command>
+<command execution_time="420">help fspecial</command>
+<command execution_time="179">help imfilter</command>
+<command error="true" execution_time="253">nmsMatrix</command>
+<command execution_time="106">blah = rand(100,100)</command>
+<command execution_time="32">size(blah)</command>
+<command execution_time="94">zeros(size(blah))</command>
+<command execution_time="31">size(zeros(size(blah)))</command>
+<command execution_time="30">blah(:,1)</command>
+<command execution_time="107">blah</command>
+<command execution_time="31">size(blah, 2)</command>
+<command error="true" execution_time="33">sort(score(:,1))</command>
+<command execution_time="32">sort(blah(:,1))</command>
+<command execution_time="30">[a, b] = sort(blah(:,1))</command>
+<command execution_time="37">a</command>
+<command execution_time="33">b</command>
+<command execution_time="131">nmsMatrix(blah, 10)</command>
+<command execution_time="43">ind</command>
+<command execution_time="32">pickArray</command>
+<command execution_time="32">pickInd</command>
+<command execution_time="33">pickArray</command>
+<command execution_time="33">max(pickInd - radius, 1):min(length(scoreArray), pickInd+radius)</command>
+<command execution_time="30">pickInd</command>
+<command execution_time="29">123:1</command>
+<command error="true" execution_time="32">123:1 = -</command>
+<command error="true" execution_time="33">123:1 = 0-</command>
+<command error="true" execution_time="31">123:1 = 0</command>
+<command execution_time="36">scoreArray</command>
+<command execution_time="137">nmsMatrix(blah, 10)</command>
+<command execution_time="30">pickArray</command>
+<command execution_time="80">scoreNMS</command>
+<command execution_time="31">scoreNMS((i - 1) * size(score, 1) + pickArray)</command>
+<command execution_time="30">(i - 1) * size(score, 1)</command>
+<command execution_time="31">i</command>
+<command execution_time="30">pickArray</command>
+<command error="true" execution_time="31">scoreNMS([1 2 3]</command>
+<command execution_time="37">scoreNMS([1 2 3])</command>
+<command execution_time="30">a = [1 2 3 4 5 6]</command>
+<command execution_time="31">a([1 4 5])</command>
+<command execution_time="31">a = rand ( 4, 4)</command>
+<command execution_time="30">a ([1, 2 3])</command>
+<command execution_time="32">a ([1 2 3])</command>
+<command execution_time="117" repeat="2">RGBDsfm</command>
+<command error="true" execution_time="67">data_dir</command>
+<command execution_time="176">main</command>
+<command execution_time="35">data_dir</command>
+<command execution_time="6147">main</command>
+<command error="true" execution_time="55">scoreNMS</command>
+<command execution_time="37">scoresNMS</command>
+<command execution_time="34">ind</command>
+<command execution_time="32">find([1 2 3 4] &gt; 2)</command>
+<command execution_time="32">find([1 2 5 4] &gt; 2)</command>
+<command error="true" execution_time="281">ind2sub</command>
+<command execution_time="312">help ind2sub</command>
+<command error="true" execution_time="223">ind2sub</command>
+<command execution_time="46" repeat="4">help RGBDsfm</command>
+<command execution_time="136">help ind2sub</command>
+<command error="true" execution_time="211" repeat="2">a</command>
+<command execution_time="16">a = rand(4,4)</command>
+<command execution_time="18">a(1:3)</command>
+<command execution_time="34">a([1 2 3])</command>
+<command execution_time="32">a([1;2;3])</command>
+<command execution_time="31">ind = [1 2]</command>
+<command execution_time="32">a(ind)</command>
+<command execution_time="32">sort(a(ind))</command>
+<command execution_time="32">ind</command>
+<command execution_time="31">ind = [5 6]</command>
+<command execution_time="33">ind2sub(size(a), ind)</command>
+<command execution_time="31">[b, c] = ind2sub(size(a), ind)</command>
+<command execution_time="35">b</command>
+<command execution_time="30">c</command>
+<command execution_time="5764" repeat="3">main</command>
+<command error="true" execution_time="140">RGBDsfm</command>
+<command execution_time="91882" repeat="2">main</command>
+<command error="true" execution_time="168">RGBDsfm</command>
+<command execution_time="52315">main</command>
+<command error="true" execution_time="193">RGBDsfm</command>
+<command error="true" execution_time="121505" repeat="2">main</command>
+</session>
+<session>
+<command time_stamp="15085dbcd7a">%-- 10/20/2015 11:26:26 AM --%</command>
+<command error="true" execution_time="173603">main</command>
+</session>
+<session>
+<command time_stamp="15085ea30ff">%-- 10/20/2015 11:42:09 AM --%</command>
+<command execution_time="239">main</command>
+<command execution_time="4077">pcshow(a)</command>
+<command execution_time="1376548" repeat="3">main</command>
+<command error="true" execution_time="315">RGBDsfm</command>
+<command execution_time="129608">main</command>
+<command execution_time="30">maxNumPoints</command>
+<command execution_time="33">size(pointObserved)</command>
+<command execution_time="34">size(pointObservedValue)</command>
+<command execution_time="22">size(pointCount)</command>
+<command execution_time="36">pointCount</command>
+<command execution_time="120">MatchPairs</command>
+<command execution_time="32">MatchPairs{1}</command>
+<command execution_time="74">MatchPairs{1}.matches</command>
+<command execution_time="34">size(MatchPairs{1}.matches)</command>
+<command execution_time="118851" repeat="2">main</command>
+<command execution_time="25" repeat="2">pointObservedValueCount</command>
+<command execution_time="30">pointCount</command>
+<command execution_time="46">MatchPairs{1}.matches(1:5,:)</command>
+<command execution_time="26">ones(1, 20)</command>
+<command execution_time="90">[MatchPairs{1}.matches(1:5,:) MatchPairs{1}.matches(6:10,:)]</command>
+<command error="true" execution_time="53">[[MatchPairs{1}.matches(1:5,:) MatchPairs{1}.matches(6:10,:)] ; -wTimePoints * ones (1, pointObservedValueCount)]</command>
+<command error="true" execution_time="41">[[MatchPairs{1}.matches(1:5,:) MatchPairs{1}.matches(6:10,:)] ; -wTimePoints * ones (1, pointObservedValueCount)</command>
+<command execution_time="37">[[MatchPairs{1}.matches(1:5, :) MatchPairs{1}.matches(6:10, :)]; -wTimePoints * ones(1,pointObservedValueCount)];</command>
+<command execution_time="95">[[MatchPairs{1}.matches(1:5, :) MatchPairs{1}.matches(6:10, :)]; -wTimePoints * ones(1,pointObservedValueCount)]</command>
+<command execution_time="25">pointObserved(1)</command>
+<command execution_time="24">pointCount</command>
+<command error="true" execution_time="59" repeat="2">pointCount(1, 1:407)</command>
+<command execution_time="24">pointCount</command>
+<command execution_time="119155">main</command>
+<command execution_time="68" repeat="2">pointObserved</command>
+<command execution_time="42">previousIndex</command>
+<command execution_time="57">MatchPairs{1}.matches(3:5,:)</command>
+<command execution_time="1007">help intersect</command>
+<command execution_time="41" repeat="3">alreadyExist</command>
+<command error="true" execution_time="55">false(1, [1 2 3])</command>
+<command execution_time="455">help false</command>
+<command execution_time="26">currentIndex</command>
+<command execution_time="24">previousIndex</command>
+<command execution_time="49">iA</command>
+<command execution_time="42">previousIndex(iA)</command>
+<command execution_time="313">help intersect</command>
+<command execution_time="23">iB</command>
+<command execution_time="23">size(iB)</command>
+<command execution_time="21">size(iA)</command>
+<command execution_time="126111" repeat="7">main</command>
+<command execution_time="23">size(MatchPairsLoop)</command>
+<command execution_time="49">MatchPairsLoop</command>
+<command execution_time="52">pt1</command>
+<command execution_time="42">pt2</command>
+<command execution_time="22">size(pointObservedValue)</command>
+<command execution_time="23">iA1</command>
+<command execution_time="23">size(iA1)</command>
+<command execution_time="23">size(iA2)</command>
+<command execution_time="35">size (pt1)</command>
+<command execution_time="22">size(ib1)</command>
+<command execution_time="307">help intersect</command>
+<command execution_time="23">iB1</command>
+<command execution_time="34">size(iB1)</command>
+<command error="true" execution_time="49">iB1(ib1)</command>
+<command execution_time="23">ib1</command>
+<command execution_time="34">size(ib1)</command>
+<command execution_time="157">help intersect</command>
+<command execution_time="119099">main</command>
+<command error="true" execution_time="55">size(IB1)</command>
+<command execution_time="22">size(iB1)</command>
+<command execution_time="22">size(iA1)</command>
+<command execution_time="22">size(iA2)</command>
+<command execution_time="22">size(iB2)</command>
+<command execution_time="22">size(ib1)</command>
+<command execution_time="21">size(iB1)</command>
+<command execution_time="21">pid1</command>
+<command execution_time="619">pid2</command>
+<command error="true" execution_time="253">intersect pid</command>
+<command execution_time="846">help pid</command>
+<command execution_time="271">pid2</command>
+<command error="true" execution_time="244" repeat="2">size(pointObserved)</command>
+<command execution_time="48">ls</command>
+<command error="true" execution_time="240">size(iB2)</command>
+<command execution_time="122924">main</command>
+<command execution_time="26">size(pointObserved)</command>
+<command execution_time="48">sub2ind(size(pointObserved),ind,repmat(pid1,[length(ind),1]))</command>
+<command execution_time="773">help sub2ind</command>
+<command execution_time="129218">main</command>
+<command execution_time="24">a = repmat(pid2,[length(ind),1]);</command>
+<command execution_time="22">size(a)</command>
+<command execution_time="23">max(a)</command>
+<command execution_time="37">max(ind)</command>
+<command execution_time="37">size(pointObserved)</command>
+<command error="true" execution_time="100">a=  sub2ind(size(pointObserved),ind,repmat(pid2,[length(ind),1]));</command>
+<command execution_time="22" repeat="2">size(pointObserved)</command>
+<command execution_time="36">sub2ind(size(pointObserved), [1,2], [1,2])</command>
+<command execution_time="37">sub2ind(size(pointObserved), [1,2], [1,4])</command>
+<command execution_time="43">sub2ind(size(pointObserved), [1:4], [1:4])</command>
+<command error="true" execution_time="22">size(pointObserved</command>
+<command execution_time="39">size(pointObserved)</command>
+<command execution_time="43">sub2ind(size(pointObserved), 1)</command>
+<command execution_time="36">sub2ind(size(pointObserved), 2)</command>
+<command execution_time="22">sub2ind(size(pointObserved), 10)</command>
+<command execution_time="37">sub2ind(size(pointObserved), [1:4])</command>
+<command execution_time="35">sub2ind(size(pointObserved), [1:4], [1:4])</command>
+<command error="true" execution_time="98">sub2ind(size(pointObserved), [1:4], [1:4], [1:4])</command>
+<command execution_time="37">size(pointObserved)</command>
+<command execution_time="142">help sub2ind</command>
+<command error="true" execution_time="225">sub2ind(size(pointObserved), 1, [1:4])</command>
+<command execution_time="39">sub2ind(size(pointObserved), [1:4], [1:4])</command>
+<command execution_time="22">sub2ind(size(pointObserved), [1 1 1 1], [1:4])</command>
+<command execution_time="99">pid</command>
+<command execution_time="31">pid1</command>
+<command execution_time="37">pid2</command>
+<command execution_time="36">length(ind)</command>
+<command execution_time="23">size(repmat(pid1, [length(ind), 1]))</command>
+<command execution_time="37">size(repmat(pid2, [length(ind), 1]))</command>
+<command execution_time="22">size(pointObserved)</command>
+<command execution_time="38">ind</command>
+<command execution_time="51">repmat(pid1,[length(ind),1])</command>
+<command execution_time="33">repmat(pid2,[length(ind),1])</command>
+<command execution_time="25">ind</command>
+<command execution_time="21">length(pointObserved)</command>
+<command execution_time="21">778</command>
+<command execution_time="37">MatchPairsLoop{pairID}</command>
+<command execution_time="36">MatchPairsLoop{pairID}.i</command>
+<command execution_time="37">kk</command>
+<command execution_time="36">iB1(kk)</command>
+<command execution_time="37">ind</command>
+<command execution_time="36">pid1</command>
+<command execution_time="37">pointObserved(:,pid1)</command>
+<command execution_time="23">pointObserved(:,1)</command>
+<command execution_time="22">pointObserved(1,1)</command>
+<command execution_time="34">pointObserved(1,2)</command>
+<command execution_time="36">pointObserved(1,3)</command>
+<command execution_time="22">pointObserved(1,4)</command>
+<command execution_time="38">pointObserved(1,5)</command>
+<command execution_time="37">pointObserved(2,5)</command>
+<command execution_time="21">pointObserved(2,1)</command>
+<command execution_time="1490">pointObserved</command>
+<command execution_time="30">nnz(pointObserved)</command>
+<command execution_time="32">size(pointObserved)</command>
+<command execution_time="33">389*388812</command>
+<command execution_time="37">pointObserved(:,1)</command>
+<command execution_time="35">pointObserved(:,3)</command>
+<command execution_time="43">pointObserved(:,pid1)</command>
+<command execution_time="35">pointObserved(:,pid2)</command>
+<command error="true" execution_time="388">sub2ind(size(pointObserved),ind,repmat(pid2,[length(ind),1]))</command>
+<command execution_time="35">max(ind)</command>
+<command execution_time="23">pid2</command>
+<command execution_time="23">size(pointObserved)</command>
+<command error="true" execution_time="216">sub2ind(size(pointObserved), 778, 1)</command>
+<command execution_time="36">sub2ind(size(pointObserved), 339, 1)</command>
+<command batch="2" error="true" execution_time="1060466" repeat="3">main</command>
+<command batch="2" error="true">main</command>
+<command batch="2" execution_time="427909">main</command>
+<command execution_time="191" repeat="4">main</command>
+<command execution_time="350" repeat="2">pcshow(a)</command>
+<command execution_time="150">main</command>
+<command execution_time="284">pcshow(a)</command>
 </session>
 </history>

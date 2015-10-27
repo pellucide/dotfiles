@@ -4,6 +4,7 @@
 (setq mc/cmds-to-run-for-all
       '(
         c-electric-paren
+        exit-recursive-edit
         prelude-move-beginning-of-line
         yas-expand
         ))

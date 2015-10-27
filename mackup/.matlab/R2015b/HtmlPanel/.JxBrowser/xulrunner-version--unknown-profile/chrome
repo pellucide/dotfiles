@@ -10,8 +10,8 @@
  */
 
 user_pref("accessibility.blockautorefresh", false);
-user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1444100068);
-user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1444100103);
+user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1445398974);
+user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1445398679);
 user_pref("appupdate.enabled", false);
 user_pref("browser.chromeURL", "chrome://browser/content/");
 user_pref("browser.hiddenWindowChromeURL", "chrome://browser/content/hiddenWindow.xul");

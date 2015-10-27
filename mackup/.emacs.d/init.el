@@ -8,7 +8,7 @@
 (package-initialize)
 
 ;; Add emacs folder
-(add-to-list 'load-path "~/.emacs.d")
+(add-to-list 'load-path "~/.emacs.d/lisp")
 
 ;; prompts are y or n instead of yes or no
 (defalias 'yes-or-no-p 'y-or-n-p)
@@ -148,6 +148,8 @@
 
     avy
     ace-window
+
+    markdown-mode
     
 ;     clean-aindent-mode                  ; Cleanup double-RET whitespace
 ;     comment-dwim-2                      ; Comment-dwim with cycline
@@ -470,3 +472,21 @@ point reaches the beginning or end of the buffer, stop there."
 (global-set-key (kbd "M-p") 'ace-window)
 
 (global-linum-mode t)
+
+(require 'markdown-mode)
+
+(autoload 'markdown-mode "markdown-mode"
+  "Major mode for editing Markdown files" t)
+(add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+(put 'dired-find-alternate-file 'disabled nil)
+
+(add-hook 'isearch-mode-end-hook 'my-goto-match-beginning)
+(defun my-goto-match-beginning ()
+  (when (and isearch-forward isearch-other-end)
+    (goto-char isearch-other-end)))
+(defadvice isearch-exit (after my-goto-match-beginning activate)
+  "Go to beginning of match."
+  (when (and isearch-forward isearch-other-end)
+    (goto-char isearch-other-end)))
