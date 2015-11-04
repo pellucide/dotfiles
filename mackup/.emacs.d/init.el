@@ -277,10 +277,10 @@
 
 (setq
  helm-scroll-amount 4 ; scroll 4 lines other window using M-<next>/M-<prior>
- helm-ff-search-library-in-sexp t ; search for library in `require' and `declare-function' sexp.
+ ;; helm-ff-search-library-in-sexp t ; search for library in `require' and `declare-function' sexp.
  helm-split-window-in-side-p t ;; open helm buffer inside current window, not occupy whole other window
  helm-candidate-number-limit 500 ; limit the number of displayed canidates
- helm-ff-file-name-history-use-recentf t
+ ;; helm-ff-file-name-history-use-recentf f
  helm-move-to-line-cycle-in-source t ; move to end or beginning of source when reaching top or bottom of source.
  helm-buffers-fuzzy-matching t          ; fuzzy matching buffer names when non-nil
                                         ; useful in helm-mini that lists buffers
@@ -314,8 +314,8 @@
 (add-hook 'helm-goto-line-before-hook 'helm-save-current-pos-to-mark-ring)
 
 ;; show minibuffer history with Helm
-(define-key minibuffer-local-map (kbd "M-p") 'helm-minibuffer-history)
-(define-key minibuffer-local-map (kbd "M-n") 'helm-minibuffer-history)
+(define-key minibuffer-local-map (kbd "m-p") 'helm-minibuffer-history)
+(define-key minibuffer-local-map (kbd "m-n") 'helm-minibuffer-history)
 
 (define-key global-map [remap find-tag] 'helm-etags-select)
 
@@ -350,6 +350,10 @@
 (setq helm-swoop-speed-or-color t)
 
 (helm-mode 1)
+
+(define-key helm-read-file-map (kbd "<C-backspace>") 'backward-kill-word)
+(define-key helm-find-files-map (kbd "<C-backspace>") 'backward-kill-word)
+(define-key helm-projectile-find-file-map (kbd "<C-backspace>") 'backward-kill-word)
 
 ;; Package: helm-gtags
 (require 'helm-gtags)
