@@ -193,22 +193,24 @@
 
 ;; Package: smartparens
 (require 'smartparens-config)
-(setq sp-base-key-bindings 'paredit)
-(setq sp-autoskip-closing-pair 'always)
-(setq sp-hybrid-kill-entire-symbol nil)
-(sp-use-paredit-bindings)
+(add-hook 'prog-mode-hook 'turn-on-smartparens-strict-mode)
+(add-hook 'markdown-mode-hook 'turn-on-smartparens-strict-mode)
+;; (setq sp-base-key-bindings 'paredit)
+;; (setq sp-autoskip-closing-pair 'always)
+;; (setq sp-hybrid-kill-entire-symbol nil)
+;; (sp-use-paredit-bindings)
 
-(show-smartparens-global-mode +1)
-(smartparens-global-mode 1)
+;; (show-smartparens-global-mode +1)
+;; (smartparens-global-mode 1)
 
 ; ;; Swap the smartparens keybindings around
-; (defvar  sp-custom-bindings '(
-;                               ("C-M-n" . sp-forward-sexp) ;; navigation
-;                               ("C-M-p" . sp-backward-sexp)
-;                               ("C-M-b" . sp-backward-down-sexp)
-;                               ("C-M-f" . sp-up-sexp)
-;                               )
-;   )
+;; (defvar  sp-custom-bindings '(
+;;                               ("C-M-n" . sp-forward-sexp) ;; navigation
+;;                               ("C-M-p" . sp-backward-sexp)
+;;                               ("C-M-b" . sp-backward-down-sexp)
+;;                               ("C-M-f" . sp-up-sexp)
+;;                               )
+;;   )
 ; (--each sp-custom-bindings
 ;   (define-key sp-keymap (read-kbd-macro (car it)) (cdr it)))
 
