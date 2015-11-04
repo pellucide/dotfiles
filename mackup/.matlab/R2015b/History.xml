@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <history>
 <session>
-<command time_stamp="14e6af5129b">%-- 07/07/2015 07:58:43 PM --%</command>
+<command time_stamp="14e6af5129b">%-- 7/7/15, 7:58 PM --%</command>
 <command error="true" execution_time="9107" repeat="3">main</command>
 </session>
 <session>
-<command time_stamp="14e6af7f301">%-- 07/07/2015 08:01:51 PM --%</command>
+<command time_stamp="14e6af7f301">%-- 7/7/15, 8:01 PM --%</command>
 <command batch="1">main</command>
 </session>
 <session>
-<command time_stamp="14e6afa518d">%-- 07/07/2015 08:04:27 PM --%</command>
+<command time_stamp="14e6afa518d">%-- 7/7/15, 8:04 PM --%</command>
 <command execution_time="2374" repeat="8">main</command>
 <command error="true" execution_time="436">P</command>
 <command execution_time="20">P = [K [0;0;0]];</command>
@@ -93,7 +93,7 @@
 <command execution_time="29">clear</command>
 </session>
 <session>
-<command time_stamp="1503aedc090">%-- 10/05/2015 10:14:31 PM --%</command>
+<command time_stamp="1503aedc090">%-- 10/5/15, 10:14 PM --%</command>
 <command execution_time="20" repeat="3">main</command>
 <command execution_time="21">size(a)</command>
 <command error="true" execution_time="165">dim(a,2)</command>
@@ -183,7 +183,7 @@
 <command error="true" execution_time="3519" repeat="2">main</command>
 </session>
 <session>
-<command time_stamp="15044450ad9">%-- 10/07/2015 05:46:27 PM --%</command>
+<command time_stamp="15044450ad9">%-- 10/7/15, 5:46 PM --%</command>
 <command execution_time="18">pwd</command>
 <command execution_time="71">cd ..</command>
 <command execution_time="62">ls</command>
@@ -191,7 +191,7 @@
 <command execution_time="18">ls</command>
 </session>
 <session>
-<command time_stamp="1504448d489">%-- 10/07/2015 05:50:35 PM --%</command>
+<command time_stamp="1504448d489">%-- 10/7/15, 5:50 PM --%</command>
 <command execution_time="89">cd mobot/src/reconstruction/src/gpu/</command>
 <command execution_time="39">ls</command>
 <command execution_time="55">cd result/</command>
@@ -356,11 +356,11 @@
 <command error="true" execution_time="121505" repeat="2">main</command>
 </session>
 <session>
-<command time_stamp="15085dbcd7a">%-- 10/20/2015 11:26:26 AM --%</command>
+<command time_stamp="15085dbcd7a">%-- 10/20/15, 11:26 AM --%</command>
 <command error="true" execution_time="173603">main</command>
 </session>
 <session>
-<command time_stamp="15085ea30ff">%-- 10/20/2015 11:42:09 AM --%</command>
+<command time_stamp="15085ea30ff">%-- 10/20/15, 11:42 AM --%</command>
 <command execution_time="239">main</command>
 <command execution_time="4077">pcshow(a)</command>
 <command execution_time="1376548" repeat="3">main</command>
@@ -516,5 +516,30 @@
 <command execution_time="350" repeat="2">pcshow(a)</command>
 <command execution_time="150">main</command>
 <command execution_time="284">pcshow(a)</command>
+</session>
+<session>
+<command time_stamp="150d3333e0c">%-- 11/4/15, 10:52 AM --%</command>
+<command batch="3" error="true">if calibPath</command>
+<command batch="3" error="true">disp(4)</command>
+<command batch="3" error="true" execution_time="424">end</command>
+<command batch="4" error="true">if exists(calibPath)</command>
+<command batch="4" error="true">disp(4)</command>
+<command batch="4" error="true" execution_time="189">end</command>
+<command batch="5" error="true">if exist(asdf)</command>
+<command batch="5" error="true">disp(4)</command>
+<command batch="5" error="true" execution_time="85">end</command>
+<command batch="6">if exist(asdf)</command>
+<command batch="7">if exist('asdf', 'var')</command>
+<command batch="7">disp(4)</command>
+<command batch="7" execution_time="7">end</command>
+<command execution_time="126">main</command>
+<command execution_time="45">ls</command>
+<command execution_time="33">ls iPhone' 5s'/</command>
+<command execution_time="83">main</command>
+<command execution_time="11">calib_path</command>
+<command error="true" execution_time="12">calib_path(1)</command>
+<command execution_time="86">main</command>
+<command execution_time="10">calib_path</command>
+<command execution_time="909" repeat="2">main</command>
 </session>
 </history>

@@ -1,5 +1,5 @@
 #MATLAB Preferences
-#Tue Oct 20 23:24:12 EDT 2015
+#Wed Nov 04 10:53:51 EST 2015
 CommandWindowShowHandleGraphics2Message=Bfalse
 ReplaceSearchText19=S
 ReplaceSearchText18=S
@@ -76,17 +76,17 @@ ColorsMLintAutoFixBackground=C-10126462
 DocumentsDetailViewerCollapsed=Btrue
 ColorsUseMLintAutoFixBackground=Bfalse
 ReplaceText=S;
-EditorMRU8=S/home/danielsuo/Downloads/scan003/2015-10-10T19.31.00.197/intrinsics_d2c.txt
-EditorMRU7=S/home/danielsuo/Downloads/scan004/2015-10-10T21.48.29.256/intrinsics_d2c_bak.txt
-EditorMRU6=S/home/danielsuo/mobot/src/reconstruction/src/align2view.m
-EditorMRU5=S/usr/local/MATLAB/R2015b/toolbox/matlab/ops/intersect.m
+EditorMRU8=S/home/danielsuo/mobot/src/reconstruction/src/align2view.m
+EditorMRU7=S/usr/local/MATLAB/R2015b/toolbox/matlab/ops/intersect.m
+EditorMRU6=S/usr/local/MATLAB/R2015b/toolbox/control/control/@pid2/pid2.m
+EditorMRU5=S/usr/local/MATLAB/R2015b/toolbox/matlab/elmat/sub2ind.m
 Editorhighlight-caret-row-boolean=Btrue
-EditorMRU4=S/usr/local/MATLAB/R2015b/toolbox/control/control/@pid2/pid2.m
-Colors_M_Errors=C-2411985
+EditorMRU4=S/home/danielsuo/mobot/src/reconstruction/src/readValuesFromTxt.m
 Colors_M_UnterminatedStrings=C-3519722
-EditorMRU3=S/usr/local/MATLAB/R2015b/toolbox/matlab/elmat/sub2ind.m
-EditorMRU2=S/home/danielsuo/mobot/src/reconstruction/src/readValuesFromTxt.m
-EditorMRU1=S/home/danielsuo/mobot/src/reconstruction/src/loadStructureIOdata.m
+Colors_M_Errors=C-2411985
+EditorMRU3=S/home/danielsuo/mobot/src/reconstruction/src/loadStructureIOdata.m
+EditorMRU2=S/Users/danielsuo/mobot/src/capture/calibration/main.m
+EditorMRU1=S/Users/danielsuo/mobot/src/capture/calibration/tools/image2PLY.m
 EditorRightTextLineVisible=Btrue
 ColorsBackground=C-16766154
 Colors_M_Keywords=C-14251311

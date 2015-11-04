@@ -109,6 +109,7 @@
             </key>
             <key name="History">
                 <string minArraySize="0" maxArraySize="500">
+                    <value><![CDATA[/Users/danielsuo/mobot/src/capture/calibration]]></value>
                     <value><![CDATA[/home/danielsuo/mobot/src/reconstruction/src/gpu/result]]></value>
                     <value><![CDATA[/home/danielsuo]]></value>
                     <value><![CDATA[/home/danielsuo/mobot/src/reconstruction/src]]></value>
@@ -160,7 +161,7 @@
                     <string minArraySize="0" maxArraySize="100000">
                         <value><![CDATA[40]]></value>
                         <value><![CDATA[649]]></value>
-                        <value><![CDATA[49]]></value>
+                        <value><![CDATA[40]]></value>
                         <value><![CDATA[0]]></value>
                         <value><![CDATA[0]]></value>
                         <value><![CDATA[0]]></value>
@@ -352,6 +353,18 @@
                     </uint32>
                 </key>
             </settings>
+            <settings name="H5874037744914817489">
+                <key name="ever_crashed_in_graphics">
+                    <uint32>
+                        <value>0</value>
+                    </uint32>
+                </key>
+                <key name="opengl_preference">
+                    <uint32>
+                        <value>0</value>
+                    </uint32>
+                </key>
+            </settings>
         </settings>
     </settings>
     <settings name="imshow">
@@ -397,7 +410,7 @@
         </key>
         <key name="LastFolderPath">
             <string>
-                <value><![CDATA[/]]></value>
+                <value><![CDATA[/Users/danielsuo/mobot/src/capture/calibration]]></value>
             </string>
         </key>
     </settings>

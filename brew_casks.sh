@@ -24,7 +24,6 @@ apps=(
     google-drive			            # Google Drive
     bettertouchtool                     # Hotkeys and trackpad
     flash                               # Flash player
-    popcorn-time			            # Netflix for bittorrent
     calibre                             # Ebook manager
     the-unarchiver                      # Archiving utility
     silverlight                         # Install Microsoft Silverlight
@@ -43,6 +42,7 @@ apps=(
     duet                                # Share screen with ipad
     evernote                            # 
     cheatsheet                          # keyboard shortcut
+    meshlab
 )
 
 echo "Installing apps..."

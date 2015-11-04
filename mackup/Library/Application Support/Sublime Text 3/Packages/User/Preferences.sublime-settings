@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"enable_tab_scrolling": true,
 	"file_exclude_patterns":
 	[
@@ -24,6 +24,7 @@
 	"font_size": 11.0,
 	"ignored_packages":
 	[
+		"AutoPEP8",
 		"HtmlTidy",
 		"MarkdownBuild",
 		"RubyTest",
