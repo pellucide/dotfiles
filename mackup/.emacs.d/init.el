@@ -131,6 +131,8 @@
     helm-gtags                          ; Helm gtags support
     helm-swoop                          ; Helm swoop support
 
+    julia-mode
+
     ;; Coding
     function-args                       ; C: show inline arguments for function
     company                             ; Code completion
@@ -496,3 +498,5 @@ point reaches the beginning or end of the buffer, stop there."
   "Go to beginning of match."
   (when (and isearch-forward isearch-other-end)
     (goto-char isearch-other-end)))
+
+(require 'julia-mode)
