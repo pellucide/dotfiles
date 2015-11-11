@@ -500,3 +500,6 @@ point reaches the beginning or end of the buffer, stop there."
     (goto-char isearch-other-end)))
 
 (require 'julia-mode)
+
+(setq line-number-mode t)
+(setq column-number-mode t)
