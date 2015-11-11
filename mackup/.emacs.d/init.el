@@ -141,6 +141,7 @@
 
     ;; Source control
     magit                               ; Git frontend
+    git-gutter
 
     ggtags
 
@@ -503,3 +504,5 @@ point reaches the beginning or end of the buffer, stop there."
 
 (setq line-number-mode t)
 (setq column-number-mode t)
+
+(require 'git-gutter)
