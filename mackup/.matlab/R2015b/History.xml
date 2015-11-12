@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <history>
 <session>
-<command time_stamp="14e6af5129b">%-- 7/7/15, 7:58 PM --%</command>
+<command time_stamp="14e6af5129b">%-- 07/07/2015 07:58:43 PM --%</command>
 <command error="true" execution_time="9107" repeat="3">main</command>
 </session>
 <session>
-<command time_stamp="14e6af7f301">%-- 7/7/15, 8:01 PM --%</command>
+<command time_stamp="14e6af7f301">%-- 07/07/2015 08:01:51 PM --%</command>
 <command batch="1">main</command>
 </session>
 <session>
-<command time_stamp="14e6afa518d">%-- 7/7/15, 8:04 PM --%</command>
+<command time_stamp="14e6afa518d">%-- 07/07/2015 08:04:27 PM --%</command>
 <command execution_time="2374" repeat="8">main</command>
 <command error="true" execution_time="436">P</command>
 <command execution_time="20">P = [K [0;0;0]];</command>
@@ -93,7 +93,7 @@
 <command execution_time="29">clear</command>
 </session>
 <session>
-<command time_stamp="1503aedc090">%-- 10/5/15, 10:14 PM --%</command>
+<command time_stamp="1503aedc090">%-- 10/05/2015 10:14:31 PM --%</command>
 <command execution_time="20" repeat="3">main</command>
 <command execution_time="21">size(a)</command>
 <command error="true" execution_time="165">dim(a,2)</command>
@@ -183,7 +183,7 @@
 <command error="true" execution_time="3519" repeat="2">main</command>
 </session>
 <session>
-<command time_stamp="15044450ad9">%-- 10/7/15, 5:46 PM --%</command>
+<command time_stamp="15044450ad9">%-- 10/07/2015 05:46:27 PM --%</command>
 <command execution_time="18">pwd</command>
 <command execution_time="71">cd ..</command>
 <command execution_time="62">ls</command>
@@ -191,7 +191,7 @@
 <command execution_time="18">ls</command>
 </session>
 <session>
-<command time_stamp="1504448d489">%-- 10/7/15, 5:50 PM --%</command>
+<command time_stamp="1504448d489">%-- 10/07/2015 05:50:35 PM --%</command>
 <command execution_time="89">cd mobot/src/reconstruction/src/gpu/</command>
 <command execution_time="39">ls</command>
 <command execution_time="55">cd result/</command>
@@ -356,11 +356,11 @@
 <command error="true" execution_time="121505" repeat="2">main</command>
 </session>
 <session>
-<command time_stamp="15085dbcd7a">%-- 10/20/15, 11:26 AM --%</command>
+<command time_stamp="15085dbcd7a">%-- 10/20/2015 11:26:26 AM --%</command>
 <command error="true" execution_time="173603">main</command>
 </session>
 <session>
-<command time_stamp="15085ea30ff">%-- 10/20/15, 11:42 AM --%</command>
+<command time_stamp="15085ea30ff">%-- 10/20/2015 11:42:09 AM --%</command>
 <command execution_time="239">main</command>
 <command execution_time="4077">pcshow(a)</command>
 <command execution_time="1376548" repeat="3">main</command>
@@ -518,7 +518,7 @@
 <command execution_time="284">pcshow(a)</command>
 </session>
 <session>
-<command time_stamp="150d3333e0c">%-- 11/4/15, 10:52 AM --%</command>
+<command time_stamp="150d3333e0c">%-- 11/04/2015 10:52:42 AM --%</command>
 <command batch="3" error="true">if calibPath</command>
 <command batch="3" error="true">disp(4)</command>
 <command batch="3" error="true" execution_time="424">end</command>
@@ -541,5 +541,543 @@
 <command execution_time="86">main</command>
 <command execution_time="10">calib_path</command>
 <command execution_time="909" repeat="2">main</command>
+<command execution_time="196">main</command>
+<command execution_time="23">size(cameraRtC2W_PoseGraph)</command>
+<command execution_time="177" repeat="2">main</command>
+<command execution_time="22">cameraRtC2W(:,4,:)</command>
+<command execution_time="34">reshape(cameraRtC2W(:,4,:),3,[])</command>
+<command execution_time="22">cameraRtC2W(:,4,:)</command>
+<command execution_time="21">reshape(cameraRtC2W(:,4,:),3,[])</command>
+<command execution_time="26">cameraRtC2W(:,4,:)</command>
+<command execution_time="25">reshape(cameraRtC2W(:,4,:),3,[])</command>
+<command execution_time="219">help plot3</command>
+<command execution_time="179">main</command>
+<command execution_time="82">help plot3</command>
+<command batch="6">t = 0:pi/50:10*pi;</command>
+<command batch="6" execution_time="25">plot3(sin(t),cos(t),t);</command>
+<command execution_time="11">size(cameraCenters_TimeBased)</command>
+<command execution_time="24">mod(2,4)</command>
+<command execution_time="23">mod (4,2)</command>
+<command execution_time="26">nPairs</command>
+<command execution_time="27">pwd</command>
+<command execution_time="31">cameraRt_ij_indices</command>
+<command execution_time="23">cameraRt_ij_indices(1,:)</command>
+<command execution_time="23">cameraRt_ij_indices(:,1)</command>
+<command error="true" execution_time="23">[i, j] = cameraRt_ij_indices(:, 1)</command>
+<command error="true" execution_time="26">[i j] = cameraRt_ij_indices(:, 1)</command>
+<command error="true" execution_time="29">[i; j] = cameraRt_ij_indices(:, 1)</command>
+<command error="true" execution_time="21">[i j] = cameraRt_ij_indices(:, 1)</command>
+<command error="true" execution_time="22">[i j] = cameraRt_ij_indices(:, 1)'</command>
+<command error="true" execution_time="19">[i, j] = cameraRt_ij_indices(:, 1)'</command>
+<command error="true" execution_time="26">[i, j] = cameraRt_ij_indices(:, 1)</command>
+<command execution_time="27">cameraRt_ij_indices(:,1)</command>
+<command execution_time="33">cameraRt_ij_indices(:,1)'</command>
+<command execution_time="33">a = cameraRt_ij_indices(:,1)'</command>
+<command execution_time="26">a</command>
+<command execution_time="25">i, j = cameraRt_ij_indices(:, 1)</command>
+<command execution_time="710">DEBUG_PoseGraph</command>
+</session>
+<session>
+<command time_stamp="150d51c7a18">%-- 11/04/2015 07:47:05 PM --%</command>
+<command execution_time="4901">DEBUG_PoseGraph</command>
+<command error="true" execution_time="4460">main</command>
+<command error="true" execution_time="19">[1:2 4:%]</command>
+<command execution_time="31">[1:2 4:5]</command>
+<command execution_time="70877">main</command>
+<command error="true" execution_time="175">MatchPairs{50}</command>
+<command execution_time="68">load('/home/danielsuo/Downloads/scan004/2015-10-10T21.48.29.256/sfm_BA3_1_389/dat.mat');</command>
+<command error="true" execution_time="168">MatchPairs{50}</command>
+<command execution_time="111">load('/home/danielsuo/Downloads/scan004/2015-10-10T21.48.29.256/sfm_BA3_1_389/MatchPairs.mat')</command>
+<command execution_time="34">MatchPairs{50}</command>
+<command execution_time="27">MatchPairs{50}.Rt</command>
+<command execution_time="28">MatchPairsLoop</command>
+<command execution_time="25">MatchPairs{50}.Rt == MatchPairs{50}.Rt</command>
+<command execution_time="27">all(MatchPairs{50}.Rt == MatchPairs{50}.Rt)</command>
+<command execution_time="22">all(all(MatchPairs{50}.Rt == MatchPairs{50}.Rt))</command>
+<command execution_time="31">a = repmat(zeros(2,1),[1,1])</command>
+<command error="true" execution_time="28">a = repmat(zeros(2,1)])</command>
+<command error="true" execution_time="32">a = repmat(zeros(2,1))</command>
+<command execution_time="28">a = repmat(zeros(2,1), 0)</command>
+<command execution_time="27">a(:,:,1) = 1</command>
+<command error="true" execution_time="53">a(:,:,1) = MatchPairs{50}.Rt</command>
+<command execution_time="29">b = repmat([eye(3) zeros(3,1)], [1,1,1])</command>
+<command execution_time="28">b(:,:,2) = MatchPairs{12}.Rt</command>
+<command execution_time="27">b</command>
+<command execution_time="27">MatchPairs{1}.Rt</command>
+<command execution_time="27">MatchPairs{2}.Rt</command>
+<command execution_time="29">MatchPairs{3}.Rt</command>
+<command execution_time="27">MatchPairs{4}.Rt</command>
+<command execution_time="25">MatchPairs{5}.Rt</command>
+<command execution_time="27">MatchPairs{50}</command>
+<command execution_time="25">MatchPairs{50}.Rt</command>
+<command error="true" execution_time="31">MatchPairs{50}.Rt == [[1 0 0 0], [0 1 0 0], [0 0 1 0]]</command>
+<command execution_time="30">MatchPairs{50}.Rt == [[1 0 0 0]; [0 1 0 0]; [0 0 1 0]]</command>
+<command error="true" execution_time="236">MatchPairs{50}.Rt == cameraCalibrationEr</command>
+<command execution_time="30">MatchPairs{50}.Rt == [eye(3) zeros(3, 1)]</command>
+<command execution_time="27">all(all(MatchPairs{50}.Rt == [eye(3) zeros(3, 1)]))</command>
+<command execution_time="27">~all(all(MatchPairs{50}.Rt == [eye(3) zeros(3, 1)]))</command>
+<command error="true" execution_time="16803">main</command>
+<command execution_time="64" repeat="3">scores</command>
+<command execution_time="49124">main</command>
+<command execution_time="125">scores</command>
+<command execution_time="62">wDistance</command>
+<command execution_time="81">bwdist(eye(length(data.image)))</command>
+<command error="true" execution_time="992" repeat="2">main</command>
+<command execution_time="28">count</command>
+<command execution_time="32">depthFiles</command>
+<command execution_time="28">frameIDs</command>
+<command execution_time="168347" repeat="6">main</command>
+<command execution_time="39">cameraCenters_PoseGraph</command>
+<command execution_time="47">cameraCenters_BundleAdjustment</command>
+<command execution_time="31">cameraRt_ij_indices</command>
+<command error="true" execution_time="219" repeat="2">cmaeraCenters_PoseGraph(1,5)</command>
+<command execution_time="18">cameraCenters_PoseGraph(1,5)</command>
+<command execution_time="65731" repeat="2">DEBUG_PoseGraph</command>
+<command execution_time="21">true</command>
+<command error="true" execution_time="298">DEBUG_PoseGraph</command>
+<command execution_time="20">fname_inout = '~/Downloads/tmp/results'</command>
+<command batch="7">fname_in = [fname_inout '.in'];</command>
+<command batch="7">fname_out = [fname_inout '.out'];</command>
+<command batch="7">fin = fopen(fname_in, 'wb');</command>
+<command batch="7">fwrite(fin, nCam, 'uint32');</command>
+<command batch="7">fwrite(fin, nPts, 'uint32');</command>
+<command batch="7">fwrite(fin, nObs, 'uint32');</command>
+<command batch="7">fwrite(fin, nPairs, 'uint32');</command>
+<command batch="7">fwrite(fin, fx, 'double');</command>
+<command batch="7">fwrite(fin, fy, 'double');</command>
+<command batch="7">fwrite(fin, px, 'double');</command>
+<command batch="7">fwrite(fin, py, 'double');</command>
+<command batch="7">fwrite(fin, cameraRtC2W, 'double');</command>
+<command batch="7">fwrite(fin, cameraRtW2C_BundleAdjustment, 'double');</command>
+<command batch="7">fwrite(fin, pointCloud, 'double');</command>
+<command batch="7">fwrite(fin, cameraRt_ij, 'double');</command>
+<command batch="7">fwrite(fin, cameraRt_ij_indices, 'uint32');</command>
+<command batch="7">% write observation</command>
+<command batch="7">ptsObservedIndex = uint32([camID,ptsID]-1)';</command>
+<command batch="7">ptsObservedValue = pointObservedValue(:,valID);</command>
+<command batch="7">fwrite(fin, ptsObservedIndex, 'uint32');</command>
+<command batch="7">fwrite(fin, ptsObservedValue, 'double');</command>
+<command batch="7" execution_time="196">fclose(fin);</command>
+<command execution_time="40191">DEBUG_PoseGraph</command>
+<command execution_time="18">out_dir</command>
+<command execution_time="36">cameraCenters_TimeBased</command>
+<command execution_time="514">DEBUG_PoseGraph</command>
+<command execution_time="165376">main</command>
+<command execution_time="46355" repeat="11">DEBUG_PoseGraph</command>
+<command error="true" execution_time="206">pointsObserved</command>
+<command execution_time="827">pointObserved</command>
+<command error="true" execution_time="223">pointObservedIndices</command>
+<command execution_time="1415">ptsObservedIndex</command>
+<command execution_time="30">pointCloud(1)</command>
+<command execution_time="541">pointCloud(:,:,:)</command>
+<command execution_time="25">size(pointCloud)</command>
+<command execution_time="30">size (ptsObservedValue)</command>
+<command execution_time="31">ptsObservedValue(1)</command>
+<command execution_time="1118">ptsObservedValue(1,:)</command>
+<command execution_time="18">ptsObservedValue(:,1)</command>
+<command execution_time="19">ptsObservedValue(:,2)</command>
+<command execution_time="19">ptsObservedValue(:,3)</command>
+<command execution_time="1024">ptsObservedValue(6,:)</command>
+<command batch="8" error="true" execution_time="6761" repeat="17">DEBUG_PoseGraph</command>
+<command batch="8" error="true">DEBUG_PoseGraph</command>
+<command batch="8" error="true">DEBUG_PoseGraph</command>
+<command batch="8" error="true" execution_time="19282">DEBUG_PoseGraph</command>
+<command execution_time="11525" repeat="3">DEBUG_PoseGraph</command>
+<command batch="9" repeat="2">figure</command>
+<command batch="9">for cameraID=1:length(data.image)</command>
+<command batch="9">subplot(1,2,1)</command>
+<command batch="9">imshow(imread(data.depth{cameraID}));</command>
+<command batch="9">subplot(1,2,2)</command>
+<command batch="9">imshow(imread(data.image{cameraID}));</command>
+<command batch="9">title(sprintf('Frame %d',cameraID));</command>
+<command batch="9">drawnow;</command>
+<command batch="9">% pause;</command>
+<command batch="9" execution_time="52861">end</command>
+<command execution_time="6035" repeat="5">DEBUG_PoseGraph</command>
+<command execution_time="197778" repeat="3">main</command>
+<command execution_time="44019">DEBUG_PoseGraph</command>
+<command execution_time="138847" repeat="2">main</command>
+<command execution_time="40">cameraRt_ij_indices</command>
+<command execution_time="8920" repeat="8">DEBUG_PoseGraph</command>
+<command execution_time="134848">main</command>
+<command execution_time="13153" repeat="11">DEBUG_PoseGraph</command>
+<command error="true" execution_time="252">RGBDsfm</command>
+<command execution_time="175021">main</command>
+<command error="true" execution_time="168">KK_right</command>
+<command error="true" execution_time="270">RGBDsfm</command>
+<command execution_time="218303">main</command>
+<command execution_time="42403">DEBUG_PoseGraph</command>
+<command execution_time="168871">main</command>
+<command execution_time="4325" repeat="4">DEBUG_PoseGraph</command>
+<command execution_time="130621">main</command>
+<command execution_time="685">help find</command>
+<command execution_time="794">pointObserved</command>
+<command execution_time="19">size(pointObserved)</command>
+<command execution_time="20">size(pointObservedValue)</command>
+<command execution_time="31">zeros(6,1)</command>
+<command execution_time="30">repmat(zeros(6,1), [1,1])</command>
+<command execution_time="29">repmat(zeros(6,1), [1,2])</command>
+<command execution_time="29">repmat(zeros(6,1), [2,2])</command>
+<command execution_time="29">repmat(zeros(6,1), [1,2])</command>
+<command execution_time="29">repmat(zeros(6,1), [1])</command>
+<command execution_time="28">repmat(zeros(6,1), 1)</command>
+<command execution_time="30">a = zeros(6,1)</command>
+<command execution_time="30">a(:,2) = ones(6,1)</command>
+<command execution_time="77">intersect(MatchPairs{1}.matches(6:7,:)',MatchPairs{2}.matches(1:2,:)', 'rows')</command>
+<command execution_time="28">size(MatchPairs{1}.matches(6:7,:)')</command>
+<command execution_time="222">help intersect</command>
+<command execution_time="53">[c, a, b] = intersect(MatchPairs{1}.matches(6:7,:)',MatchPairs{2}.matches(1:2,:)', 'rows')</command>
+<command execution_time="33">c</command>
+<command execution_time="42">a</command>
+<command execution_time="35">b</command>
+<command execution_time="21">cameraRt_ij_points = zeros(3, 1);</command>
+<command execution_time="30">cameraRt_ij_points(:,2) = ones(3,1)</command>
+<command error="true" execution_time="35">MatchPairs{frameID}.matches(8:10,:)</command>
+<command execution_time="46">MatchPairs{1}.matches(8:10,:)</command>
+<command execution_time="33">size(MatchPairs{1}.matches(8:10,:),2)</command>
+<command batch="10" error="true">% Keep track of SIFT key points that are common to each pair. We want</command>
+<command batch="10" error="true">% points in j's coordinate system (R_ij * p is C2C from j to i). We don't</command>
+<command batch="10" error="true">% preallocate memory. Oh well.</command>
+<command batch="10" error="true">cameraRt_ij_points = zeros(3, 1);</command>
+<command batch="10" error="true">% Keep track of the number of SIFT key points that are common to each pair</command>
+<command batch="10" error="true">% (so we can look up later)</command>
+<command batch="10" error="true">cameraRt_ij_points_count = [];</command>
+<command batch="10" error="true">% Keep track of total number of points we've added</command>
+<command batch="10" error="true">cameraRt_ij_points_total = 0;</command>
+<command batch="10" error="true">% Grab all key point locations</command>
+<command batch="10" error="true">for frameID = 1:length(data.image) - 1</command>
+<command batch="10" error="true">matches = MatchPairs{frameID}.matches(8:10,:);</command>
+<command batch="10" error="true">cameraRt_ij_points_count(frameID) = size(matches, 2);</command>
+<command batch="10" error="true">cameraRt_ij_points(:, cameraRt_ij_points_total:(cameraRt_ij_points_total + size(matches, 2))) = matches;</command>
+<command batch="10" error="true">cameraRt_ij_points_total = cameraRt_ij_points_total + size(matches, 2);</command>
+<command batch="10" error="true" execution_time="136">end</command>
+<command batch="11" error="true">ep track of SIFT key points that are common to each pair. We want</command>
+<command batch="11" error="true">% points in j's coordinate system (R_ij * p is C2C from j to i). We don't</command>
+<command batch="11" error="true">% preallocate memory. Oh well.</command>
+<command batch="11" error="true">cameraRt_ij_points = zeros(3, 1);</command>
+<command batch="11" error="true">% Keep track of the number of SIFT key points that are common to each pair</command>
+<command batch="11" error="true">% (so we can look up later)</command>
+<command batch="11" error="true">cameraRt_ij_points_count = [];</command>
+<command batch="11" error="true">% Keep track of total number of points we've added</command>
+<command batch="11" error="true">cameraRt_ij_points_total = 0;</command>
+<command batch="11" error="true">% Grab all key point locations</command>
+<command batch="11" error="true">for frameID = 1:length(data.image) - 1</command>
+<command batch="11" error="true">matches = MatchPairs{frameID}.matches(8:10,:);</command>
+<command batch="11" error="true">cameraRt_ij_points_count(frameID) = size(matches, 2);</command>
+<command batch="11" error="true">disp(size(matches, 2));</command>
+<command batch="11" error="true">cameraRt_ij_points(:, cameraRt_ij_points_total:(cameraRt_ij_points_total + size(matches, 2))) = matches;</command>
+<command batch="11" error="true">cameraRt_ij_points_total = cameraRt_ij_points_total + size(matches, 2);</command>
+<command batch="11" error="true" execution_time="193">end</command>
+<command batch="12" error="true">% Keep track of SIFT key points that are common to each pair. We want</command>
+<command batch="12" error="true">% points in j's coordinate system (R_ij * p is C2C from j to i). We don't</command>
+<command batch="12" error="true">% preallocate memory. Oh well.</command>
+<command batch="12" error="true">cameraRt_ij_points = zeros(3, 1);</command>
+<command batch="12" error="true">% Keep track of the number of SIFT key points that are common to each pair</command>
+<command batch="12" error="true">% (so we can look up later)</command>
+<command batch="12" error="true">cameraRt_ij_points_count = [];</command>
+<command batch="12" error="true">% Keep track of total number of points we've added</command>
+<command batch="12" error="true">cameraRt_ij_points_total = 0;</command>
+<command batch="12" error="true">% Grab all key point locations</command>
+<command batch="12" error="true">for frameID = 1:length(data.image) - 1</command>
+<command batch="12" error="true">matches = MatchPairs{frameID}.matches(8:10,:);</command>
+<command batch="12" error="true">cameraRt_ij_points_count(frameID) = size(matches, 2);</command>
+<command batch="12" error="true">disp(size(matches, 2));</command>
+<command batch="12" error="true">cameraRt_ij_points(:, cameraRt_ij_points_total:(cameraRt_ij_points_total + size(matches, 2))) = matches;</command>
+<command batch="12" error="true">cameraRt_ij_points_total = cameraRt_ij_points_total + size(matches, 2);</command>
+<command batch="12" error="true" execution_time="127">end</command>
+<command execution_time="38">cameraRt_ij_points_total:(cameraRt_ij_points_total + size(matches, 2))</command>
+<command error="true" execution_time="33">cameraRt_ij_points(:,cameraRt_ij_points_total:(cameraRt_ij_points_total + size(matches, 2)))</command>
+<command execution_time="21">cameraRt_ij_points</command>
+<command error="true" execution_time="36">cameraRt_ij_points(1,3)</command>
+<command execution_time="38">cameraRt_ij_points(1,3) = 4</command>
+<command execution_time="20">cameraRt_ij_points(:,3) = 4</command>
+<command execution_time="33">cameraRt_ij_points(:,3:5) = 4</command>
+<command error="true" execution_time="21">cameraRt_ij_points(:,cameraRt_ij_points_total:5) = 4</command>
+<command execution_time="20">cameraRt_ij_points_total</command>
+<command execution_time="20">cameraRt_ij_points_total:5</command>
+<command batch="13" error="true">% Keep track of SIFT key points that are common to each pair. We want</command>
+<command batch="13" error="true">% points in j's coordinate system (R_ij * p is C2C from j to i). We don't</command>
+<command batch="13" error="true">% preallocate memory. Oh well.</command>
+<command batch="13" error="true">cameraRt_ij_points = zeros(3, 1);</command>
+<command batch="13" error="true">% Keep track of the number of SIFT key points that are common to each pair</command>
+<command batch="13" error="true">% (so we can look up later)</command>
+<command batch="13" error="true">cameraRt_ij_points_count = [];</command>
+<command batch="13" error="true">% Keep track of total number of points we've added</command>
+<command batch="13" error="true">cameraRt_ij_points_total = 0;</command>
+<command batch="13" error="true">% Grab all key point locations</command>
+<command batch="13" error="true">for frameID = 1:length(data.image) - 1</command>
+<command batch="13" error="true">matches = MatchPairs{frameID}.matches(8:10,:);</command>
+<command batch="13" error="true">cameraRt_ij_points_count(frameID) = size(matches, 2);</command>
+<command batch="13" error="true">disp(size(matches, 2));</command>
+<command batch="13" error="true">cameraRt_ij_points(:, (cameraRt_ij_points_total + 1):(cameraRt_ij_points_total + size(matches, 2))) = matches;</command>
+<command batch="13" error="true">cameraRt_ij_points_total = cameraRt_ij_points_total + size(matches, 2);</command>
+<command batch="13" error="true" execution_time="148">end</command>
+<command batch="14" error="true">% Keep track of SIFT key points that are common to each pair. We want</command>
+<command batch="14" error="true">% points in j's coordinate system (R_ij * p is C2C from j to i). We don't</command>
+<command batch="14" error="true">% preallocate memory. Oh well.</command>
+<command batch="14" error="true">cameraRt_ij_points = zeros(3, 1);</command>
+<command batch="14" error="true">% Keep track of the number of SIFT key points that are common to each pair</command>
+<command batch="14" error="true">% (so we can look up later)</command>
+<command batch="14" error="true">cameraRt_ij_points_count = [];</command>
+<command batch="14" error="true">% Keep track of total number of points we've added</command>
+<command batch="14" error="true">cameraRt_ij_points_total = 0;</command>
+<command batch="14" error="true">% Grab all key point locations</command>
+<command batch="14" error="true">for frameID = 1:length(data.image) - 1</command>
+<command batch="14" error="true">matches = MatchPairs{frameID}.matches(8:10,:);</command>
+<command batch="14" error="true">cameraRt_ij_points_count(frameID) = size(matches, 2);</command>
+<command batch="14" error="true">disp(frameID, size(matches, 2));</command>
+<command batch="14" error="true">cameraRt_ij_points(:, (cameraRt_ij_points_total + 1):(cameraRt_ij_points_total + size(matches, 2))) = matches;</command>
+<command batch="14" error="true">cameraRt_ij_points_total = cameraRt_ij_points_total + size(matches, 2);</command>
+<command batch="14" error="true" execution_time="127">end</command>
+<command batch="15" error="true">% Keep track of SIFT key points that are common to each pair. We want</command>
+<command batch="15" error="true">% points in j's coordinate system (R_ij * p is C2C from j to i). We don't</command>
+<command batch="15" error="true">% preallocate memory. Oh well.</command>
+<command batch="15" error="true">cameraRt_ij_points = zeros(3, 1);</command>
+<command batch="15" error="true">% Keep track of the number of SIFT key points that are common to each pair</command>
+<command batch="15" error="true">% (so we can look up later)</command>
+<command batch="15" error="true">cameraRt_ij_points_count = [];</command>
+<command batch="15" error="true">% Keep track of total number of points we've added</command>
+<command batch="15" error="true">cameraRt_ij_points_total = 0;</command>
+<command batch="15" error="true">% Grab all key point locations</command>
+<command batch="15" error="true">for frameID = 1:length(data.image) - 1</command>
+<command batch="15" error="true">matches = MatchPairs{frameID}.matches(8:10,:);</command>
+<command batch="15" error="true">cameraRt_ij_points_count(frameID) = size(matches, 2);</command>
+<command batch="15" error="true">disp(frameID);</command>
+<command batch="15" error="true">disp(size(matches, 2));</command>
+<command batch="15" error="true">cameraRt_ij_points(:, (cameraRt_ij_points_total + 1):(cameraRt_ij_points_total + size(matches, 2))) = matches;</command>
+<command batch="15" error="true">cameraRt_ij_points_total = cameraRt_ij_points_total + size(matches, 2);</command>
+<command batch="15" error="true" execution_time="150">end</command>
+<command execution_time="34">cameraRt_ij_points_count</command>
+<command execution_time="33">cameraRt_ij_points_total</command>
+<command execution_time="33">sum(cameraRt_ij_points_count)</command>
+<command error="true" execution_time="35">MatchPairs{90}.matches(8:10,:)</command>
+<command error="true" execution_time="35">MatchPairs{90}</command>
+<command execution_time="57">MatchPairs</command>
+<command batch="16">MatchPairs = cell(1,length(data.image)-1);</command>
+<command batch="16">% Loop through all consecutive frames and find relative poses</command>
+<command batch="16">parfor frameID = 1:length(data.image)-1</command>
+<command batch="16">MatchPairs{frameID} = align2view(data, frameID, frameID+1);</command>
+<command batch="16" execution_time="59695">end</command>
+<command execution_time="32">size(MatchPairs)</command>
+<command batch="17">% Keep track of SIFT key points that are common to each pair. We want</command>
+<command batch="17">% points in j's coordinate system (R_ij * p is C2C from j to i). We don't</command>
+<command batch="17">% preallocate memory. Oh well.</command>
+<command batch="17">cameraRt_ij_points = zeros(3, 1);</command>
+<command batch="17">% Keep track of the number of SIFT key points that are common to each pair</command>
+<command batch="17">% (so we can look up later)</command>
+<command batch="17">cameraRt_ij_points_count = [];</command>
+<command batch="17">% Keep track of total number of points we've added</command>
+<command batch="17">cameraRt_ij_points_total = 0;</command>
+<command batch="17">% Grab all key point locations</command>
+<command batch="17">for frameID = 1:length(data.image) - 1</command>
+<command batch="17">matches = MatchPairs{frameID}.matches(8:10,:);</command>
+<command batch="17">cameraRt_ij_points_count(frameID) = size(matches, 2);</command>
+<command batch="17">disp(frameID);</command>
+<command batch="17">disp(size(matches, 2));</command>
+<command batch="17">cameraRt_ij_points(:, (cameraRt_ij_points_total + 1):(cameraRt_ij_points_total + size(matches, 2))) = matches;</command>
+<command batch="17">cameraRt_ij_points_total = cameraRt_ij_points_total + size(matches, 2);</command>
+<command batch="17" execution_time="169">end</command>
+<command execution_time="17">size(cameraRt_ij_points)</command>
+<command execution_time="20">sum(cameraRt_ij_points_count)</command>
+<command execution_time="32">size(cameraRt_ij_points_count)</command>
+<command execution_time="36">size(cameraRt_ij_points_count, 2)</command>
+<command batch="18" execution_time="3628" repeat="3">DEBUG_PoseGraph</command>
+<command batch="18" execution_time="7195">DEBUG_PoseGraph</command>
+<command execution_time="122261" repeat="2">main</command>
+<command execution_time="3696">DEBUG_PoseGraph</command>
+<command error="true" execution_time="122909" repeat="2">main</command>
+<command execution_time="3761">DEBUG_PoseGraph</command>
+<command execution_time="154">load(sprintf('%s/data.mat', result_path));</command>
+<command batch="19">cmd = sprintf('./ba2D3D %d %f %s %s', mode, weight, fname_in, fname_out);</command>
+<command batch="19">fprintf('%s\n',cmd);</command>
+<command batch="19" execution_time="307">system(cmd);</command>
+<command execution_time="3779">DEBUG_PoseGraph</command>
+<command batch="20">system(sprintf('cp %s ~/Downloads%s', fname_in, fname_in));</command>
+<command batch="20">cmd = sprintf('./ba2D3D %d %f %s %s', mode, weight, fname_in, fname_out);</command>
+<command batch="20">fprintf('%s\n',cmd);</command>
+<command batch="20" execution_time="287">system(cmd);</command>
+<command execution_time="157">load(sprintf('%s/data.mat', result_path));</command>
+<command batch="21" repeat="2">system(sprintf('cp %s ~/Downloads%s', fname_in, fname_in));</command>
+<command batch="21">fprintf('%s\n',cmd);</command>
+<command batch="21" execution_time="327">system(cmd);</command>
+<command error="true" execution_time="122016" repeat="3">main</command>
+<command execution_time="51670" repeat="58">DEBUG_PoseGraph</command>
+<command execution_time="2946">prepare_mnist</command>
+<command error="true" execution_time="1116">demo_vis_filter</command>
+<command execution_time="8287">prepare_mnist</command>
+<command error="true" execution_time="706">demo_vis_filter</command>
+<command error="true" execution_time="691">readTensors</command>
+<command execution_time="905" repeat="5">demo_vis_filter</command>
+</session>
+<session>
+<command time_stamp="150eacbe0a3">%-- 11/09/2015 12:50:41 AM --%</command>
+<command execution_time="396" repeat="4">demo_vis_filter</command>
+<command execution_time="3966">prepare_mnist</command>
+<command error="true" execution_time="16091" repeat="2">demo_vis_filter</command>
+<command execution_time="4794">prepare_mnist</command>
+<command execution_time="9268" repeat="15">DEBUG_PoseGraph</command>
+<command error="true" execution_time="169">RGBDsfm</command>
+<command execution_time="27463" repeat="9">DEBUG_PoseGraph</command>
+<command error="true" execution_time="111">RGBDsfm</command>
+<command execution_time="17120" repeat="5">DEBUG_PoseGraph</command>
+</session>
+<session>
+<command time_stamp="150ef7f46fc">%-- 11/09/2015 10:45:07 PM --%</command>
+<command execution_time="130051" repeat="3">main</command>
+<command error="true" execution_time="414">DEBUG_PoseGraph</command>
+<command execution_time="125489">main</command>
+<command execution_time="7942" repeat="3">DEBUG_PoseGraph</command>
+<command error="true" execution_time="353">RGBDsfm</command>
+<command execution_time="8998" repeat="2">DEBUG_PoseGraph</command>
+<command error="true" execution_time="390">RGBDsfm</command>
+<command execution_time="8277" repeat="2">DEBUG_PoseGraph</command>
+<command execution_time="42">size(cameraRt_ij)</command>
+<command execution_time="40">size(cameraRtC2W)</command>
+<command execution_time="42">size(cameraRt_ij_points_observed)</command>
+<command execution_time="41">cameraRt_ij_points_count(362)</command>
+<command execution_time="41">max(cameraRt_ij_points_count)</command>
+<command execution_time="19440" repeat="12">DEBUG_PoseGraph</command>
+<command execution_time="153962">main</command>
+<command execution_time="3727" repeat="7">DEBUG_PoseGraph</command>
+<command execution_time="45">nPairs</command>
+<command execution_time="41">nPairs * 500</command>
+<command execution_time="42">nPairs * 500 * 3</command>
+<command error="true" execution_time="8984" repeat="12">DEBUG_PoseGraph</command>
+<command execution_time="38">size(cameraRt_ij_points_predicted)</command>
+<command execution_time="40">cameraRt_ij_points_predicted(100)</command>
+<command execution_time="40">cameraRt_ij_points_predicted(:,100)</command>
+<command execution_time="36">cameraRt_ij_points_observed(:,100)</command>
+<command execution_time="41">cameraRtC2W(:,:,100)</command>
+<command error="true" execution_time="305">RGBDsfm</command>
+<command batch="22" error="true">DEBUG_PoseGraph</command>
+<command batch="22" execution_time="34753">DEBUG_PoseGraph</command>
+<command batch="23" error="true" execution_time="7" repeat="2">DEBUG_PoseGraph</command>
+<command batch="23" error="true" execution_time="9060">DEBUG_PoseGraph</command>
+<command batch="24" error="true">DEBUG_PoseGraph</command>
+<command batch="24" error="true" execution_time="66265">DEBUG_PoseGraph</command>
+<command execution_time="162796">main</command>
+<command error="true" execution_time="23240">DEBUG_PoseGraph</command>
+<command execution_time="47">cameraRt_ij_points_observed(100)</command>
+<command execution_time="39">cameraRt_ij_points_observed(:,100)</command>
+<command execution_time="39">cameraRt_ij_points_predicted(:,100)</command>
+<command execution_time="156">load(sprintf('%s/data.mat', result_path));</command>
+<command execution_time="56">cameraRt_ij_points_observed(:,100)</command>
+<command execution_time="52">cameraRt_ij_points_predicted(:,100)</command>
+<command execution_time="37">cameraRt_ij_points_predicted(:,1000)</command>
+<command execution_time="51">cameraRt_ij_points_observed(:,1000)</command>
+<command error="true" execution_time="45">sum(cameraRt_ij_points_count(1:5)</command>
+<command execution_time="37">sum(cameraRt_ij_points_count(1:5))</command>
+<command execution_time="39">sum(cameraRt_ij_points_count(1:6))</command>
+<command error="true" execution_time="43">transformRt(cameraRt_ij_points_observed(:,1000), cameraRtC2W(:,:,6), false)</command>
+<command execution_time="42">transformRT(cameraRt_ij_points_observed(:,1000), cameraRtC2W(:,:,6), false)</command>
+<command execution_time="38367" repeat="3">DEBUG_PoseGraph</command>
+<command error="true" execution_time="299">transformRT</command>
+<command error="true" execution_time="32822">DEBUG_PoseGraph</command>
+<command error="true" execution_time="33">cameraRt_ij_points_observed(:,255807)</command>
+<command execution_time="33">cameraRt_ij_points_observed(:,255807/3)</command>
+<command execution_time="31">cameraRt_ij_points_observed(:,256680/3)</command>
+<command execution_time="28">cameraRt_ij_points_predicted(:,256680/3)</command>
+<command execution_time="31">transformRT(cameraRt_ij_points_observed(:,256680/3), cameraRtC2W(:,:,340), false)</command>
+<command execution_time="36">256680/3</command>
+<command execution_time="36">size(cameraRt_ij_points_predicted)</command>
+<command error="true" execution_time="271">sum(camerRt_ij_points_count(1:340))</command>
+<command execution_time="40">sum(cameraRt_ij_points_count(1:340))</command>
+<command execution_time="38">sum(cameraRt_ij_points_count(1:341))</command>
+<command execution_time="39">transformRT(cameraRt_ij_points_observed(:,256680/3), cameraRtC2W(:,:,341), false)</command>
+<command execution_time="38">cameraRt_ij_points_observed(:,255807/3-1)</command>
+<command execution_time="36">cameraRt_ij_points_predicted(:,255807/3-1)</command>
+<command execution_time="153">load(sprintf('%s/data.mat', result_path));</command>
+<command execution_time="53">cameraRt_ij_points_predicted(:,255807/3-1)</command>
+<command batch="25">fname_inout = tempname;</command>
+<command batch="25">fname_in = [fname_inout '.in'];</command>
+<command batch="25">fname_out = [fname_inout '.out'];</command>
+<command batch="25">fin = fopen(fname_in, 'wb');</command>
+<command batch="25">fwrite(fin, nCam, 'uint32');</command>
+<command batch="25">fwrite(fin, nPts, 'uint32');</command>
+<command batch="25">fwrite(fin, nObs, 'uint32');</command>
+<command batch="25">fwrite(fin, nPairs, 'uint32');</command>
+<command batch="25">fwrite(fin, nMatchedPoints, 'uint32');</command>
+<command batch="25">fwrite(fin, fx, 'double');</command>
+<command batch="25">fwrite(fin, fy, 'double');</command>
+<command batch="25">fwrite(fin, px, 'double');</command>
+<command batch="25">fwrite(fin, py, 'double');</command>
+<command batch="25">fwrite(fin, cameraRtC2W, 'double');</command>
+<command batch="25">fwrite(fin, cameraRtW2C_BundleAdjustment, 'double');</command>
+<command batch="25">fwrite(fin, pointCloud, 'double');</command>
+<command batch="25">fwrite(fin, cameraRt_ij, 'double');</command>
+<command batch="25">fwrite(fin, cameraRt_ij_indices, 'uint32');</command>
+<command batch="25">fwrite(fin, cameraRt_ij_points_observed, 'double');</command>
+<command batch="25">fwrite(fin, cameraRt_ij_points_predicted, 'double');</command>
+<command batch="25">fwrite(fin, cameraRt_ij_points_count, 'uint32');</command>
+<command batch="25">% write observation</command>
+<command batch="25">ptsObservedIndex = uint32([camID,ptsID]-1)';</command>
+<command batch="25">ptsObservedValue = pointObservedValue(:,valID);</command>
+<command batch="25">fwrite(fin, ptsObservedIndex, 'uint32');</command>
+<command batch="25">fwrite(fin, ptsObservedValue, 'double');</command>
+<command batch="25" execution_time="218">fclose(fin);</command>
+<command execution_time="80">system(sprintf('cp %s ~/Downloads/tmp/results.in', fname_in));</command>
+<command execution_time="40">cmd = sprintf('./ba2D3D %d %f %s %s', mode, weight, fname_in, fname_out);</command>
+<command batch="26">fprintf('%s\n',cmd);</command>
+<command batch="26" execution_time="17915">system(cmd);</command>
+<command execution_time="40">size(cameraRt_ij_points_observed)</command>
+<command error="true" execution_time="12521">DEBUG_PoseGraph</command>
+<command execution_time="37">cameraRt_ij_points_observed(:,255807/3)</command>
+<command execution_time="37">cameraRt_ij_points_observed(:,256680/3)</command>
+<command execution_time="40">cameraRt_ij_points_predicted(:,256680/3)</command>
+<command error="true" execution_time="41">transformRt(cameraRt_ij_points_predicted(:,256680/3), cameraRtC2W(:,:,340),false)</command>
+<command execution_time="40">transformRT(cameraRt_ij_points_predicted(:,256680/3), cameraRtC2W(:,:,340),false)</command>
+<command execution_time="40">transformRT(cameraRt_ij_points_predicted(:,256680/3), cameraRtC2W(:,:,341),false)</command>
+<command execution_time="38">transformRT(cameraRt_ij_points_observed(:,256680/3), cameraRtC2W(:,:,341),false)</command>
+<command execution_time="40">transformRT(cameraRt_ij_points_observed(:,256680/3), cameraRtC2W(:,:,340),false)</command>
+<command execution_time="41">transformRT(cameraRt_ij_points_observed(:,256680/3), cameraRtC2W(:,:,341),false)</command>
+<command error="true" execution_time="41">cameraRtC2W(:,:,341)(:,1:3)</command>
+<command execution_time="18507" repeat="6">DEBUG_PoseGraph</command>
+<command error="true" execution_time="164009" repeat="6">main</command>
+<command error="true" execution_time="3326126" repeat="2">DEBUG_PoseGraph</command>
+<command error="true" execution_time="95">size(cameraRtCw_PoseGraph)</command>
+<command error="true" execution_time="76">size(cameraRtCW_PoseGraph)</command>
+<command execution_time="58">cameraRtC2W_PoseGraph</command>
+<command execution_time="23">size(cameraRtC2W_PoseGraph)</command>
+<command execution_time="124111" repeat="2">DEBUG_PoseGraph</command>
+<command execution_time="25">size(cameraRt_ij_points_observed_i)</command>
+<command error="true" execution_time="6402">main</command>
+<command execution_time="16106" repeat="6">DEBUG_PoseGraph</command>
+<command execution_time="29">cameraRtC2W(:,:,1)</command>
+<command execution_time="27">cameraRtC2W(:,:,2)</command>
+<command execution_time="150618">main</command>
+<command execution_time="18960">DEBUG_PoseGraph</command>
+<command error="true" execution_time="287">RGBDsfm</command>
+<command execution_time="17392" repeat="3">DEBUG_PoseGraph</command>
+<command execution_time="122426" repeat="2">main</command>
+<command execution_time="151">load(sprintf('%s/data.mat', result_path));</command>
+<command execution_time="26">cameraRtC2W(:,:,1)</command>
+<command execution_time="33">cameraRtC2W(:,:,2)</command>
+<command execution_time="24">cameraRt_ij(:,:,1)</command>
+<command error="true" execution_time="26" repeat="2">transformRT(cameraRtC2W(:,:,1) * [0,0,1], cameraRt_ij(:,:,1), false)</command>
+<command error="true" execution_time="25">transformRT(cameraRtC2W(:,:,1) * [0,0,1]', cameraRt_ij(:,:,1), false)</command>
+<command error="true" execution_time="50">transformRT(cameraRtC2W(:,:,1) * [0 0 1], cameraRt_ij(:,:,1), false)</command>
+<command error="true" execution_time="26">transformRT(cameraRtC2W(:,:,1) * [0 0 1 1], cameraRt_ij(:,:,1), false)</command>
+<command execution_time="23">transformRT(cameraRtC2W(:,:,1) * [0 0 1 1]', cameraRt_ij(:,:,1), false)</command>
+<command execution_time="14509" repeat="6">DEBUG_PoseGraph</command>
+<command batch="27">fout = fopen(fname_out, 'rb');</command>
+<command batch="27" execution_time="28">cameraRtC2W_PoseGraph = fread(fout,12*nCam,'double');</command>
+<command execution_time="22">size(cameraRtC2W_PoseGraph)</command>
+<command execution_time="23">cameraRtC2W_PoseGraph(1:10)</command>
+<command execution_time="22">cameraRtC2W_PoseGraph(1:12)</command>
+<command execution_time="23">cameraRtC2W_PoseGraph(1:24)</command>
+<command execution_time="2736" repeat="22">DEBUG_PoseGraph</command>
+<command error="true" execution_time="116791" repeat="2">main</command>
+<command error="true" execution_time="78">HELP MEMORY</command>
+<command execution_time="609">help memory</command>
+<command error="true" execution_time="62">[uv sv] = memory</command>
+<command error="true" execution_time="74">memroy</command>
+<command error="true" execution_time="25" repeat="2">memory</command>
+<command error="true" execution_time="323">RGBDsfm</command>
+<command execution_time="116567">main</command>
+<command execution_time="23">nCam</command>
+<command execution_time="124798">main</command>
+<command execution_time="3925" repeat="13">DEBUG_PoseGraph</command>
+<command execution_time="130724">main</command>
+<command execution_time="3968" repeat="4">DEBUG_PoseGraph</command>
 </session>
 </history>

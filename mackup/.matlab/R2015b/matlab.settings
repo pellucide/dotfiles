@@ -109,10 +109,13 @@
             </key>
             <key name="History">
                 <string minArraySize="0" maxArraySize="500">
-                    <value><![CDATA[/Users/danielsuo/mobot/src/capture/calibration]]></value>
+                    <value><![CDATA[/home/danielsuo/mobot/src/reconstruction/src]]></value>
+                    <value><![CDATA[/home/danielsuo/Dropbox/Jianxiong_Daniel/marvin/examples/mnist]]></value>
+                    <value><![CDATA[/home/danielsuo/Dropbox/Jianxiong_Daniel/marvin]]></value>
+                    <value><![CDATA[/home/danielsuo/Downloads/scan004/2015-10-10T21.48.29.256/sfm_BA3_all]]></value>
+                    <value><![CDATA[/home/danielsuo/mobot]]></value>
                     <value><![CDATA[/home/danielsuo/mobot/src/reconstruction/src/gpu/result]]></value>
                     <value><![CDATA[/home/danielsuo]]></value>
-                    <value><![CDATA[/home/danielsuo/mobot/src/reconstruction/src]]></value>
                     <value><![CDATA[/home/danielsuo/mobot/src/reconstruction/src/lib/vlfeat]]></value>
                     <value><![CDATA[/home/danielsuo/mobot/src/reconstruction/src/lib/vlfeat/toolbox]]></value>
                     <value><![CDATA[/home/danielsuo/mobot/src/reconstruction/src/lib]]></value>
@@ -353,18 +356,6 @@
                     </uint32>
                 </key>
             </settings>
-            <settings name="H5874037744914817489">
-                <key name="ever_crashed_in_graphics">
-                    <uint32>
-                        <value>0</value>
-                    </uint32>
-                </key>
-                <key name="opengl_preference">
-                    <uint32>
-                        <value>0</value>
-                    </uint32>
-                </key>
-            </settings>
         </settings>
     </settings>
     <settings name="imshow">
@@ -410,7 +401,7 @@
         </key>
         <key name="LastFolderPath">
             <string>
-                <value><![CDATA[/Users/danielsuo/mobot/src/capture/calibration]]></value>
+                <value><![CDATA[/home/danielsuo/mobot/src/reconstruction/src]]></value>
             </string>
         </key>
     </settings>

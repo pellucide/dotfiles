@@ -20,7 +20,7 @@
 		".git",
 		".hg"
 	],
-	"font_size": 11.0,
+	"font_size": 10.0,
 	"ignored_packages":
 	[
 		"DustBuster",

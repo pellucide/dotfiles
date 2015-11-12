@@ -31,3 +31,6 @@ curl danielsuo.com/boot | sh
 - Turn off two finger tap
 - Install adobe creative cloud
 - Disable keyboard shortcuts
+
+# Linux manual setup items to automate
+- Disable alt: http://ubuntuforums.org/showthread.php?t=1735533

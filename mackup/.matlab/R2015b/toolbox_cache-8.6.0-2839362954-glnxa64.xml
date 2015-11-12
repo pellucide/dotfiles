@@ -1,4 +1,4 @@
-<MathWorks type="Path Cache File" version="1.1" date="Mon Oct 26 22:07:18 2015">
+<MathWorks type="Path Cache File" version="1.1" date="Mon Nov  9 22:44:55 2015">
  <D name="matlab/elfun">
   <N name="Contents.m"/>
   <N name="abs.m"/>
@@ -378,7 +378,7 @@
       <N name="isOperator.m"/>
       <N name="makePackagedName.m"/>
       <N name="minimizePath.m"/>
-      <F name="removeDotsFromFilePath.m"/>
+      <N name="removeDotsFromFilePath.m"/>
       <N name="resolveName.m"/>
       <N name="safeWhich.m"/>
       <N name="separateImplicitDirs.m"/>
@@ -443,7 +443,7 @@
   <F name="Contents.m"/>
   <F name="DesktopToolset.xml"/>
   <N name="addpath.m"/>
-  <F name="beep.m"/>
+  <N name="beep.m"/>
   <F name="bench.dat"/>
   <F name="bench.m"/>
   <F name="callgraphviz.m"/>
@@ -461,7 +461,7 @@
   <N name="diary.m"/>
   <N name="dir.m"/>
   <F name="dos.m"/>
-  <F name="echo.m"/>
+  <N name="echo.m"/>
   <N name="exit.m"/>
   <N name="fileattrib.m"/>
   <N name="finfo.m"/>
@@ -479,7 +479,7 @@
   <N name="ispc.m"/>
   <F name="isstudent.m"/>
   <N name="isunix.m"/>
-  <F name="java.m"/>
+  <N name="java.m"/>
   <F name="javaaddpath.m"/>
   <F name="javaclasspath.m"/>
   <N name="javaclasspath.p"/>
@@ -1142,11 +1142,11 @@
   <F name="Contents.m"/>
   <F name="axis.m"/>
   <N name="axis.p"/>
-  <F name="basicfitdatastat.m"/>
+  <N name="basicfitdatastat.m"/>
   <N name="box.m"/>
   <F name="doclick.m"/>
   <F name="dokeypress.m"/>
-  <F name="domymenu.m"/>
+  <N name="domymenu.m"/>
   <F name="doresize.m"/>
   <F name="enddrag.m"/>
   <F name="figtoolset.m"/>
@@ -1180,7 +1180,7 @@
   <F name="subplot.m"/>
   <N name="subplot.p"/>
   <N name="texlabel.m"/>
-  <F name="text.m"/>
+  <N name="text.m"/>
   <N name="title.m"/>
   <N name="xlabel.m"/>
   <N name="ylabel.m"/>
@@ -1240,7 +1240,7 @@
   <N name="colorcube.m"/>
   <F name="colordef.m"/>
   <N name="colormap.m"/>
-  <F name="colormapeditor.m"/>
+  <N name="colormapeditor.m"/>
   <F name="cool.m"/>
   <F name="copper.m"/>
   <F name="daspect.m"/>
@@ -1258,8 +1258,8 @@
   <F name="lighting.m"/>
   <F name="lines.m"/>
   <F name="material.m"/>
-  <F name="mesh.m"/>
-  <F name="objbounds.m"/>
+  <N name="mesh.m"/>
+  <N name="objbounds.m"/>
   <F name="parula.m"/>
   <F name="pbaspect.m"/>
   <F name="pink.m"/>
@@ -1271,7 +1271,7 @@
   <F name="spring.m"/>
   <F name="summer.m"/>
   <N name="surf.m"/>
-  <F name="surfl.m"/>
+  <N name="surfl.m"/>
   <F name="surfnorm.m"/>
   <F name="vga.m"/>
   <N name="view.m"/>
@@ -1294,7 +1294,7 @@
     <D name="matlab/graphics/+matlab/+graphics/+interaction">
      <D name="matlab/graphics/+matlab/+graphics/+interaction/+internal">
       <D name="matlab/graphics/+matlab/+graphics/+interaction/+internal/+zoom">
-       <F name="parseArgs.p"/>
+       <N name="parseArgs.p"/>
       </D>
        <D name="matlab/graphics/+matlab/+graphics/+interaction/+internal/@brush">
         <F name="brush.m"/>
@@ -1302,7 +1302,7 @@
        <D name="matlab/graphics/+matlab/+graphics/+interaction/+internal/@pan">
         <F name="getAxesPanMotion.m"/>
         <F name="isAllowAxesPan.m"/>
-        <F name="pan.m"/>
+        <C name="pan.m"/>
         <F name="setAllowAxesPan.m"/>
         <F name="setAxesPanMotion.m"/>
        </D>
@@ -1316,15 +1316,15 @@
         <F name="isAllowAxesZoom.m"/>
         <F name="setAllowAxesZoom.m"/>
         <F name="setAxesZoomMotion.m"/>
-        <F name="zoom.m"/>
+        <C name="zoom.m"/>
        </D>
-      <F name="exploreaccessor.m"/>
+      <C name="exploreaccessor.m"/>
       <N name="isPointInPolygon.p"/>
      </D>
      <N name="axesBox.p"/>
-     <F name="getAxesLimits.m"/>
-     <F name="getDoubleAxesLimits.m"/>
-     <F name="getFiniteLimits.m"/>
+     <N name="getAxesLimits.m"/>
+     <N name="getDoubleAxesLimits.m"/>
+     <N name="getFiniteLimits.m"/>
      <N name="hitAxes.p"/>
      <F name="inBounds.p"/>
      <N name="initializeView.p"/>
@@ -1374,7 +1374,7 @@
        <F name="removetarget.m"/>
       </D>
       <D name="matlab/graphics/+matlab/+graphics/+internal/@PlotEditBehavior">
-       <F name="PlotEditBehavior.m"/>
+       <C name="PlotEditBehavior.m"/>
       </D>
       <D name="matlab/graphics/+matlab/+graphics/+internal/@SubplotDeleteListenersManager">
        <C name="SubplotDeleteListenersManager.m"/>
@@ -1385,30 +1385,30 @@
      <C name="CameraToolBarManager.m"/>
      <F name="ClipboardFlavorEnhancer.m"/>
      <F name="DataCursorBehavior.m"/>
-     <F name="DataDescriptorBehavior.m"/>
+     <C name="DataDescriptorBehavior.m"/>
      <F name="DataStorage.m"/>
      <F name="DataTipEvent.m"/>
-     <F name="HGBehavior.m"/>
+     <C name="HGBehavior.m"/>
      <F name="HGEventManager.m"/>
      <C name="LinkData.m"/>
      <F name="MCodeGenBehavior.m"/>
      <F name="PanBehavior.m"/>
      <F name="PlotEvent.m"/>
-     <F name="PlotManager.m"/>
+     <C name="PlotManager.m"/>
      <F name="PlotYYListenerManager.m"/>
      <F name="PrintBehavior.m"/>
-     <F name="PrintVertexChecker.m"/>
+     <C name="PrintVertexChecker.m"/>
      <F name="Rotate3dBehavior.m"/>
      <F name="SaveGraphicsVersion2Only.m"/>
      <F name="SceneViewerListener.p"/>
      <F name="ZoomBehavior.m"/>
-     <F name="autoSwitchToPaintersForPrint.m"/>
+     <N name="autoSwitchToPaintersForPrint.m"/>
      <N name="axesDestroyed.m"/>
      <N name="axesMoved.m"/>
      <N name="axesUnitsPostSet.m"/>
      <N name="axesUnitsPreSet.m"/>
      <N name="clearNotify.m"/>
-     <F name="copyFigureHelper.m"/>
+     <N name="copyFigureHelper.m"/>
      <F name="createModifiedPropGroup.m"/>
      <F name="createPrintPreviewCData.m"/>
      <F name="createPrintPreviewFigure.m"/>
@@ -1517,16 +1517,16 @@
   <F name="animatedline.m"/>
   <N name="axes.m"/>
   <N name="axescheck.m"/>
-  <F name="bwcontr.m"/>
+  <N name="bwcontr.m"/>
   <F name="capturescreen.m"/>
   <N name="cla.m"/>
   <N name="clf.m"/>
   <N name="close.p"/>
   <N name="closereq.m"/>
   <F name="colornone.m"/>
-  <F name="copyobj.m"/>
+  <N name="copyobj.m"/>
   <F name="copyoptionsfcn.m"/>
-  <F name="datachildren.m"/>
+  <N name="datachildren.m"/>
   <N name="datacursormode.m"/>
   <F name="dateTickPicker.m"/>
   <F name="datetickstr.m"/>
@@ -1541,7 +1541,7 @@
   <F name="figureheaderdlg.m"/>
   <N name="findall.m"/>
   <N name="findobj.m"/>
-  <F name="findprinters.m"/>
+  <N name="findprinters.m"/>
   <N name="gca.m"/>
   <N name="gcbf.m"/>
   <N name="gcbo.m"/>
@@ -1551,15 +1551,15 @@
   <F name="getFigureToolManager.m"/>
   <N name="getappdata.m"/>
   <F name="getcrosssection.m"/>
-  <F name="getframe.m"/>
+  <N name="getframe.m"/>
   <N name="getprinttemplate.m"/>
   <N name="gobjects.m"/>
   <F name="graphicsversion.m"/>
   <N name="groot.m"/>
-  <F name="handle2struct.m"/>
+  <N name="handle2struct.m"/>
   <N name="hardcopy.p"/>
-  <F name="hasbehavior.m"/>
-  <F name="hgaddbehavior.m"/>
+  <N name="hasbehavior.m"/>
+  <N name="hgaddbehavior.m"/>
   <N name="hgbehaviorfactory.m"/>
   <N name="hgclose.m"/>
   <F name="hgdisp.m"/>
@@ -1580,10 +1580,10 @@
   <N name="ishghandle.m"/>
   <N name="ishold.m"/>
   <N name="light.m"/>
-  <F name="line.m"/>
+  <N name="line.m"/>
   <F name="linkaxes.m"/>
   <F name="linkprop.m"/>
-  <F name="makehgtform.m"/>
+  <N name="makehgtform.m"/>
   <N name="newplot.m"/>
   <F name="noanimate.m"/>
   <F name="nodither.m"/>
@@ -1594,7 +1594,7 @@
   <N name="pagesetupdlg.m"/>
   <N name="parseparams.m"/>
   <N name="print.m"/>
-  <F name="printdlg.m"/>
+  <N name="printdlg.m"/>
   <F name="printdmfile.m"/>
   <N name="printjob.m"/>
   <F name="printprepare.m"/>
@@ -1654,20 +1654,20 @@
    <N name="javaGetFigureFrame.m"/>
   </D>
   <F name="Contents.m"/>
-  <F name="adddatadlg.m"/>
+  <N name="adddatadlg.m"/>
   <N name="addsubplot.m"/>
   <F name="enableplottoolbuttons.m"/>
-  <F name="figurepalette.m"/>
+  <N name="figurepalette.m"/>
   <F name="getfigurefordesktopclient.m"/>
   <F name="getplotbrowserproptable.m"/>
   <F name="getplottool.m"/>
   <F name="javaAddLsnrsToFigure.m"/>
   <F name="javaGetHandles.m"/>
   <F name="makedisplaynames.m"/>
-  <F name="plotbrowser.m"/>
+  <N name="plotbrowser.m"/>
   <F name="plottoolfunc.m"/>
   <F name="plottools.m"/>
-  <F name="propertyeditor.m"/>
+  <N name="propertyeditor.m"/>
   <F name="setupplotbrowser.p"/>
   <F name="showplottool.m"/>
  </D>
@@ -1676,15 +1676,15 @@
    <D name="matlab/scribe/+matlab/+graphics">
     <D name="matlab/scribe/+matlab/+graphics/+illustration">
      <D name="matlab/scribe/+matlab/+graphics/+illustration/+internal">
-      <F name="MenuToolbarInfo.p"/>
-      <F name="updateFontProperties.p"/>
+      <C name="MenuToolbarInfo.p"/>
+      <N name="updateFontProperties.p"/>
      </D>
      <D name="matlab/scribe/+matlab/+graphics/+illustration/+legend">
        <D name="matlab/scribe/+matlab/+graphics/+illustration/+legend/@LegendEntry">
-        <F name="LegendEntry.p"/>
+        <C name="LegendEntry.p"/>
        </D>
        <D name="matlab/scribe/+matlab/+graphics/+illustration/+legend/@LegendIcon">
-        <F name="LegendIcon.p"/>
+        <C name="LegendIcon.p"/>
         <F name="addGraphic.p"/>
         <F name="doSetup.p"/>
        </D>
@@ -1714,7 +1714,7 @@
        <F name="setParentImpl.p"/>
       </D>
       <D name="matlab/scribe/+matlab/+graphics/+illustration/@Legend">
-       <F name="Legend.p"/>
+       <C name="Legend.p"/>
        <F name="addEntry.p"/>
        <F name="addToLayout.p"/>
        <F name="attachAxesListeners.p"/>
@@ -1760,11 +1760,11 @@
        <F name="SimplePoint.p"/>
       </D>
        <D name="matlab/scribe/+matlab/+graphics/+shape/+internal/@AnnotationPane">
-        <F name="AnnotationPane.p"/>
+        <C name="AnnotationPane.p"/>
         <F name="mcodeConstructor.p"/>
        </D>
        <D name="matlab/scribe/+matlab/+graphics/+shape/+internal/@AxesLayoutManager">
-        <F name="AxesLayoutManager.p"/>
+        <C name="AxesLayoutManager.p"/>
        </D>
        <D name="matlab/scribe/+matlab/+graphics/+shape/+internal/@DataCursorManager">
         <F name="DataCursorManager.p"/>
@@ -1799,7 +1799,7 @@
         <F name="hitCallback.p"/>
        </D>
        <D name="matlab/scribe/+matlab/+graphics/+shape/+internal/@ListComponent">
-        <F name="ListComponent.p"/>
+        <C name="ListComponent.p"/>
        </D>
        <D name="matlab/scribe/+matlab/+graphics/+shape/+internal/@ModeDataTipController">
         <F name="ModeDataTipController.p"/>
@@ -1836,7 +1836,7 @@
         <F name="ScribeHost.p"/>
        </D>
        <D name="matlab/scribe/+matlab/+graphics/+shape/+internal/@ScribeLayer">
-        <F name="ScribeLayer.p"/>
+        <C name="ScribeLayer.p"/>
        </D>
        <D name="matlab/scribe/+matlab/+graphics/+shape/+internal/@ScribeObject">
         <F name="ScribeObject.p"/>
@@ -1852,7 +1852,7 @@
         <F name="ScribePin.p"/>
        </D>
        <D name="matlab/scribe/+matlab/+graphics/+shape/+internal/@ScribeStackManager">
-        <F name="ScribeStackManager.p"/>
+        <C name="ScribeStackManager.p"/>
        </D>
        <D name="matlab/scribe/+matlab/+graphics/+shape/+internal/@TipHitEvent">
         <F name="TipHitEvent.p"/>
@@ -1908,7 +1908,7 @@
    </D>
    <D name="matlab/scribe/+matlab/+scribe">
     <D name="matlab/scribe/+matlab/+scribe/+internal">
-     <F name="ScribeEvent.m"/>
+     <C name="ScribeEvent.m"/>
     </D>
    </D>
   </D>
@@ -1958,15 +1958,15 @@
   <F name="legend.m"/>
   <N name="legend.p"/>
   <F name="legendcolorbarlayout.m"/>
-  <F name="legendcolorbarlayout.p"/>
+  <N name="legendcolorbarlayout.p"/>
   <F name="legendinfo.m"/>
-  <F name="scribealign.m"/>
+  <N name="scribealign.m"/>
   <N name="scribeccp.p"/>
   <N name="scribecursors.m"/>
   <N name="selectobject.m"/>
-  <F name="snaptogrid.m"/>
+  <N name="snaptogrid.m"/>
   <F name="startscribeobject.m"/>
-  <F name="startscribepinning.m"/>
+  <N name="startscribepinning.m"/>
   <d name="obsolete"/>
  </D>
  <D name="matlab/scribe/obsolete">
@@ -2378,7 +2378,7 @@
   <F name="isocolors.m"/>
   <F name="isonormals.m"/>
   <F name="isosurface.m"/>
-  <F name="isplotchild.m"/>
+  <N name="isplotchild.m"/>
   <F name="makebars.m"/>
   <F name="meshc.m"/>
   <F name="meshz.m"/>
@@ -2391,7 +2391,7 @@
   <F name="pcolor.m"/>
   <F name="pie.m"/>
   <F name="pie3.m"/>
-  <F name="plotchild.m"/>
+  <N name="plotchild.m"/>
   <F name="plotdoneevent.m"/>
   <F name="plotmatrix.m"/>
   <F name="plotutils.m"/>
@@ -2425,7 +2425,7 @@
   <F name="streamtube.m"/>
   <F name="subvolume.m"/>
   <F name="surf2patch.m"/>
-  <F name="surfc.m"/>
+  <N name="surfc.m"/>
   <F name="tetramesh.m"/>
   <F name="trimesh.m"/>
   <F name="triplot.m"/>
@@ -2595,7 +2595,7 @@
   <N name="dialog.m"/>
   <F name="dialogicons.mat"/>
   <F name="dragrect.m"/>
-  <F name="editmenufcn.m"/>
+  <N name="editmenufcn.m"/>
   <N name="errordlg.m"/>
   <F name="export2wsdlg.m"/>
   <F name="figflag.m"/>
@@ -2626,7 +2626,7 @@
   <F name="menu.m"/>
   <F name="menulabel.m"/>
   <N name="movegui.m"/>
-  <F name="msgbox.m"/>
+  <N name="msgbox.m"/>
   <F name="mwtoolbaricons.mat"/>
   <F name="overobj.m"/>
   <F name="popupstr.m"/>
@@ -2644,7 +2644,7 @@
   <F name="tabdlg.m"/>
   <N name="textwrap.m"/>
   <F name="tipoftheday.m"/>
-  <F name="toolsmenufcn.m"/>
+  <N name="toolsmenufcn.m"/>
   <F name="uibuttongroup.m"/>
   <N name="uiclearmode.m"/>
   <F name="uicontainer.m"/>
@@ -2663,7 +2663,7 @@
   <N name="uipushtool.m"/>
   <N name="uiputfile.m"/>
   <F name="uirestore.m"/>
-  <F name="uiresume.m"/>
+  <N name="uiresume.m"/>
   <F name="uisave.m"/>
   <F name="uisetcolor.m"/>
   <F name="uisetfont.m"/>
@@ -2682,7 +2682,7 @@
   <N name="uiundo.m"/>
   <N name="uiwait.m"/>
   <F name="usejavacomponent.m"/>
-  <F name="viewmenufcn.m"/>
+  <N name="viewmenufcn.m"/>
   <F name="waitbar.m"/>
   <N name="waitfor.m"/>
   <F name="waitforbuttonpress.m"/>
@@ -3283,7 +3283,7 @@
   <N name="mfilename.m"/>
   <F name="mislocked.m"/>
   <N name="mlock.m"/>
-  <F name="munlock.m"/>
+  <N name="munlock.m"/>
   <N name="nargchk.m"/>
   <N name="nargin.m"/>
   <N name="narginchk.m"/>
@@ -3498,7 +3498,7 @@
   </D>
   <F name="Contents.m"/>
   <F name="callSoapService.m"/>
-  <F name="clc.m"/>
+  <N name="clc.m"/>
   <F name="createClassFromWsdl.m"/>
   <F name="createSoapMessage.m"/>
   <F name="csvread.m"/>
@@ -3509,7 +3509,7 @@
   <F name="dlmread.m"/>
   <F name="dlmwrite.m"/>
   <N name="fclose.m"/>
-  <F name="feof.m"/>
+  <N name="feof.m"/>
   <N name="ferror.m"/>
   <N name="fgetl.m"/>
   <N name="fgets.m"/>
@@ -4129,7 +4129,7 @@
   <N name="strsplit.m"/>
   <N name="strtok.m"/>
   <N name="strtrim.m"/>
-  <F name="strvcat.m"/>
+  <N name="strvcat.m"/>
   <N name="unicode2native.m"/>
   <N name="upper.m"/>
  </D>
@@ -4825,7 +4825,7 @@
   <N name="deal.m"/>
   <F name="double.m"/>
   <N name="enumeration.m"/>
-  <F name="events.m"/>
+  <N name="events.m"/>
   <N name="fieldnames.m"/>
   <F name="findgroups.m"/>
   <N name="func2str.m"/>
@@ -4955,7 +4955,7 @@
     <D name="matlab/ops/+matlab/+internal/+math">
      <D name="matlab/ops/+matlab/+internal/+math/+mpower">
       <F name="viaEig.m"/>
-      <F name="viaMtimes.m"/>
+      <N name="viaMtimes.m"/>
      </D>
     </D>
    </D>
@@ -4995,7 +4995,7 @@
   <F name="ismember.m"/>
   <N name="ismember.p"/>
   <F name="ismembertol.m"/>
-  <F name="kron.m"/>
+  <N name="kron.m"/>
   <N name="ldivide.m"/>
   <F name="le.m"/>
   <F name="license.txt"/>
@@ -5013,7 +5013,7 @@
   <N name="power.m"/>
   <F name="punct.m"/>
   <N name="rdivide.m"/>
-  <F name="relop.m"/>
+  <N name="relop.m"/>
   <F name="setdiff.m"/>
   <N name="setdiff.p"/>
   <N name="setxor.m"/>
@@ -5275,19 +5275,19 @@
     <D name="matlab/codetools/+internal/+matlab/+publish/private">
       <N name="getToken.p"/>
      </D>
-     <F name="PublishExtension.m"/>
-     <F name="PublishFigures.m"/>
+     <C name="PublishExtension.m"/>
+     <C name="PublishFigures.m"/>
      <F name="PublishSimulink3DAnimationViewers.m"/>
      <F name="PublishSimulinkSystems.m"/>
-     <F name="captureFigures.m"/>
-     <F name="compareFigures.m"/>
-     <F name="getDefaultImageFormat.m"/>
-     <F name="getImageScale.m"/>
-     <F name="getPrintOutputFilename.m"/>
-     <F name="getVectorFormats.m"/>
+     <N name="captureFigures.m"/>
+     <N name="compareFigures.m"/>
+     <N name="getDefaultImageFormat.m"/>
+     <N name="getImageScale.m"/>
+     <N name="getPrintOutputFilename.m"/>
+     <N name="getVectorFormats.m"/>
      <F name="make_thumbnail.m"/>
-     <F name="resizeIfNecessary.m"/>
-     <F name="writeImage.m"/>
+     <N name="resizeIfNecessary.m"/>
+     <N name="writeImage.m"/>
     </D>
     <D name="matlab/codetools/+internal/+matlab/+variableeditor">
      <D name="matlab/codetools/+internal/+matlab/+variableeditor/+peer">
@@ -5579,7 +5579,7 @@
   <N name="makemcode.m"/>
   <F name="matlab-report-styles.css"/>
   <N name="mdbfileonpath.m"/>
-  <F name="mdbpublish.m"/>
+  <N name="mdbpublish.m"/>
   <N name="mdbstatus.m"/>
   <F name="mlint.m"/>
   <F name="mlintrpt.m"/>
@@ -5594,11 +5594,11 @@
   <N name="profviewgateway.m"/>
   <F name="projdumpmat.m"/>
   <F name="publish.m"/>
-  <F name="publish.p"/>
+  <N name="publish.p"/>
   <F name="renameStructField.m"/>
   <F name="runreport.m"/>
   <N name="sharedplotfunc.m"/>
-  <F name="snapnow.m"/>
+  <N name="snapnow.m"/>
   <F name="stripanchors.m"/>
   <N name="uiimport.m"/>
   <F name="urldecode.m"/>
@@ -5867,7 +5867,7 @@
   <F name="calweeks.m"/>
   <F name="calyears.m"/>
   <N name="clock.m"/>
-  <F name="cputime.m"/>
+  <N name="cputime.m"/>
   <N name="date.m"/>
   <N name="datenum.m"/>
   <F name="datestr.m"/>
@@ -6449,7 +6449,7 @@
      <F name="prepareHelpForDisplay.m"/>
     </D>
    <F name="buildHelpXML.m"/>
-   <F name="checkForDemoRedirect.m"/>
+   <N name="checkForDemoRedirect.m"/>
    <C name="class2xml.m"/>
    <N name="createMatlabLink.m"/>
    <N name="getClassNameFromVariable.m"/>
@@ -6457,7 +6457,7 @@
    <N name="getInstanceIsa.m"/>
    <N name="highlightHelp.m"/>
    <N name="isDocInstalled.m"/>
-   <F name="isUnderDocroot.m"/>
+   <N name="isUnderDocroot.m"/>
    <N name="makeDualCommand.m"/>
    <F name="underDocroot.m"/>
   </D>
@@ -6507,7 +6507,7 @@
   <F name="displayEndOfDemoMessage.m"/>
   <F name="doc.m"/>
   <F name="docpath.m"/>
-  <F name="docroot.m"/>
+  <N name="docroot.m"/>
   <F name="docsearch.m"/>
   <F name="echodemo.m"/>
   <N name="help.m"/>
@@ -13191,7 +13191,7 @@
   <F name="imageddg_cb.p"/>
   <F name="info.xml"/>
   <F name="is_simulink_handle.p"/>
-  <F name="is_simulink_loaded.m"/>
+  <N name="is_simulink_loaded.m"/>
   <F name="iscvar.m"/>
   <F name="launchDialogForGlobalDataItem.m"/>
   <F name="launchTE.m"/>
@@ -72389,7 +72389,7 @@
      <F name="edit.m"/>
     </D>
     <D name="sl3d/sl3d/+vr/@figure">
-     <F name="figure.m"/>
+     <C name="figure.m"/>
     </D>
     <D name="sl3d/sl3d/+vr/@stl2vrml">
      <F name="stl2vrml.m"/>
