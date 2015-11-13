@@ -21,13 +21,14 @@
 
   { "keys": ["alt+b"], "command": "move", "args": {"by": "words", "forward": false} },
   { "keys": ["alt+f"], "command": "move", "args": {"by": "word_ends", "forward": true} },
-  { "keys": ["ctrl+alt+b"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
-  { "keys": ["ctrl+alt+f"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
+  { "keys": ["shift+alt+b"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
+  { "keys": ["shift+alt+f"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
 
-  { "keys": ["alt+b"], "command": "move", "args": {"by": "subwords", "forward": false} },
-  { "keys": ["alt+f"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
-  { "keys": ["alt+shift+b"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
-  { "keys": ["alt+shift+f"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+  { "keys": ["ctrl+alt+b"], "command": "move", "args": {"by": "subwords", "forward": false} },
+  { "keys": ["ctrl+alt+f"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+  { "keys": ["ctrl+alt+shift+b"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+  { "keys": ["ctrl+alt+shift+f"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+  { "keys": ["ctrl+alt+shift+f"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
 
   { "keys": ["f5"], "command": "build" },
   { "keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"} },
@@ -79,21 +80,21 @@
   { "keys": ["ctrl+f3"], "command": "find_under_prev" },
   { "keys": ["shift+alt+g"], "command": "find_all_under" },
   { "keys": ["ctrl+shift+e"], "command": "slurp_replace_string" },
-  { "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+  { "keys": ["ctrl+shift+s"], "command": "show_panel", "args": {"panel": "find_in_files"} },
   { "keys": ["f4"], "command": "next_result" },
   { "keys": ["shift+f4"], "command": "prev_result" },
 
-  { "keys": ["alt+/"], "command": "toggle_comment", "args": { "block": false } }, 
-  { "keys": ["alt+shift+/"], "command": "toggle_comment", "args": { "block": true } },
-  
-  // --------
+  { "keys": ["alt+;"], "command": "toggle_comment", "args": { "block": false } }, 
+  { "keys": ["alt+shift+;"], "command": "toggle_comment", "args": { "block": true } },
+
+  { "keys": ["ctrl+o"], "command": "switch_file", "args": {"extensions": ["cpp", "cxx", "cc", "c", "hpp", "hxx", "hh", "h", "ipp", "inl", "m", "mm"]} },
+
+  { "keys": ["alt+shift+d"], "command": "duplicate_line" },
 
   { "keys": ["alt+shift+n"], "command": "new_window" },
   { "keys": ["alt+shift+w"], "command": "close_window" },
-  { "keys": ["ctrl+o"], "command": "prompt_open_file" },
-  { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
-  { "keys": ["alt+o"], "command": "switch_file", "args": {"extensions": ["cpp", "cxx", "cc", "c", "hpp", "hxx", "hh", "h", "ipp", "inl", "m", "mm"]} },
-  
+  { "keys": ["alt+o"], "command": "prompt_open_file" },
+  { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },  
   
   { "keys": ["alt+shift+s"], "command": "prompt_save_as" },
   { "keys": ["ctrl+f4"], "command": "close_file" },
@@ -114,6 +115,21 @@
   { "keys": ["shift+delete"], "command": "cut" },
   { "keys": ["ctrl+insert"], "command": "copy" },
   { "keys": ["shift+insert"], "command": "paste" },
+
+  { "keys": ["ctrl+backspace"], "command": "delete_word", "args": { "forward": false } },
+  { "keys": ["ctrl+shift+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"} },
+
+  { "keys": ["ctrl+delete"], "command": "delete_word", "args": { "forward": true } },
+  { "keys": ["ctrl+shift+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"} },
+
+  { "keys": ["alt+backspace"], "command": "delete_word", "args": { "forward": false } },
+  { "keys": ["alt+shift+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"} },
+
+  { "keys": ["alt+delete"], "command": "delete_word", "args": { "forward": true } },
+  { "keys": ["alt+shift+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"} },
+
+
+    // --------
 
   // These two key bindings should replace the above three if you'd prefer
   // the traditional X11 behavior of shift+insert pasting from the primary
@@ -302,20 +318,14 @@
   { "keys": ["ctrl+f6"], "command": "next_misspelling" },
   { "keys": ["ctrl+shift+f6"], "command": "prev_misspelling" },
 
-  { "keys": ["ctrl+shift+up"], "command": "swap_line_up" },
-  { "keys": ["ctrl+shift+down"], "command": "swap_line_down" },
+  // { "keys": ["ctrl+shift+up"], "command": "swap_line_up" },
+  // { "keys": ["ctrl+shift+down"], "command": "swap_line_down" },
 
-  { "keys": ["ctrl+backspace"], "command": "delete_word", "args": { "forward": false } },
-  { "keys": ["ctrl+shift+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"} },
 
-  { "keys": ["ctrl+delete"], "command": "delete_word", "args": { "forward": true } },
-  { "keys": ["ctrl+shift+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"} },
-
-  { "keys": ["ctrl+/"], "command": "toggle_comment", "args": { "block": false } },
-  { "keys": ["ctrl+shift+/"], "command": "toggle_comment", "args": { "block": true } },
+  // { "keys": ["ctrl+/"], "command": "toggle_comment", "args": { "block": false } },
+  // { "keys": ["ctrl+shift+/"], "command": "toggle_comment", "args": { "block": true } },
 
   { "keys": ["ctrl+j"], "command": "join_lines" },
-  { "keys": ["ctrl+shift+d"], "command": "duplicate_line" },
 
   { "keys": ["ctrl+`"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
 
