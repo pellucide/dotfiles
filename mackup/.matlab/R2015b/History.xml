@@ -1088,5 +1088,8 @@
 <command execution_time="34">cameraRtC2W(:,:,2)</command>
 <command execution_time="34">cameraRtC2W(:,4,2)</command>
 <command execution_time="34">cameraRtC2W(:,4,2)*100</command>
+<command execution_time="111338" repeat="12">DEBUG_PoseGraph</command>
+<command execution_time="204603">main</command>
+<command execution_time="3679" repeat="9">DEBUG_PoseGraph</command>
 </session>
 </history>
