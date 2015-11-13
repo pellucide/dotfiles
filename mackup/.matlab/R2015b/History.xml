@@ -1080,4 +1080,13 @@
 <command execution_time="130724">main</command>
 <command execution_time="3968" repeat="4">DEBUG_PoseGraph</command>
 </session>
+<session>
+<command time_stamp="150fe8ce9e9">%-- 11/12/2015 08:54:19 PM --%</command>
+<command execution_time="8061">DEBUG_PoseGraph</command>
+<command execution_time="133564">main</command>
+<command execution_time="3656" repeat="2">DEBUG_PoseGraph</command>
+<command execution_time="34">cameraRtC2W(:,:,2)</command>
+<command execution_time="34">cameraRtC2W(:,4,2)</command>
+<command execution_time="34">cameraRtC2W(:,4,2)*100</command>
+</session>
 </history>
