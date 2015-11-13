@@ -41,6 +41,7 @@
   { "keys": ["alt+w"], "command": "close" },
 
   { "keys": ["alt+d"], "command": "find_under_expand" },
+  { "keys": ["alt+d"], "command": "find_under_expand" },
 
   {
     "keys": ["ctrl+alt+p"],
@@ -81,6 +82,9 @@
   { "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
   { "keys": ["f4"], "command": "next_result" },
   { "keys": ["shift+f4"], "command": "prev_result" },
+
+  { "keys": ["alt+/"], "command": "toggle_comment", "args": { "block": false } }, 
+  { "keys": ["alt+shift+/"], "command": "toggle_comment", "args": { "block": true } },
   
   // --------
 
