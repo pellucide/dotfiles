@@ -1,5 +1,5 @@
 #MATLAB Preferences
-#Tue Nov 10 19:11:47 EST 2015
+#Mon Nov 16 10:52:59 EST 2015
 CommandWindowShowHandleGraphics2Message=Bfalse
 ReplaceSearchText19=S
 ReplaceSearchText18=S
@@ -78,17 +78,17 @@ ColorsMLintAutoFixBackground=C-10126462
 DocumentsDetailViewerCollapsed=Btrue
 ColorsUseMLintAutoFixBackground=Bfalse
 ReplaceText=S;
-EditorMRU8=S/home/danielsuo/mobot/src/reconstruction/src/depthRead.m
-EditorMRU7=S/home/danielsuo/mobot/src/reconstruction/src/readValuesFromTxt.m
-EditorMRU6=S/home/danielsuo/mobot/src/reconstruction/src/lib/vlfeat/toolbox/sift/vl_sift.m
+EditorMRU8=S/home/danielsuo/mobot/src/reconstruction/src/lib/vlfeat/toolbox/sift/vl_sift.m
+EditorMRU7=S/home/danielsuo/mobot/src/reconstruction/src/transformRT.m
+EditorMRU6=S/home/danielsuo/Dropbox/Jianxiong_Daniel/marvin/examples/mnist/prepare_mnist.m
+EditorMRU5=S/home/danielsuo/Dropbox/Jianxiong_Daniel/marvin/examples/mnist/demo_vis_filter.m
 Editorhighlight-caret-row-boolean=Btrue
-EditorMRU5=S/home/danielsuo/mobot/src/reconstruction/src/transformRT.m
-Colors_M_Errors=C-2411985
+EditorMRU4=S/home/danielsuo/Dropbox/Jianxiong_Daniel/marvin/tools/tensorIO_matlab/readTensors.m
 Colors_M_UnterminatedStrings=C-3519722
-EditorMRU4=S/home/danielsuo/Dropbox/Jianxiong_Daniel/marvin/examples/mnist/prepare_mnist.m
-EditorMRU3=S/home/danielsuo/Dropbox/Jianxiong_Daniel/marvin/examples/mnist/demo_vis_filter.m
-EditorMRU2=S/home/danielsuo/Dropbox/Jianxiong_Daniel/marvin/tools/tensorIO_matlab/readTensors.m
-EditorMRU1=S/home/danielsuo/mobot/src/reconstruction/src/outputPly.m
+Colors_M_Errors=C-2411985
+EditorMRU3=S/home/danielsuo/mobot/src/reconstruction/src/outputPly.m
+EditorMRU2=S/home/danielsuo/mobot/src/reconstruction/src/lib/visualindex/visualindex_build.m
+EditorMRU1=S/home/danielsuo/mobot/src/reconstruction/src/RGBDsfm.m
 EditorRightTextLineVisible=Btrue
 ColorsBackground=C-16766154
 Colors_M_Keywords=C-14251311
