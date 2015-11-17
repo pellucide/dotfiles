@@ -107,6 +107,7 @@
   { "keys": ["shift+backspace"], "command": "left_delete" },
   { "keys": ["ctrl+shift+backspace"], "command": "left_delete" },
   { "keys": ["delete"], "command": "right_delete" },
+  { "keys": ["ctrl+d"], "command": "right_delete" },
   { "keys": ["enter"], "command": "insert", "args": {"characters": "\n"} },
   { "keys": ["shift+enter"], "command": "insert", "args": {"characters": "\n"} },
   { "keys": ["keypad_enter"], "command": "insert", "args": {"characters": "\n"} },
