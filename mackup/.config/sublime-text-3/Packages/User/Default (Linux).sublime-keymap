@@ -79,7 +79,7 @@
   { "keys": ["ctrl+f3"], "command": "find_under" },
   { "keys": ["ctrl+f3"], "command": "find_under_prev" },
   { "keys": ["shift+alt+g"], "command": "find_all_under" },
-  { "keys": ["ctrl+shift+e"], "command": "slurp_replace_string" },
+  // { "keys": ["ctrl+shift+e"], "command": "slurp_replace_string" },
   { "keys": ["ctrl+shift+s"], "command": "show_panel", "args": {"panel": "find_in_files"} },
   { "keys": ["f4"], "command": "next_result" },
   { "keys": ["shift+f4"], "command": "prev_result" },
@@ -296,7 +296,7 @@
   { "keys": ["ctrl+shift+m"], "command": "expand_selection", "args": {"to": "brackets"} },
   { "keys": ["ctrl+m"], "command": "move_to", "args": {"to": "brackets"} },
   { "keys": ["ctrl+shift+j"], "command": "expand_selection", "args": {"to": "indentation"} },
-  { "keys": ["ctrl+shift+a"], "command": "expand_selection", "args": {"to": "tag"} },
+  // { "keys": ["ctrl+shift+a"], "command": "expand_selection", "args": {"to": "tag"} },
 
   { "keys": ["alt+."], "command": "close_tag" },
 
