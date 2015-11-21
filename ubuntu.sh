@@ -51,6 +51,8 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59 &&
 sudo apt-get update -qq &&
 sudo apt-get install spotify-client
 
+echo gtk-enable-mnemonics = 0 >> ~/.gtkrc-2.0
+
 # By hand
 # - Add autokey to startup applications (automate by moving autokey.desktop to ~/.config/autostart)
 
