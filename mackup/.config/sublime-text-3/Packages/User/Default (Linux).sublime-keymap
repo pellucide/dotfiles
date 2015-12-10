@@ -43,16 +43,18 @@
   { "keys": ["alt+w"], "command": "close" },
 
   { "keys": ["alt+d"], "command": "find_under_expand" },
-  { "keys": ["ctrl+alt+n"], "command": "select_lines", "args": {"forward": true}},
-  { "keys": ["ctrl+alt+p"], "command": "select_lines", "args": {"forward": false}},
+  { "keys": ["shift+alt+n"], "command": "select_lines", "args": {"forward": true}},
+  { "keys": ["shift+alt+p"], "command": "select_lines", "args": {"forward": false}},
 
   {
-    "keys": ["shift+alt+p"],
+    "keys": ["ctrl+alt+p"],
     "command": "swap_line_up"
   }, {
-    "keys": ["shift+alt+n"],
+    "keys": ["ctrl+alt+n"],
     "command": "swap_line_down"
   },
+
+  { "keys": ["alt+."], "command": "goto_definition" },
 
   { "keys": ["alt+z"], "command": "undo" },
   { "keys": ["alt+shift+z"], "command": "redo" },
@@ -60,12 +62,12 @@
   { "keys": ["alt+u"], "command": "soft_undo" },
   { "keys": ["alt+shift+u"], "command": "soft_redo" },
 
-  { "keys": ["shift+alt+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+  { "keys": ["alt+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 
   { "keys": ["ctrl+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
   { "keys": ["ctrl+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
   { "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
-  { "keys": ["f12"], "command": "goto_definition" },
+  // { "keys": ["f12"], "command": "goto_definition" },
   { "keys": ["ctrl+shift+r"], "command": "goto_symbol_in_project" },
   { "keys": ["alt+-"], "command": "jump_back" },
   { "keys": ["alt+shift+-"], "command": "jump_forward" },
@@ -131,9 +133,11 @@
   { "keys": ["alt+delete"], "command": "delete_word", "args": { "forward": true } },
   { "keys": ["alt+shift+delete"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"} },
 
-  { "keys": ["shift+alt+]"], "command": "next_view" },
-  { "keys": ["shift+alt+["], "command": "prev_view" },
+  { "keys": ["shift+alt+]"], "command": "prev_view_in_stack" },
+  { "keys": ["shift+alt+["], "command": "next_view_in_stack" },
 
+  { "keys": ["alt+["], "command": "prev_view" },
+  { "keys": ["alt+]"], "command": "next_view" },
     // --------
 
   // These two key bindings should replace the above three if you'd prefer
@@ -301,7 +305,7 @@
   { "keys": ["ctrl+shift+j"], "command": "expand_selection", "args": {"to": "indentation"} },
   // { "keys": ["ctrl+shift+a"], "command": "expand_selection", "args": {"to": "tag"} },
 
-  { "keys": ["alt+."], "command": "close_tag" },
+  // { "keys": ["alt+."], "command": "close_tag" },
 
   { "keys": ["ctrl+alt+q"], "command": "toggle_record_macro" },
   { "keys": ["ctrl+alt+shift+q"], "command": "run_macro" },
