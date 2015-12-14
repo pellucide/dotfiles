@@ -1,4 +1,4 @@
-<MathWorks type="Path Cache File" version="1.1" date="Tue Dec  8 10:59:33 2015">
+<MathWorks type="Path Cache File" version="1.1" date="Sun Dec 13 14:34:16 2015">
  <D name="matlab/elfun">
   <N name="Contents.m"/>
   <N name="abs.m"/>
@@ -529,7 +529,7 @@
   <F name="syntax.m"/>
   <N name="system.m"/>
   <N name="toolboxdir.m"/>
-  <F name="type.m"/>
+  <N name="type.m"/>
   <N name="unix.m"/>
   <F name="unloadlibrary.m"/>
   <N name="usejava.m"/>
@@ -36277,14 +36277,14 @@
    <F name="Submenus.m"/>
    <F name="ToolBars.m"/>
    <F name="delayedCallback.m"/>
-   <F name="error.m"/>
+   <N name="error.m"/>
    <F name="getCallbackInfo.m"/>
    <F name="getCustomSchemas.m"/>
    <F name="getDefaultCallback.m"/>
    <F name="getMessageCatalogInfo.m"/>
    <F name="getMessagesFromCatalog.m"/>
    <F name="makeCallback.m"/>
-   <F name="message.m"/>
+   <N name="message.m"/>
    <F name="openEmbeddedDDGForSource.m"/>
    <F name="showNotImplementedDialog.m"/>
    <F name="slerror.m"/>
@@ -49357,7 +49357,7 @@
   </D>
   <F name="Contents.m"/>
   <F name="compDblWithMinMaxFixPtValue.mexa64"/>
-  <F name="fixdt.m"/>
+  <N name="fixdt.m"/>
   <F name="fixdtUpdate.m"/>
   <F name="fixpt-report.html"/>
   <F name="fixpt-report.sgml"/>
@@ -49388,7 +49388,7 @@
   <F name="fixptlibname.m"/>
   <F name="fixptminwordlength.m"/>
   <F name="fixptopt.m"/>
-  <F name="float.m"/>
+  <N name="float.m"/>
   <F name="fpbhelp.m"/>
   <F name="fpbherr.html"/>
   <F name="generateQuestionMarkIconData.m"/>

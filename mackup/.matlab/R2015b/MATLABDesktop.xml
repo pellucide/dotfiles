@@ -6,15 +6,15 @@
          <ToolBar Label="Current Folder" Name="Current DirectoryToolBar" Showing="yes"/>
       </ToolBars>
       <Location EntirelyVisible="yes" External="yes" Height="1548" Type="floating" Width="1248" X="1312" Y="52"/>
-      <Split Orientation="leftRight" Position="6">
+      <Split Orientation="leftRight" Position="60">
          <View Name="Command Window" Title="Command Window"/>
          <Group Name="Editor" Title="Editor"/>
       </Split>
       <QuickAccessLocation Region="right_of_tabs"/>
    </Frame>
-   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="yes" Guest="no" Name="Editor" PropertyClass="com.mathworks.mde.editor.EditorGroup" SelectionOrder="21" Show="yes" ShowViews="no" Title="Editor">
-      <Location Context="docked" Height="1377" ParentHeight="1377" ParentWidth="1248" Path="E" Type="nested" Width="1238" X="1322" Y="201"/>
-      <Location Context="nested" Height="1377" ParentHeight="1377" ParentWidth="1248" Path="E" Type="nested" Width="1238" X="1322" Y="201"/>
+   <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="yes" Guest="no" Name="Editor" PropertyClass="com.mathworks.mde.editor.EditorGroup" SelectionOrder="26" Show="yes" ShowViews="no" Title="Editor">
+      <Location Context="docked" Height="1377" ParentHeight="1377" ParentWidth="1248" Path="E" Type="nested" Width="1184" X="1376" Y="201"/>
+      <Location Context="nested" Height="1377" ParentHeight="1377" ParentWidth="1248" Path="E" Type="nested" Width="1184" X="1376" Y="201"/>
       <Location Context="undocked" External="yes" Type="floating"/>
       <Location Context="document" Maximized="yes" Type="floating"/>
       <DocumentArea Arrangement="maximized" Bar="top" Empty="no" MaxBarWidth="170" Showing="yes" ShrinkTabs="no"/>
@@ -82,14 +82,14 @@
       <Location Context="undocked" External="yes" Height="600" Type="floating" Width="800"/>
    </Group>
    <Group Alphabetize="no" CollapseUndockedDocumentToolstrips="no" Dock="no" Guest="no" Name="Doc Center" PropertyClass="com.mathworks.mde.help.MLHelpBrowserGroup" Show="no" ShowViews="no" Title="Help"/>
-   <Client Class="com.mathworks.mde.cmdwin.CmdWin" Dock="yes" Guest="no" Name="Command Window" SelectionOrder="14" Show="yes" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="Command Window">
-      <Location Context="docked" Height="1377" ParentHeight="1377" ParentWidth="1248" Path="W" Type="nested" Width="6" X="1312" Y="201"/>
+   <Client Class="com.mathworks.mde.cmdwin.CmdWin" Dock="yes" Guest="no" Name="Command Window" SelectionOrder="22" Show="yes" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="Command Window">
+      <Location Context="docked" Height="1377" ParentHeight="1377" ParentWidth="1248" Path="W" Type="nested" Width="60" X="1312" Y="201"/>
       <Location Context="undocked" EntirelyVisible="yes" External="yes" Height="741" Type="floating" Width="683" X="75" Y="34"/>
-      <Location Context="nested" Height="1377" ParentHeight="1377" ParentWidth="1248" Path="W" Type="nested" Width="6" X="1312" Y="201"/>
+      <Location Context="nested" Height="1377" ParentHeight="1377" ParentWidth="1248" Path="W" Type="nested" Width="60" X="1312" Y="201"/>
    </Client>
    <Client Class="com.mathworks.mde.cmdhist.AltHistory" Dock="no" Guest="no" Name="Command History" Show="yes" Singleton="yes" StatusBarShowing="yes" TearOff="yes" Title="Command History">
       <Location Context="docked" Path="EE" Type="nested"/>
-      <Location Anchored="yes" Context="undocked" External="yes" Height="250" Type="floating" Width="400" X="85" Y="1309"/>
+      <Location Anchored="yes" Context="undocked" External="yes" Height="250" Type="floating" Width="400" X="93" Y="1292"/>
    </Client>
    <Client Class="com.mathworks.mde.explorer.Explorer" Dock="yes" Guest="no" Name="Current Directory" Show="no" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="Current Folder">
       <Location Context="docked" Height="554" ParentHeight="1405" ParentWidth="687" Path="EN" Type="nested" Width="687" X="1873" Y="173">
@@ -162,19 +162,59 @@
    <Client Class="com.mathworks.page.plottool.PropertyEditor" Dock="yes" Group="Figures" Guest="no" Name="Property Editor" Show="no" Singleton="yes" StatusBarShowing="yes" TearOff="no" Title="Property Editor">
       <Location Context="docked" Path="S" Type="nested"/>
    </Client>
-   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="15" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/home/danielsuo/mobot/src/reconstruction/src/RGBDsfm.m">
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="24" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/home/danielsuo/mobot/src/reconstruction/src/RGBDsfm.m">
       <Location Context="docked" Maximized="yes" Type="floating"/>
       <Location Context="floatingIn" Maximized="yes" Type="floating"/>
       <ClientData EditorFileName="/home/danielsuo/mobot/src/reconstruction/src/RGBDsfm.m"/>
    </Client>
-   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="16" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/home/danielsuo/mobot/src/reconstruction/src/align2view.m">
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="26" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/home/danielsuo/mobot/src/reconstruction/src/lib/visualindex/visualindex_build.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/home/danielsuo/mobot/src/reconstruction/src/lib/visualindex/visualindex_build.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="21" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/home/danielsuo/mobot/src/reconstruction/src/main.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/home/danielsuo/mobot/src/reconstruction/src/main.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="14" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/home/danielsuo/mobot/src/reconstruction/src/alignTimeBased.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/home/danielsuo/mobot/src/reconstruction/src/alignTimeBased.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="19" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/home/danielsuo/mobot/src/reconstruction/src/align2view.m">
       <Location Context="docked" Maximized="yes" Type="floating"/>
       <Location Context="floatingIn" Maximized="yes" Type="floating"/>
       <ClientData EditorFileName="/home/danielsuo/mobot/src/reconstruction/src/align2view.m"/>
    </Client>
-   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="17" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/home/danielsuo/mobot/src/reconstruction/src/matchSIFTdesImagesBidirectional.m">
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="20" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/home/danielsuo/mobot/src/reconstruction/src/matchSIFTdesImagesBidirectional.m">
       <Location Context="docked" Maximized="yes" Type="floating"/>
       <Location Context="floatingIn" Maximized="yes" Type="floating"/>
       <ClientData EditorFileName="/home/danielsuo/mobot/src/reconstruction/src/matchSIFTdesImagesBidirectional.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="18" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/home/danielsuo/mobot/src/reconstruction/src/ransacfitRt.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/home/danielsuo/mobot/src/reconstruction/src/ransacfitRt.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="15" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/home/danielsuo/mobot/src/reconstruction/src/lib/peter/ransac.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/home/danielsuo/mobot/src/reconstruction/src/lib/peter/ransac.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="16" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/home/danielsuo/mobot/src/reconstruction/src/estimateRt.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/home/danielsuo/mobot/src/reconstruction/src/estimateRt.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="17" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/home/danielsuo/mobot/src/reconstruction/src/lib/estimateRigidTransform/estimateRigidTransform.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/home/danielsuo/mobot/src/reconstruction/src/lib/estimateRigidTransform/estimateRigidTransform.m"/>
+   </Client>
+   <Client Class="com.mathworks.mde.editor.EditorViewClient" Dock="yes" Group="Editor" Guest="no" SelectionOrder="23" Show="yes" Singleton="no" StatusBarShowing="yes" TearOff="no" Title="/home/danielsuo/mobot/src/reconstruction/src/lib/visualindex/visualindex_get_features.m">
+      <Location Context="docked" Maximized="yes" Type="floating"/>
+      <Location Context="floatingIn" Maximized="yes" Type="floating"/>
+      <ClientData EditorFileName="/home/danielsuo/mobot/src/reconstruction/src/lib/visualindex/visualindex_get_features.m"/>
    </Client>
 </Layout>

@@ -1249,4 +1249,130 @@
 <command time_stamp="1518251d3e2">%-- 12/08/2015 10:59:39 AM --%</command>
 <command error="true" execution_time="356">RGBDsfm</command>
 </session>
+<session>
+<command time_stamp="1518e0aad46">%-- 12/10/2015 05:37:23 PM --%</command>
+<command error="true" execution_time="255">RGBDsfm</command>
+<command execution_time="112" repeat="4">main</command>
+<command execution_time="32">data</command>
+<command execution_time="38">data.image</command>
+<command execution_time="32">data.image(1)</command>
+<command error="true" execution_time="412" repeat="5">main</command>
+<command execution_time="32">loc = []</command>
+<command execution_time="32">loc(1) = 2</command>
+<command execution_time="33">loc</command>
+<command execution_time="33">loc(5) = 1</command>
+<command execution_time="203">main</command>
+<command execution_time="81">loc</command>
+<command execution_time="16609" repeat="2">main</command>
+<command execution_time="76">loc</command>
+<command execution_time="69">loc{1}</command>
+<command execution_time="304">desc{1}</command>
+<command execution_time="29">size(desc{1})</command>
+<command execution_time="15406">main</command>
+<command execution_time="28">['asdfasdf' 'gfd']</command>
+<command execution_time="26">['asdf' 1]</command>
+<command execution_time="30">['asdf' '1']</command>
+<command execution_time="5654">main</command>
+<command execution_time="53">t = loc{1}</command>
+<command execution_time="28">size(t)</command>
+<command execution_time="58">l = loc{1}</command>
+<command execution_time="316">d = desc{1}</command>
+<command execution_time="31">size(d)</command>
+<command execution_time="34">max(d)</command>
+<command execution_time="28">max(max(d))</command>
+<command execution_time="296">d / 255</command>
+<command execution_time="326">d / 255.0</command>
+<command error="true" execution_time="1641">float(d) / 255</command>
+<command execution_time="296">single(d)</command>
+<command execution_time="473">single(d) / 255</command>
+<command execution_time="33">size(single(d) / 255)</command>
+<command execution_time="29">size(l)</command>
+<command execution_time="63">l</command>
+<command error="true" execution_time="65">type(l)</command>
+<command execution_time="5485" repeat="2">main</command>
+<command execution_time="28">size(l)</command>
+<command execution_time="50">l</command>
+<command execution_time="301">desc{123}</command>
+<command execution_time="30">size(desc{123})</command>
+<command execution_time="302">t = desc{123}</command>
+<command execution_time="17">t = single(t) / 255;</command>
+<command execution_time="29">size(t)</command>
+<command execution_time="30">t(:,end)</command>
+<command execution_time="68">desc</command>
+<command execution_time="31">desc{123}(:,799)</command>
+<command execution_time="30">single(desc{123}(:,799))/255</command>
+<command execution_time="341">desc{123}</command>
+<command execution_time="21">size(desc{123})</command>
+<command execution_time="30">size(single(desc{123}) / 255)</command>
+<command execution_time="326">desc{1}</command>
+<command execution_time="330">single(desc{1})/255</command>
+<command execution_time="366">a = single(desc{1})/255</command>
+<command execution_time="19">size(a)</command>
+<command execution_time="29">a(:, 1)</command>
+<command execution_time="299">a= desc{end}</command>
+<command execution_time="16">a = single(a)/255;</command>
+<command execution_time="29">a(:,end)</command>
+<command execution_time="26">a(:,end-1)</command>
+<command execution_time="337">a = single(desc{122})/255</command>
+<command execution_time="23">a(:,end)</command>
+<command error="true" execution_time="15">single(desc{122})/255(:, 122)</command>
+<command error="true" execution_time="29">a = single(desc{124})/255</command>
+<command execution_time="333">a = single(desc{122})/255</command>
+<command execution_time="22">a = single(desc{121})/255;</command>
+<command execution_time="25">a(:,end)</command>
+<command execution_time="27">a = single(desc{122})/255;</command>
+<command execution_time="45">a(end,:)</command>
+<command execution_time="16">a = single(desc{123})/255;</command>
+<command execution_time="30">a(end,:)</command>
+<command execution_time="29">size(a)</command>
+<command error="true" execution_time="40">size(loc{!})</command>
+<command execution_time="30">size(loc{1})</command>
+<command error="true" execution_time="223">vl_sift_tofile</command>
+<command execution_time="15104">main</command>
+<command execution_time="14">a = single(desc{123})/255;</command>
+<command execution_time="18">a(:,end)</command>
+<command execution_time="17">a = single(desc{122})/255;</command>
+<command execution_time="25">a(:,end)</command>
+<command execution_time="54">loc{123}</command>
+<command execution_time="47">a = single(desc{123})/255;</command>
+<command execution_time="47">a(:,end)</command>
+<command execution_time="14474">main</command>
+<command error="true" execution_time="268" repeat="2">RGBDsfm</command>
+<command execution_time="16924" repeat="2">main</command>
+<command execution_time="75">MatchPairs</command>
+<command execution_time="31">MatchPairs(1)</command>
+<command execution_time="31">MatchPairs{1}</command>
+<command execution_time="34">MatchPairs{1}.matches</command>
+<command execution_time="28">length(MatchPairs)</command>
+<command execution_time="39">match = MatchPairs{1}</command>
+<command execution_time="30">match.matches(:,[3:5 8:10])</command>
+<command execution_time="23">[3:5 8:10]</command>
+<command execution_time="33">match.matches([3:5 8:10], :)</command>
+<command execution_time="33">size(match.matches([3:5 8:10], :))</command>
+<command error="true" execution_time="17130" repeat="2">main</command>
+<command execution_time="29">['match' num2str(1)]</command>
+<command execution_time="30">fullfile(out_dir, ['match' num2str(1)])</command>
+<command execution_time="16042">main</command>
+<command execution_time="27">MatchPairs{122}</command>
+<command execution_time="46">MatchPairs{122}.matches</command>
+<command execution_time="24">length(cameraRtC2W)</command>
+<command execution_time="42">cameraRtC2W</command>
+<command execution_time="16330" repeat="2">main</command>
+<command execution_time="27">cameraRtC2W(:,:,1)'</command>
+<command execution_time="33">cameraRtC2W(:,:,2)'</command>
+<command execution_time="29">cameraRtC2W(:,:,123)</command>
+<command execution_time="31">cameraRtC2W(:,:,122)</command>
+<command error="true" execution_time="15862">main</command>
+<command execution_time="33">MatchPairs{1}</command>
+<command execution_time="31">MatchPairs{1}.Rt</command>
+<command execution_time="40">MatchPairs{1}.Rt'</command>
+<command execution_time="14980">main</command>
+<command execution_time="34">MatchPairs{122}.Rt</command>
+</session>
+<session>
+<command time_stamp="1519cd65dab">%-- 12/13/2015 02:34:33 PM --%</command>
+<command error="true" execution_time="1005" repeat="2">main</command>
+<command error="true" execution_time="198">RGBDsfm</command>
+<command error="true" execution_time="5034">main</command>
+</session>
 </history>
