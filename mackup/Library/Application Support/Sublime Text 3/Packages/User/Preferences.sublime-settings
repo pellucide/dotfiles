@@ -20,11 +20,9 @@
 		".git",
 		".hg"
 	],
-	"font_face": "Apercu Mono",
 	"font_size": 11.0,
 	"ignored_packages":
 	[
-		"AutoPEP8",
 		"HtmlTidy",
 		"MarkdownBuild",
 		"RubyTest",

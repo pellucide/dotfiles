@@ -57,3 +57,5 @@ wget -O ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Pack
 
 # Key remapping
 # sh ~/dotfiles/apps/seil/seil-import.sh
+
+cp ./apps/keyboard/Default.keylayout ~/Library/Keyboard\ Layouts/

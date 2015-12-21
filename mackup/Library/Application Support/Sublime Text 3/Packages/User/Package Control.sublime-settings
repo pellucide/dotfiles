@@ -3,7 +3,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"AutoPEP8",
 		"HtmlTidy",
 		"MarkdownBuild",
 		"SplitScreen"
@@ -16,6 +15,7 @@
 		"AutoPEP8",
 		"BracketHighlighter",
 		"C++11",
+		"CMake",
 		"ColorPicker",
 		"ConvertToUTF8",
 		"CSSTidy",
