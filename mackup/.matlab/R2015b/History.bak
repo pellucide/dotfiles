@@ -1080,4 +1080,293 @@
 <command execution_time="130724">main</command>
 <command execution_time="3968" repeat="4">DEBUG_PoseGraph</command>
 </session>
+<session>
+<command time_stamp="150fe8ce9e9">%-- 11/12/2015 08:54:19 PM --%</command>
+<command execution_time="8061">DEBUG_PoseGraph</command>
+<command execution_time="133564">main</command>
+<command execution_time="3656" repeat="2">DEBUG_PoseGraph</command>
+<command execution_time="34">cameraRtC2W(:,:,2)</command>
+<command execution_time="34">cameraRtC2W(:,4,2)</command>
+<command execution_time="34">cameraRtC2W(:,4,2)*100</command>
+<command execution_time="111338" repeat="12">DEBUG_PoseGraph</command>
+<command execution_time="204603">main</command>
+<command execution_time="3679" repeat="9">DEBUG_PoseGraph</command>
+<command batch="28">a = [0.0078 -0.2811 -0.9596 0.0480 ;</command>
+<command batch="28">0.1309 -0.9511 0.2797 1.2387 ;</command>
+<command batch="28">-0.9914 -0.1278 0.0294 3.8241 ]</command>
+<command batch="28">r = [1.0000 0.0020 -0.0089 0.0047 ;</command>
+<command batch="28">-0.0018 0.9998 0.0204 -0.0091 ;</command>
+<command batch="28" execution_time="56">0.0090 -0.0204 0.9998 0.0100 ]</command>
+<command error="true" execution_time="284">transformRT</command>
+<command error="true" execution_time="13">[a(:, 1:3) * r(:, 1:3) a(:, 1:3) * r(:4) + a(:, 4)]</command>
+<command execution_time="31">[a(:, 1:3) * r(:, 1:3) a(:, 1:3) * r(:, 4) + a(:, 4)]</command>
+<command execution_time="24">[r(:, 1:3) * a(:, 1:3) r(:, 1:3) * a(:, 4) + r(:, 4)]</command>
+<command batch="29">a = [0.7779 -0.1046 -0.6196 -0.1846 ;</command>
+<command batch="29">0.4117 -0.6601 0.6283 1.4143 ;</command>
+<command batch="29">-0.4748 -0.7438 -0.4704 2.8019]</command>
+<command batch="29">r = [0.9991 -0.0432 -0.0034 0.0042 ;</command>
+<command batch="29">0.0433 0.9982 0.0408 -0.0684 ;</command>
+<command batch="29" execution_time="48">0.0016 -0.0409 0.9992 0.0094 ]</command>
+<command execution_time="21">[r(:, 1:3) * a(:, 1:3) r(:, 1:3) * a(:, 4) + r(:, 4)]</command>
+</session>
+<session>
+<command time_stamp="151302393e7">%-- 11/22/2015 12:00:17 PM --%</command>
+<command execution_time="107525">main</command>
+<command error="true" execution_time="230">RGBDsfm</command>
+<command batch="30">a = [0.9999 -0.0137 -0.0059 0.0053 ;</command>
+<command batch="30">0.0138 0.9997 0.0206 -0.0084 ;</command>
+<command batch="30">0.0056 -0.0207 0.9998 0.0063 ]</command>
+<command batch="30">r = [0.5233 0.1155 0.8443 1.1555 ;</command>
+<command batch="30">0.5025 -0.8420 -0.1962 0.5958 ;</command>
+<command batch="30" execution_time="57">0.6882 0.5270 -0.4986 3.4932 ]</command>
+<command execution_time="52">transformRT(a, r)</command>
+<command execution_time="28">transformRT(r, a)</command>
+<command batch="31">a = [0.9124 0.3892 -0.1264 -3.2524 ;</command>
+<command batch="31">-0.4014 0.9113 -0.0918 0.8741 ;</command>
+<command batch="31">0.0795 0.1345 0.9877 -3.6123 ]</command>
+<command batch="31">r = [0.9998 0.0170 -0.0081 -0.0016 ;</command>
+<command batch="31">-0.0169 0.9998 0.0088 0.0107 ;</command>
+<command batch="31" execution_time="57">0.0083 -0.0087 0.9999 0.0017 ]</command>
+<command execution_time="29">transformRT(r,a)</command>
+<command execution_time="33">transformRT(a, r)</command>
+<command execution_time="26">repmat(r(:,4),1,size(a,2))</command>
+<command execution_time="24">r</command>
+<command batch="32" error="true">0.9124 0.3892 -0.1264 -3.2524</command>
+<command batch="32" error="true">-0.4014 0.9113 -0.0918 0.8741</command>
+<command batch="32" error="true">0.0795 0.1345 0.9877 -3.6123</command>
+<command batch="32" error="true">0.9998 0.0170 -0.0081 -0.0016</command>
+<command batch="32" error="true">-0.0169 0.9998 0.0088 0.0107</command>
+<command batch="32" error="true">0.0083 -0.0087 0.9999 0.0017</command>
+<command batch="32" error="true">0.9046 0.4057 -0.1304 -3.2498</command>
+<command batch="32" error="true">-0.4175 0.9051 -0.0804 0.8843</command>
+<command batch="32" error="true" execution_time="72">0.0854 0.1272 0.9882 -3.6093</command>
+<command error="true" execution_time="34">a(:,1:3)) * r</command>
+<command execution_time="28">a(:,1:3) * r</command>
+<command batch="33">a = [0.9124 0.3892 -0.1264 -3.2524 ;</command>
+<command batch="33">-0.4014 0.9113 -0.0918 0.8741 ;</command>
+<command batch="33">0.0795 0.1345 0.9877 -3.6123 ;</command>
+<command batch="33">0 0 0 1]</command>
+<command batch="33">r = [0.9998 0.0170 -0.0081 -0.0016 ;</command>
+<command batch="33">-0.0169 0.9998 0.0088 0.0107 ;</command>
+<command batch="33">0.0083 -0.0087 0.9999 0.0017 ;</command>
+<command batch="33" execution_time="57">0 0 0 1];</command>
+<command execution_time="26">r</command>
+<command execution_time="26">a * r</command>
+<command error="true" execution_time="48">r * [1 0 0 0]</command>
+<command execution_time="25">r * [1 0 0 0]'</command>
+<command execution_time="28">a * r * [1 0 0 0]'</command>
+<command execution_time="26">m = a * r</command>
+<command error="true" execution_time="29" repeat="2">m * [1 0 0 0]</command>
+<command execution_time="26">m * [1 0 0 0]'</command>
+<command execution_time="26">m * [1 2 3 1]'</command>
+<command execution_time="26">a * r * [1 2 3 1]'</command>
+<command error="true" execution_time="21275" repeat="3">main</command>
+<command error="true" execution_time="1065">SFMedu2</command>
+<command error="true" execution_time="761">run('/home/danielsuo/Downloads/SFMedu2/SFMedu2/SFMedu2.m')</command>
+<command error="true" execution_time="512">SFMedu2</command>
+<command error="true" execution_time="690" repeat="2">run('/home/danielsuo/Downloads/PS4_code/SFMedu2.m')</command>
+<command error="true" execution_time="65">matchSIFTdesImagesBidirectional</command>
+<command error="true" execution_time="523">SFMedu2</command>
+</session>
+<session>
+<command time_stamp="1516404bf43">%-- 12/02/2015 01:46:51 PM --%</command>
+<command execution_time="46967">prepare_mnist</command>
+<command execution_time="5371">demo_vis_filter</command>
+<command execution_time="2399" repeat="5">prepare</command>
+<command execution_time="1674">plotNet('alexnet.json')</command>
+<command execution_time="363">plotLoss('log_file.txt')</command>
+<command error="true" execution_time="184">plotLoss('log_file.txt', true)</command>
+<command execution_time="165">plotLoss('log_file.txt', false, true)</command>
+<command execution_time="22">true</command>
+<command execution_time="166">plotLoss('log_file.txt', true, true)</command>
+<command error="true" execution_time="342" repeat="2">evaluate</command>
+<command execution_time="36">prob</command>
+<command execution_time="81">prob.value</command>
+<command error="true" execution_time="876">dim(prob.value)</command>
+<command execution_time="37">size(prob.value)</command>
+<command error="true" execution_time="157">jgnd</command>
+<command execution_time="40">gnd</command>
+<command execution_time="36">prob</command>
+<command execution_time="41">size(gnd)</command>
+<command execution_time="37">prob.value(:,4)</command>
+<command execution_time="55">prob.value</command>
+<command error="true" execution_time="45">squeeze</command>
+<command execution_time="25">pred = squeeze(prob.value);</command>
+<command execution_time="36">size(pred)</command>
+<command execution_time="35">pred</command>
+<command execution_time="28">max(pred)</command>
+<command execution_time="378">help max</command>
+<command execution_time="34">[x, i] = max(pred)</command>
+<command execution_time="28">gnd</command>
+<command error="true" execution_time="29">[prob, pred] = max(squeeze(prob.value)) - 1;</command>
+<command error="true" execution_time="41">[prob, pred] = max(squeeze(prob.value)) .- 1;</command>
+<command batch="34">% Get predicted label [for homework]</command>
+<command batch="34">[prob, pred] = max(squeeze(prob.value));</command>
+<command batch="34" execution_time="38">prob = prob - 1;</command>
+<command execution_time="29">prob</command>
+<command batch="35" error="true">% Get predicted label [for homework]</command>
+<command batch="35" error="true">[prob, pred] = max(squeeze(prob.value));</command>
+<command batch="35" error="true" execution_time="46">pred = pred - 1;</command>
+<command execution_time="17">pred</command>
+<command error="true" execution_time="22">pred .- 1</command>
+<command execution_time="11">pred</command>
+<command execution_time="15">pred - 1</command>
+<command execution_time="28">pred = pred - 1</command>
+<command batch="36" error="true">% Get predicted label [for homework]</command>
+<command batch="36" error="true">[prob, pred] = max(squeeze(prob.value));</command>
+<command batch="36" error="true" execution_time="24">pred = pred - 1;</command>
+<command error="true" execution_time="11">[prob, pred] = max(squeeze(prob.value));</command>
+<command execution_time="17">prob = readTensors(det_tensor_file);</command>
+<command batch="37">% Get predicted label [for homework]</command>
+<command batch="37">[prob, pred] = max(squeeze(prob.value));</command>
+<command batch="37" execution_time="34">pred = pred - 1;</command>
+<command error="true" execution_time="30">pred == gnd</command>
+<command execution_time="37">pred</command>
+<command execution_time="27">gnd</command>
+<command error="true" execution_time="36">prod '</command>
+<command execution_time="35">pred'</command>
+<command execution_time="28">pred' == gnd</command>
+<command error="true" execution_time="27">sum(pred' == gnd) / size(pred)</command>
+<command error="true" execution_time="28">sum(pred' == gnd) / size(gnd)</command>
+<command execution_time="26">sum(pred' == gnd) / length(gnd)</command>
+<command execution_time="10">sum(gnd)</command>
+<command execution_time="1189" repeat="3">evaluate</command>
+<command execution_time="165">plotLoss('log_file_pretrain.txt')</command>
+<command execution_time="18">model.asdf = 1</command>
+<command execution_time="18">model</command>
+<command execution_time="19">a.asdf=2</command>
+<command execution_time="20">a</command>
+<command execution_time="21462">prepare_mnist</command>
+<command error="true" execution_time="123" repeat="2">RGBDsfm</command>
+</session>
+<session>
+<command time_stamp="1518250eace">%-- 12/08/2015 10:58:40 AM --%</command>
+</session>
+<session>
+<command time_stamp="15182517cd5">%-- 12/08/2015 10:59:17 AM --%</command>
+</session>
+<session>
+<command time_stamp="1518251d3e2">%-- 12/08/2015 10:59:39 AM --%</command>
+<command error="true" execution_time="356">RGBDsfm</command>
+</session>
+<session>
+<command time_stamp="1518e0aad46">%-- 12/10/2015 05:37:23 PM --%</command>
+<command error="true" execution_time="255">RGBDsfm</command>
+<command execution_time="112" repeat="4">main</command>
+<command execution_time="32">data</command>
+<command execution_time="38">data.image</command>
+<command execution_time="32">data.image(1)</command>
+<command error="true" execution_time="412" repeat="5">main</command>
+<command execution_time="32">loc = []</command>
+<command execution_time="32">loc(1) = 2</command>
+<command execution_time="33">loc</command>
+<command execution_time="33">loc(5) = 1</command>
+<command execution_time="203">main</command>
+<command execution_time="81">loc</command>
+<command execution_time="16609" repeat="2">main</command>
+<command execution_time="76">loc</command>
+<command execution_time="69">loc{1}</command>
+<command execution_time="304">desc{1}</command>
+<command execution_time="29">size(desc{1})</command>
+<command execution_time="15406">main</command>
+<command execution_time="28">['asdfasdf' 'gfd']</command>
+<command execution_time="26">['asdf' 1]</command>
+<command execution_time="30">['asdf' '1']</command>
+<command execution_time="5654">main</command>
+<command execution_time="53">t = loc{1}</command>
+<command execution_time="28">size(t)</command>
+<command execution_time="58">l = loc{1}</command>
+<command execution_time="316">d = desc{1}</command>
+<command execution_time="31">size(d)</command>
+<command execution_time="34">max(d)</command>
+<command execution_time="28">max(max(d))</command>
+<command execution_time="296">d / 255</command>
+<command execution_time="326">d / 255.0</command>
+<command error="true" execution_time="1641">float(d) / 255</command>
+<command execution_time="296">single(d)</command>
+<command execution_time="473">single(d) / 255</command>
+<command execution_time="33">size(single(d) / 255)</command>
+<command execution_time="29">size(l)</command>
+<command execution_time="63">l</command>
+<command error="true" execution_time="65">type(l)</command>
+<command execution_time="5485" repeat="2">main</command>
+<command execution_time="28">size(l)</command>
+<command execution_time="50">l</command>
+<command execution_time="301">desc{123}</command>
+<command execution_time="30">size(desc{123})</command>
+<command execution_time="302">t = desc{123}</command>
+<command execution_time="17">t = single(t) / 255;</command>
+<command execution_time="29">size(t)</command>
+<command execution_time="30">t(:,end)</command>
+<command execution_time="68">desc</command>
+<command execution_time="31">desc{123}(:,799)</command>
+<command execution_time="30">single(desc{123}(:,799))/255</command>
+<command execution_time="341">desc{123}</command>
+<command execution_time="21">size(desc{123})</command>
+<command execution_time="30">size(single(desc{123}) / 255)</command>
+<command execution_time="326">desc{1}</command>
+<command execution_time="330">single(desc{1})/255</command>
+<command execution_time="366">a = single(desc{1})/255</command>
+<command execution_time="19">size(a)</command>
+<command execution_time="29">a(:, 1)</command>
+<command execution_time="299">a= desc{end}</command>
+<command execution_time="16">a = single(a)/255;</command>
+<command execution_time="29">a(:,end)</command>
+<command execution_time="26">a(:,end-1)</command>
+<command execution_time="337">a = single(desc{122})/255</command>
+<command execution_time="23">a(:,end)</command>
+<command error="true" execution_time="15">single(desc{122})/255(:, 122)</command>
+<command error="true" execution_time="29">a = single(desc{124})/255</command>
+<command execution_time="333">a = single(desc{122})/255</command>
+<command execution_time="22">a = single(desc{121})/255;</command>
+<command execution_time="25">a(:,end)</command>
+<command execution_time="27">a = single(desc{122})/255;</command>
+<command execution_time="45">a(end,:)</command>
+<command execution_time="16">a = single(desc{123})/255;</command>
+<command execution_time="30">a(end,:)</command>
+<command execution_time="29">size(a)</command>
+<command error="true" execution_time="40">size(loc{!})</command>
+<command execution_time="30">size(loc{1})</command>
+<command error="true" execution_time="223">vl_sift_tofile</command>
+<command execution_time="15104">main</command>
+<command execution_time="14">a = single(desc{123})/255;</command>
+<command execution_time="18">a(:,end)</command>
+<command execution_time="17">a = single(desc{122})/255;</command>
+<command execution_time="25">a(:,end)</command>
+<command execution_time="54">loc{123}</command>
+<command execution_time="47">a = single(desc{123})/255;</command>
+<command execution_time="47">a(:,end)</command>
+<command execution_time="14474">main</command>
+<command error="true" execution_time="268" repeat="2">RGBDsfm</command>
+<command execution_time="16924" repeat="2">main</command>
+<command execution_time="75">MatchPairs</command>
+<command execution_time="31">MatchPairs(1)</command>
+<command execution_time="31">MatchPairs{1}</command>
+<command execution_time="34">MatchPairs{1}.matches</command>
+<command execution_time="28">length(MatchPairs)</command>
+<command execution_time="39">match = MatchPairs{1}</command>
+<command execution_time="30">match.matches(:,[3:5 8:10])</command>
+<command execution_time="23">[3:5 8:10]</command>
+<command execution_time="33">match.matches([3:5 8:10], :)</command>
+<command execution_time="33">size(match.matches([3:5 8:10], :))</command>
+<command error="true" execution_time="17130" repeat="2">main</command>
+<command execution_time="29">['match' num2str(1)]</command>
+<command execution_time="30">fullfile(out_dir, ['match' num2str(1)])</command>
+<command execution_time="16042">main</command>
+<command execution_time="27">MatchPairs{122}</command>
+<command execution_time="46">MatchPairs{122}.matches</command>
+<command execution_time="24">length(cameraRtC2W)</command>
+<command execution_time="42">cameraRtC2W</command>
+<command execution_time="16330" repeat="2">main</command>
+<command execution_time="27">cameraRtC2W(:,:,1)'</command>
+<command execution_time="33">cameraRtC2W(:,:,2)'</command>
+<command execution_time="29">cameraRtC2W(:,:,123)</command>
+<command execution_time="31">cameraRtC2W(:,:,122)</command>
+<command error="true" execution_time="15862">main</command>
+<command execution_time="33">MatchPairs{1}</command>
+<command execution_time="31">MatchPairs{1}.Rt</command>
+<command execution_time="40">MatchPairs{1}.Rt'</command>
+<command execution_time="14980">main</command>
+<command execution_time="34">MatchPairs{122}.Rt</command>
+</session>
 </history>

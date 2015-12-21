@@ -1,5 +1,5 @@
 #MATLAB Preferences
-#Mon Nov 16 23:13:15 EST 2015
+#Sun Dec 13 20:01:51 EST 2015
 CommandWindowShowHandleGraphics2Message=Bfalse
 ReplaceSearchText19=S
 ReplaceSearchText18=S
@@ -29,6 +29,7 @@ RLWidthB2_WB_2014b_1_1=I130
 RLWidthB2_WB_2014b_1_0=I130
 CommandWindowClearConfirmation=Btrue
 FindFilesLookinList2=S
+PathBrowserBounds=R962 386 700 488
 ReplaceText19=S
 ReplaceText18=S
 ReplaceText17=S
@@ -78,17 +79,17 @@ ColorsMLintAutoFixBackground=C-10126462
 DocumentsDetailViewerCollapsed=Btrue
 ColorsUseMLintAutoFixBackground=Bfalse
 ReplaceText=S;
-EditorMRU8=S/home/danielsuo/mobot/src/reconstruction/src/lib/vlfeat/toolbox/sift/vl_sift.m
-EditorMRU7=S/home/danielsuo/mobot/src/reconstruction/src/transformRT.m
-EditorMRU6=S/home/danielsuo/Dropbox/Jianxiong_Daniel/marvin/examples/mnist/prepare_mnist.m
-EditorMRU5=S/home/danielsuo/Dropbox/Jianxiong_Daniel/marvin/examples/mnist/demo_vis_filter.m
+EditorMRU8=S/home/danielsuo/mobot/src/reconstruction/src/ransacfitRt.m
+EditorMRU7=S/home/danielsuo/mobot/src/reconstruction/src/lib/peter/ransac.m
+EditorMRU6=S/home/danielsuo/mobot/src/reconstruction/src/estimateRt.m
+EditorMRU5=S/home/danielsuo/mobot/src/reconstruction/src/lib/estimateRigidTransform/estimateRigidTransform.m
 Editorhighlight-caret-row-boolean=Btrue
-EditorMRU4=S/home/danielsuo/Dropbox/Jianxiong_Daniel/marvin/tools/tensorIO_matlab/readTensors.m
-Colors_M_UnterminatedStrings=C-3519722
+EditorMRU4=S/home/danielsuo/mobot/src/reconstruction/src/matchSIFTdesImagesBidirectional.m
 Colors_M_Errors=C-2411985
-EditorMRU3=S/home/danielsuo/mobot/src/reconstruction/src/outputPly.m
-EditorMRU2=S/home/danielsuo/mobot/src/reconstruction/src/RGBDsfm.m
-EditorMRU1=S/home/danielsuo/mobot/src/reconstruction/src/lib/visualindex/visualindex_build.m
+Colors_M_UnterminatedStrings=C-3519722
+EditorMRU3=S/home/danielsuo/mobot/src/reconstruction/src/lib/visualindex/visualindex_build.m
+EditorMRU2=S/home/danielsuo/mobot/src/reconstruction/src/lib/visualindex/visualindex_get_features.m
+EditorMRU1=S/home/danielsuo/mobot/src/reconstruction/src/lib/visualindex/annkmeans.m
 EditorRightTextLineVisible=Btrue
 ColorsBackground=C-16766154
 Colors_M_Keywords=C-14251311
