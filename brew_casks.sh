@@ -43,6 +43,7 @@ apps=(
     evernote                            # 
     cheatsheet                          # keyboard shortcut
     meshlab
+    ukelele
 )
 
 echo "Installing apps..."
