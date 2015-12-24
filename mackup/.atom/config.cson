@@ -5,4 +5,8 @@
     showOnStartup: false
   editor:
     invisibles: {}
-  core: {}
+  core:
+    themes: [
+      "atom-dark-ui"
+      "atom-dark-syntax"
+    ]
