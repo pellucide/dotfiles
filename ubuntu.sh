@@ -43,6 +43,8 @@ git config --global credential.helper cache
 # sudo usermod -aG docker floored
 
 echo gtk-enable-mnemonics = 0 >> ~/.gtkrc-2.0
+# http://www.bendangelo.me/linux/2015/10/15/remap-caps-lock-in-ubuntu.html
+setxkbmap -option caps:super
 
 # By hand
 # - Add autokey to startup applications (automate by moving autokey.desktop to ~/.config/autostart)

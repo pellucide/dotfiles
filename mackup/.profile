@@ -1,2 +1,2 @@
 export PATH=$PATH:/usr/local/bin
-LD_LIBRARY_PATH=:/usr/local/cuda/lib64
+export LD_LIBRARY_PATH=:/usr/local/cuda/lib64:/usr/local/cudnn/v4rc/lib64
