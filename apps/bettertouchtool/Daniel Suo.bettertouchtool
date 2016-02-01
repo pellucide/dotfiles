@@ -1,0 +1,24 @@
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Email</key>
+	<string>danielsuo@gmail.com</string>
+	<key>Licenses</key>
+	<string>1</string>
+	<key>Name</key>
+	<string>Daniel Suo</string>
+	<key>Product</key>
+	<string>BetterTouchTool</string>
+	<key>Thanks a lot</key>
+	<string>for purchasing!</string>
+	<key>Timestamp</key>
+	<string>Mon, 01 Feb 2016 22:19:07 +0000</string>
+	<key>TransactionID</key>
+	<string>BOA160201-2026-86115</string>
+	<key>Signature</key>
+	<data>tZuldht9lJHJJ8ixcFhPPZIK+6lv31TKjPbZKMQBesXwpUUHr4NFB8hwIMRBJifettoQD45oVHDY
+AWXi4xIRXWDt1cvFDkUmWL4qzRWzVR0i8rrBkfgAcsax/qEbKBB/FWnoILqsxAVLsMUSZAiaOl2M
+Xrwfncit39UDx+y7MKo=
+</data>
+</dict>
+</plist>
