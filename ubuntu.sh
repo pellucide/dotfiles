@@ -1,5 +1,5 @@
 # Sublime repo
-sudo add-apt-repository ppa:webupd8team/sublime-text-3\
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
 
 # Chrome repo
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
@@ -23,12 +23,16 @@ apps=(
     curl
     jq
     scudcloud
+    tmux
 )
 
 sudo apt-get install -y ${apps[@]}
 
 # Install Mackup with PIP and restore
-sudo pip install mackup
+# sudo pip install mackup
+cd mackup/src
+sudo python setup.py install
+cd ../../
 cp mackup/.mackup.cfg ~/.mackup.cfg
 mackup restore
 
@@ -42,6 +46,7 @@ git config --global credential.helper cache
 # wget -qO- https://get.docker.com/ | sh
 # sudo usermod -aG docker floored
 
+# TODO: move .gtkrc-2.0 to mackup
 echo gtk-enable-mnemonics = 0 >> ~/.gtkrc-2.0
 # http://www.bendangelo.me/linux/2015/10/15/remap-caps-lock-in-ubuntu.html
 setxkbmap -option caps:super

@@ -9,7 +9,6 @@
 	],
 	"installed_packages":
 	[
-		"AAAPackageDev",
 		"Alignment",
 		"AngularJS",
 		"AutoPEP8",
@@ -44,8 +43,10 @@
 		"OpenGL Shading Language (GLSL)",
 		"Origami",
 		"Package Control",
+		"PackageDev",
 		"Print to HTML",
 		"RubyTest",
+		"ScalaFormat",
 		"Shader Syntax (GLSL HLSL Cg)",
 		"SideBarEnhancements",
 		"SplitScreen",

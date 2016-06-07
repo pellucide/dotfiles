@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<history>
+<session>
+<command time_stamp="153ce8c3f5e">%-- 03/31/2016 05:20:11 PM --%</command>
+</session>
+<session>
+<command time_stamp="153ce8eaca8">%-- 03/31/2016 05:22:50 PM --%</command>
+</session>
+<session>
+<command time_stamp="153ce946955">%-- 03/31/2016 05:29:06 PM --%</command>
+<command execution_time="768">help savejson</command>
+<command error="true" execution_time="151">savejson('', cameraParams, 'cameraParams.json')</command>
+<command error="true" execution_time="57">savejson('cameraParams', cameraParams, 'cameraParams.json')</command>
+<command execution_time="51">save('calib.mat')</command>
+<command execution_time="32">cameraParams.IntrinsicMatrix</command>
+<command execution_time="30">cameraParams.IntrinsicMatrix'</command>
+</session>
+</history>

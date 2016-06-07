@@ -1,2 +1,4 @@
-export PATH=$PATH:/usr/local/bin
-export LD_LIBRARY_PATH=:/usr/local/cuda/lib64:/usr/local/cudnn/v4rc/lib64
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CUDNN_LIB_DIR
+
+# Python
+export PYTHONPATH="~/.local/lib/python2.7/site-packages"

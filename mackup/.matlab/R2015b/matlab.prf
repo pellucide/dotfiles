@@ -1,0 +1,19 @@
+#MATLAB Preferences
+#Sun Jun 05 15:27:45 EDT 2016
+CommandWindowShowStartupMessage=Bfalse
+DocumentsDetailViewerRatio=J4635304784776733842
+RLWidthB2_WB_2014b_1_1=I130
+RLWidthB2_WB_2014b_1_0=I130
+RLHiddenB2_WB_2014b_1=I16376
+CommandWindowClearConfirmation=Btrue
+MatlabExitConfirm=Bfalse
+DocumentsDetailViewerCollapsed=Bfalse
+RLPrevInitB2_WB_2014b_1=Btrue
+EditorMRU6=S/home/danielsuo/Dropbox/rgbd-annotator/scripts/convert.m
+EditorMRU5=S/home/danielsuo/Dropbox/rgbd-annotator/scripts/png2dat.m
+EditorMRU4=S/home/danielsuo/Dropbox/rgbd-annotator/scripts/PNG16toDAT.m
+EditorMRU3=S/home/danielsuo/Dropbox/mobot/src/reconstruction/src/depthRead.m
+EditorMRU2=S/home/danielsuo/Dropbox/mobot/src/reconstruction/src/depth2XYZcamera.m
+EditorMRU1=S/home/danielsuo/Dropbox/tmp/fcma_classification/main.m
+DocumentsDetailViewerSize=I171
+CommandWindowShowHandleGraphics2Message=Bfalse

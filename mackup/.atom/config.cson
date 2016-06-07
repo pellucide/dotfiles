@@ -1,14 +1,18 @@
 "*":
-  "exception-reporting":
-    userId: "d22eece5-a238-453c-5469-0e2aa9459d8b"
-  welcome:
-    showOnStartup: false
-  editor:
-    invisibles: {}
+  Zen: {}
   core:
     themes: [
       "atom-dark-ui"
       "one-dark-syntax"
     ]
-  Zen: {}
+  editor:
+    fontSize: 21
+    invisibles: {}
+  "exception-reporting":
+    userId: "d22eece5-a238-453c-5469-0e2aa9459d8b"
   "merge-conflicts": {}
+  "remote-atom":
+    keep_alive: true
+    launch_at_startup: true
+  welcome:
+    showOnStartup: false

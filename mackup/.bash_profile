@@ -16,8 +16,8 @@ export GREP_OPTIONS='--color=auto'
 ###############################################################################
 # GitHub
 ###############################################################################
-alias git=hub
-. ~/dotfiles/apps/hub/hub.bash_completion.sh
+# alias git=hub
+# . ~/dotfiles/apps/hub/hub.bash_completion.sh
 
 ###############################################################################
 # RVM
